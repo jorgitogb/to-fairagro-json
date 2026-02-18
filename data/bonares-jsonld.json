@@ -1,0 +1,108 @@
+{
+    "@context": {
+      "@language": "en",
+      "@vocab": "https://schema.org/"
+    },
+    "@type": "Dataset",
+    "about": [
+      {
+        "@id": "http://publications.europa.eu/resource/authority/data-theme/AGRI",
+        "@type": "Class"
+      }
+    ],
+    "author": [
+      {
+        "@type": "Organization",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "technical support",
+          "email": "holzhauser@pflanzenbau.uni-kiel.de",
+          "name": "Holzhauser, Katja"
+        },
+        "name": "Kiel University"
+      }
+    ],
+    "conditionsOfAccess": [
+      "Restrictions applied to assure the protection of privacy or intellectual property, and any special restrictions or limitations or warnings on using the resource or metadata. Reports, articles, papers, scientific and non - scientific works of any form, including tables, maps, or any other kind of output, in printed or electronic form, based in whole or in part on the data supplied, must contain an acknowledgement of the form: \"Data reused from the BonaRes Data Centre www.bonares.de. This data were created as part of the Rhizo4Bio - RootWayS's research activities.\" Although every care has been taken in preparing and testing the data, the Rhizo4Bio - RootWayS and the BonaRes Data Centre cannot guarantee that the data are correct; neither does the Rhizo4Bio - RootWayS and the BonaRes Data Centre accept any liability whatsoever for any error, missing data or omission in the data, or for any loss or damage arising from its use. The Rhizo4Bio - RootWayS and BonaRes Data Centre will not be responsible for any direct or indirect use which might be made of the data."
+    ],
+    "dateCreated": [
+      "2023-07-12"
+    ],
+    "dateModified": [
+      "2023-07-12"
+    ],
+    "datePublished": [
+      "2023-07-12"
+    ],
+    "description": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio – RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021).",
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "contentUrl": "https://maps.bonares.de/mapapps/resources/apps/bonares/index.html?lang=en&mid=3d56b0bd-65b0-4afe-808b-f591cd340gmd:f04",
+        "description": "download",
+        "encodingFormat": [
+          "CSV",
+          "Microsoft Excel (xlsx)",
+          "File-Geodatabase",
+          "TXT"
+        ]
+      }
+    ],
+    "identifier": [
+      "0a9ea801-78fa-4b42-92cb-21852cdf1775",
+      "Child table of dataset https://doi.org/10.20387/bonares-kja7-z295"
+    ],
+    "includedInDataCatalog": {
+      "@type": "DataCatalog",
+      "name": "BonaRes Repository"
+    },
+    "keywords": [
+      "Soil",
+      "Trifolium repens",
+      "Brassica napus subsp. napobrassica",
+      "Festuca arundinacea",
+      "Opendata",
+      "Above-ground biomass",
+      "Trifolium pretense",
+      "Raphanus sativus var. oleiformis",
+      "Lolium perenne",
+      "Boden",
+      "inspireidentifiziert"
+    ],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "name": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio – RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)",
+    "publisher": [
+      {
+        "@type": "Organization",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "technical support",
+          "email": "dataservice@zalf.de",
+          "telephone": "+49 33432 82 300"
+        },
+        "name": "Leibniz Centre for Agricultural Landscape Research (ZALF)"
+      }
+    ],
+    "sourceOrganization": [
+      {
+        "@type": "Organization",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "technical support",
+          "email": "s.spielvogel@soils.uni-kiel.de",
+          "name": "Spielvogel, Sandra",
+          "url": ""
+        },
+        "name": "Kiel University"
+      }
+    ],
+    "spatialCoverage": [
+      {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoShape",
+          "box": "54.311173 9.995111 54.312613 9.996946"
+        }
+      }
+    ]
+  }

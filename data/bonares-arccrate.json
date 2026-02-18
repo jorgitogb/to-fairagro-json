@@ -1,0 +1,101 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "Sample": "https://bioschemas.org/Sample",
+      "additionalProperty": "http://schema.org/additionalProperty",
+      "intendedUse": "https://bioschemas.org/intendedUse",
+      "computationalTool": "https://bioschemas.org/computationalTool",
+      "labEquipment": "https://bioschemas.org/labEquipment",
+      "reagent": "https://bioschemas.org/reagent",
+      "LabProtocol": "https://bioschemas.org/LabProtocol",
+      "executesLabProtocol": "https://bioschemas.org/executesLabProtocol",
+      "parameterValue": "https://bioschemas.org/parameterValue",
+      "LabProcess": "https://bioschemas.org/LabProcess",
+      "measurementMethod": "http://schema.org/measurementMethod",
+      "sha256": "http://schema.org/sha256"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "#Organization_Kiel_University",
+      "@type": "Organization",
+      "name": "Kiel University"
+    },
+    {
+      "@id": "#Person_Holzhauser,_Katja",
+      "@type": "Person",
+      "givenName": "Holzhauser,",
+      "affiliation": {
+        "@id": "#Organization_Kiel_University"
+      },
+      "email": "holzhauser@pflanzenbau.uni-kiel.de",
+      "familyName": "Katja"
+    },
+    {
+      "@id": "studies/0a9ea801-78fa-4b42-92cb-21852cdf1775/",
+      "@type": "Dataset",
+      "additionalType": "Study",
+      "identifier": "0a9ea801-78fa-4b42-92cb-21852cdf1775",
+      "dateModified": "2025-12-10T14:47:58.8096739",
+      "description": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio – RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021).",
+      "name": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio – RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)"
+    },
+    {
+      "@id": "studies/PLACEHOLDER_STUDY_0a9ea801-78fa-4b42-92cb-21852cdf1775/",
+      "@type": "Dataset",
+      "additionalType": "Study",
+      "identifier": "PLACEHOLDER_STUDY_0a9ea801-78fa-4b42-92cb-21852cdf1775",
+      "dateModified": "2025-12-10T14:47:58.8101541"
+    },
+    {
+      "@id": "assays/0a9ea801-78fa-4b42-92cb-21852cdf1775/",
+      "@type": "Dataset",
+      "additionalType": "Assay",
+      "identifier": "0a9ea801-78fa-4b42-92cb-21852cdf1775"
+    },
+    {
+      "@id": "#LDComment_DOI_0a9ea801-78fa-4b42-92cb-21852cdf1775",
+      "@type": "Comment",
+      "name": "DOI",
+      "text": "0a9ea801-78fa-4b42-92cb-21852cdf1775"
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "additionalType": "Investigation",
+      "identifier": "Maize_and_cover_crop_biomass_development_soil_mineral_N_and_water_contents_at_Hohenschulen_field_site_in_the_first_and_second_trial_year_of_Rhizo4Bio_RootWayS_project_-_Nitrogen_uptake_of_the_cover_crops_during_the_first_trial_2020_2021",
+      "creator": {
+        "@id": "#Person_Holzhauser,_Katja"
+      },
+      "datePublished": "2025-12-10T14:47:58.8108529",
+      "description": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio – RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021).",
+      "hasPart": [
+        {
+          "@id": "studies/0a9ea801-78fa-4b42-92cb-21852cdf1775/"
+        },
+        {
+          "@id": "studies/PLACEHOLDER_STUDY_0a9ea801-78fa-4b42-92cb-21852cdf1775/"
+        },
+        {
+          "@id": "assays/0a9ea801-78fa-4b42-92cb-21852cdf1775/"
+        }
+      ],
+      "name": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio – RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)",
+      "comment": {
+        "@id": "#LDComment_DOI_0a9ea801-78fa-4b42-92cb-21852cdf1775"
+      },
+      "license": "ALL RIGHTS RESERVED BY THE AUTHORS"
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    }
+  ]
+}
