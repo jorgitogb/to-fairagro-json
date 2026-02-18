@@ -5,13 +5,14 @@ from .loader import DocumentLoader
 from .mapper import MetadataMapper
 
 class DataverseConverter:
-    def __init__(self, profile='schemaorg'):
+    def __init__(self, profile='schemaorg', target='dataverse'):
         base_path = Path(__file__).parent.parent
         self.profile = profile
-        self.config_dir = base_path / 'config' / profile
+        self.target = target
         
-        self.frame_path = self.config_dir / 'frame.json'
-        self.mapping_path = self.config_dir / 'mapping.yaml'
+        self.config_dir = base_path / 'config'
+        self.frame_path = self.config_dir / profile / 'frame.json'
+        self.mapping_path = self.config_dir / target / 'mapping.yaml'
         
         # Ensure config files exist
         if not self.frame_path.exists():
