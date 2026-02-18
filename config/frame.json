@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "Dataset": "https://schema.org/Dataset",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "author": "https://schema.org/author",
+    "creator": "https://schema.org/creator",
+    "keywords": "https://schema.org/keywords"
+  },
+  "@type": "Dataset",
+  "name": {},
+  "description": {},
+  "datePublished": {},
+  "license": {},
+  "keywords": {},
+  "creator": {
+    "name": {},
+    "affiliation": {
+      "name": {}
+    }
+  },
+  "author": {
+    "name": {},
+    "affiliation": {
+      "name": {}
+    },
+    "contactPoint": {
+      "name": {},
+      "email": {}
+    }
+  },
+  "spatialCoverage": {
+    "name": {},
+    "geo": {
+      "box": {}
+    }
+  }
+}

@@ -17,7 +17,7 @@ def main():
 
     converter = DataverseConverter()
 
-    converter.load(args.input, args.type)
+    converter.load(args.input)
     converter.convert(output_path)
     print(f"Successfully converted {args.input} to {output_path}")
 

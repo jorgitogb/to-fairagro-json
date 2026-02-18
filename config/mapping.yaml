@@ -1,0 +1,32 @@
+blocks:
+  citation:
+    displayName: "Citation Metadata"
+    fields:
+      - titleValue:
+          source: ["name", "headline"]
+          type: "single"
+      - datasetDescription:
+          source: ["description"]
+          type: "list"
+          item_key: "descriptionValue"
+      - author:
+          source: ["creator", "author"]
+          type: "complex_list"
+          mapping:
+            authorName: ["name"]
+            authorAffiliation: ["affiliation.name"]
+      - keyword:
+          source: ["keywords"]
+          type: "list"
+          item_key: "keywordValue"
+      - subject:
+          source: []
+          default: "Agricultural Sciences"
+
+  geospatial:
+    displayName: "Geospatial Metadata"
+    fields:
+      - westLongitude: "spatialCoverage.geo.box" # Logic for parsing box needed
+      - eastLongitude: "spatialCoverage.geo.box"
+      - northLatitude: "spatialCoverage.geo.box"
+      - southLatitude: "spatialCoverage.geo.box"

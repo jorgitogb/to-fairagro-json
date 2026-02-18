@@ -1,4 +1,5 @@
- {
+[
+  {
     "@context": "http://schema.org",
     "@id": "10.5447/ipk/2011/0",
     "@type": "Dataset",
@@ -174,4 +175,144 @@
       "@type": "Organization",
       "name": "e!DAL - Plant Genomics and Phenomics Research Data Repository (PGP), IPK Gatersleben, Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany"
     }
+  },
+  {
+    "@context": "http://schema.org",
+    "@id": "10.5447/ipk/2011/1",
+    "@type": "Dataset",
+    "author": [
+      {
+        "@id": "https://orcid.org/0000-0003-1073-6719",
+        "@type": "Person",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Germany",
+          "postalCode": "D-06466",
+          "streetAddress": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3"
+        },
+        "familyName": "Schmutzer",
+        "givenName": "Thomas",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "orcid",
+          "value": "0000-0003-1073-6719"
+        },
+        "name": "Thomas Schmutzer"
+      },
+      {
+        "@id": "https://orcid.org/0000-0002-9185-9819",
+        "@type": "Person",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Germany",
+          "postalCode": "D-06466",
+          "streetAddress": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3"
+        },
+        "familyName": "Bull",
+        "givenName": "Fabian",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "orcid",
+          "value": "0000-0002-9185-9819"
+        },
+        "name": "Fabian Bull"
+      },
+      {
+        "@id": "https://orcid.org/0000-0001-6113-3518",
+        "@type": "Person",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Germany",
+          "postalCode": "D-06466",
+          "streetAddress": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3"
+        },
+        "familyName": "Scholz",
+        "givenName": "Uwe",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "orcid",
+          "value": "0000-0001-6113-3518"
+        },
+        "name": "Uwe Scholz"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Schmutzer",
+        "givenName": "Thomas",
+        "name": "Thomas Schmutzer"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Bull",
+        "givenName": "Fabian",
+        "name": "Fabian Bull"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Scholz",
+        "givenName": "Uwe",
+        "name": "Uwe Scholz"
+      }
+    ],
+    "contributor": [
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Schmutzer",
+        "givenName": "Thomas"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Bull",
+        "givenName": "Fabian"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Scholz",
+        "givenName": "Uwe"
+      }
+    ],
+    "creator": [
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Schmutzer",
+        "givenName": "Thomas",
+        "name": "Thomas Schmutzer"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Bull",
+        "givenName": "Fabian",
+        "name": "Fabian Bull"
+      },
+      {
+        "@type": "Person",
+        "address": "Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany",
+        "familyName": "Scholz",
+        "givenName": "Uwe",
+        "name": "Uwe Scholz"
+      }
+    ],
+    "datePublished": "Sat Jan 01 00:00:00 CET 2011",
+    "description": "Poster - Bioinformatics of Human and Animal Genomics 2011",
+    "http://purl.org/dc/terms/conformsTo": {
+      "@id": "https://bioschemas.org/profiles/Dataset/1.0-RELEASE",
+      "@type": "CreativeWork"
+    },
+    "inLanguage": "en",
+    "keywords": "bioinformatics, source code, database, LIMS, primary data",
+    "license": "$licenseURL",
+    "name": "Visualising comparative genomics with Hilbert curves",
+    "publisher": {
+      "@type": "Organization",
+      "name": "e!DAL - Plant Genomics and Phenomics Research Data Repository (PGP), IPK Gatersleben, Seeland OT Gatersleben, Corrensstraße 3, D-06466, Germany"
+    }
   }
+]
