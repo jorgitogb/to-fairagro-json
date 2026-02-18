@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "sdo": "https://schema.org/"
+  },
+  "@type": "Dataset",
+  "additionalType": "Investigation",
+  "name": {},
+  "description": {},
+  "datePublished": {},
+  "license": {},
+  "keywords": {},
+  "creator": {
+    "name": {},
+    "affiliation": {
+      "name": {}
+    }
+  },
+  "hasPart": {
+    "@type": "Dataset",
+    "name": {},
+    "description": {},
+    "creator": {
+      "name": {},
+      "affiliation": {
+        "name": {}
+      }
+    }
+  }
+}

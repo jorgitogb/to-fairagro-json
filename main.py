@@ -15,7 +15,7 @@ def main():
         input_name = Path(args.input).stem
         output_path = f"output/{input_name}.dataverse.json"
 
-    converter = DataverseConverter()
+    converter = DataverseConverter(profile=args.type)
 
     converter.load(args.input)
     converter.convert(output_path)

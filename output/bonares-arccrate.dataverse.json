@@ -1,0 +1,142 @@
+[
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "Maize and cover crop biomass development"
+                  }
+                },
+                {
+                  "descriptionValue": {
+                    "value": "soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)."
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Holzhauser,"
+                  },
+                  "authorAffiliation": {
+                    "value": "Kiel University"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            },
+            {
+              "publicationDate": {
+                "value": "2025-12-10T14:47:58.8108529"
+              }
+            },
+            {
+              "license": {
+                "value": "ALL RIGHTS RESERVED BY THE AUTHORS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "Maize and cover crop biomass development"
+                  }
+                },
+                {
+                  "descriptionValue": {
+                    "value": "soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)."
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]

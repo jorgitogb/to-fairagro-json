@@ -1,0 +1,48 @@
+blocks:
+  citation:
+      displayName: "Citation Metadata"
+      fields:
+        - titleValue:
+            source: ["name", "headline"]
+            type: "single"
+        - datasetDescription:
+            source: ["description"]
+            type: "list"
+            item_key: "descriptionValue"
+        - author:
+            source: ["creator", "author"]
+            type: "complex_list"
+            mapping:
+              authorName: ["@", "name", "contactPoint.name", "givenName"]
+              authorAffiliation: ["affiliation.name", "publisher.name"]
+              authorIdentifier: ["identifier"]
+        - keyword:
+            source: ["keywords"]
+            type: "list"
+            item_key: "keywordValue"
+        - subject:
+            source: ["about[*].name"]
+            default: "Agricultural Sciences"
+            type: "list"
+        - publicationDate:
+            source: ["datePublished"]
+            type: "single"
+        - license:
+            source: ["license"]
+            type: "single"
+
+  geospatial:
+    displayName: "Geospatial Metadata"
+    fields:
+      - westLongitude:
+            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            type: "single"
+      - eastLongitude:
+            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            type: "single"
+      - northLatitude:
+            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            type: "single"
+      - southLatitude:
+            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            type: "single"

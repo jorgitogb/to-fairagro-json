@@ -1,12 +1,7 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "Dataset": "https://schema.org/Dataset",
-    "name": "https://schema.org/name",
-    "description": "https://schema.org/description",
-    "author": "https://schema.org/author",
-    "creator": "https://schema.org/creator",
-    "keywords": "https://schema.org/keywords"
+    "sdo": "https://schema.org/"
   },
   "@type": "Dataset",
   "name": {},
@@ -15,12 +10,18 @@
   "license": {},
   "keywords": {},
   "creator": {
+    "@type": {},
     "name": {},
     "affiliation": {
       "name": {}
+    },
+    "contactPoint": {
+      "name": {},
+      "email": {}
     }
   },
   "author": {
+    "@type": {},
     "name": {},
     "affiliation": {
       "name": {}
@@ -31,9 +32,9 @@
     }
   },
   "spatialCoverage": {
-    "name": {},
     "geo": {
-      "box": {}
+      "box": {},
+      "polygon": {}
     }
   }
 }

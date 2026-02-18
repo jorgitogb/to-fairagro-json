@@ -1,0 +1,196 @@
+[
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "A case study for efficient management of high throughput primary lab data"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "Source code for the LimsLight primary data management system"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Christian Colmsee"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Steffen Flemming"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Matthias Klapperstueck"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Matthias Lange"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Uwe Scholz"
+                  }
+                }
+              ]
+            },
+            {
+              "keyword": [
+                {
+                  "keywordValue": {
+                    "value": "bioinformatics"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "source code"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "database"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "LIMS"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "primary data"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            },
+            {
+              "publicationDate": {
+                "value": "Sat Jan 01 00:00:00 CET 2011"
+              }
+            },
+            {
+              "license": {
+                "value": "$licenseURL"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "Visualising comparative genomics with Hilbert curves"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "Poster - Bioinformatics of Human and Animal Genomics 2011"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Thomas Schmutzer"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Fabian Bull"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Uwe Scholz"
+                  }
+                }
+              ]
+            },
+            {
+              "keyword": [
+                {
+                  "keywordValue": {
+                    "value": "bioinformatics"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "source code"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "database"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "LIMS"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "value": "primary data"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            },
+            {
+              "publicationDate": {
+                "value": "Sat Jan 01 00:00:00 CET 2011"
+              }
+            },
+            {
+              "license": {
+                "value": "$licenseURL"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
