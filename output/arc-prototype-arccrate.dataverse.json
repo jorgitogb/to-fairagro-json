@@ -1,0 +1,254 @@
+[
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "ArcPrototype"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "A prototypic ARC that implements all specification standards accordingly"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            },
+            {
+              "publicationDate": {
+                "value": "2026-02-04T14:00:47.0708053"
+              }
+            },
+            {
+              "license": {
+                "value": "{'@id': 'LICENSE.md', '@type': 'CreativeWork', 'text': 'This work is licensed under the Creative Commons Attribution 4.0 International License.\\nhttps://creativecommons.org/licenses/by/4.0/'}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "Column Addition"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "This run adds the values of two columns"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "{'@id': '#Person_Caroline_Ott'}"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "Prototype for experimental data"
+              }
+            },
+            {
+              "datasetDescription": [
+                {
+                  "descriptionValue": {
+                    "value": "In this a devised study to have an exemplary experimental material description."
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "titleValue": {
+                "value": "Column addition workflow"
+              }
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "Department of Biology, University of Kaiserslautern"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+]
