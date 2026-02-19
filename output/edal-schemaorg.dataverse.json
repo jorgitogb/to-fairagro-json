@@ -20,33 +20,7 @@
               ]
             },
             {
-              "author": [
-                {
-                  "authorName": {
-                    "value": "Christian Colmsee"
-                  }
-                },
-                {
-                  "authorName": {
-                    "value": "Steffen Flemming"
-                  }
-                },
-                {
-                  "authorName": {
-                    "value": "Matthias Klapperstueck"
-                  }
-                },
-                {
-                  "authorName": {
-                    "value": "Matthias Lange"
-                  }
-                },
-                {
-                  "authorName": {
-                    "value": "Uwe Scholz"
-                  }
-                }
-              ]
+              "datasetContact": []
             },
             {
               "keyword": [
@@ -122,23 +96,7 @@
               ]
             },
             {
-              "author": [
-                {
-                  "authorName": {
-                    "value": "Thomas Schmutzer"
-                  }
-                },
-                {
-                  "authorName": {
-                    "value": "Fabian Bull"
-                  }
-                },
-                {
-                  "authorName": {
-                    "value": "Uwe Scholz"
-                  }
-                }
-              ]
+              "datasetContact": []
             },
             {
               "keyword": [

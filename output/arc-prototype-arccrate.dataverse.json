@@ -11,6 +11,15 @@
               }
             },
             {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
               "datasetDescription": [
                 {
                   "descriptionValue": {
@@ -27,19 +36,44 @@
                   },
                   "authorAffiliation": {
                     "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
                   }
                 },
                 {
                   "authorName": {
                     "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
                   }
                 },
                 {
                   "authorName": {
                     "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
                   }
                 }
               ]
+            },
+            {
+              "datasetContact": []
             },
             {
               "subject": [
@@ -61,36 +95,27 @@
               }
             }
           ]
-        }
-      }
-    }
-  },
-  {
-    "datasetVersion": {
-      "metadataBlocks": {
-        "citation": {
-          "displayName": "Citation Metadata",
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
           "fields": [
             {
-              "author": [
-                {
-                  "authorName": {
-                    "value": "Oliver Maus"
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
                   },
-                  "authorAffiliation": {
-                    "value": "RPTU University of Kaiserslautern"
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
                   }
                 }
-              ]
-            },
-            {
-              "subject": [
-                {
-                  "value": {
-                    "value": "Agricultural Sciences"
-                  }
-                }
-              ]
+              }
             }
           ]
         }
@@ -104,6 +129,62 @@
           "displayName": "Citation Metadata",
           "fields": [
             {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                }
+              ]
+            },
+            {
+              "datasetContact": []
+            },
+            {
               "subject": [
                 {
                   "value": {
@@ -111,6 +192,128 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
+          "fields": [
+            {
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
+                  },
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "datasetVersion": {
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                }
+              ]
+            },
+            {
+              "datasetContact": []
+            },
+            {
+              "subject": [
+                {
+                  "value": {
+                    "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
+          "fields": [
+            {
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
+                  },
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
+                  }
+                }
+              }
             }
           ]
         }
@@ -129,6 +332,15 @@
               }
             },
             {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
               "datasetDescription": [
                 {
                   "descriptionValue": {
@@ -141,10 +353,48 @@
               "author": [
                 {
                   "authorName": {
-                    "value": "{'@id': '#Person_Caroline_Ott'}"
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
                   }
                 }
               ]
+            },
+            {
+              "datasetContact": []
             },
             {
               "subject": [
@@ -154,6 +404,29 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
+          "fields": [
+            {
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
+                  },
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
+                  }
+                }
+              }
             }
           ]
         }
@@ -172,6 +445,15 @@
               }
             },
             {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
               "datasetDescription": [
                 {
                   "descriptionValue": {
@@ -181,6 +463,53 @@
               ]
             },
             {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                }
+              ]
+            },
+            {
+              "datasetContact": []
+            },
+            {
               "subject": [
                 {
                   "value": {
@@ -188,6 +517,29 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
+          "fields": [
+            {
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
+                  },
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
+                  }
+                }
+              }
             }
           ]
         }
@@ -201,6 +553,62 @@
           "displayName": "Citation Metadata",
           "fields": [
             {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
+              "author": [
+                {
+                  "authorName": {
+                    "value": "Timo Muehlhaus"
+                  },
+                  "authorAffiliation": {
+                    "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                }
+              ]
+            },
+            {
+              "datasetContact": []
+            },
+            {
               "subject": [
                 {
                   "value": {
@@ -208,6 +616,29 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
+          "fields": [
+            {
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
+                  },
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
+                  }
+                }
+              }
             }
           ]
         }
@@ -226,16 +657,60 @@
               }
             },
             {
+              "alternativeTitle": [
+                {
+                  "alternativeTitleValue": {
+                    "value": "Prototype for experimental data"
+                  }
+                }
+              ]
+            },
+            {
               "author": [
                 {
                   "authorName": {
                     "value": "Timo Muehlhaus"
                   },
                   "authorAffiliation": {
-                    "value": "Department of Biology, University of Kaiserslautern"
+                    "value": "RPTU University of Kaiserslautern"
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0003-3925-6778"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Christoph Garth"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  }
+                },
+                {
+                  "authorName": {
+                    "value": "Oliver Maus"
+                  },
+                  "authorAffiliation": {
+                    "value": {
+                      "@id": "#Organization_RPTU_University_of_Kaiserslautern"
+                    }
+                  },
+                  "authorIdentifier": {
+                    "value": "http://orcid.org/0000-0002-8241-5300"
+                  },
+                  "authorIdentifierScheme": {
+                    "value": "ORCID"
                   }
                 }
               ]
+            },
+            {
+              "datasetContact": []
             },
             {
               "subject": [
@@ -245,6 +720,29 @@
                   }
                 }
               ]
+            }
+          ]
+        },
+        "sensor": {
+          "displayName": "Sensor Metadata",
+          "fields": [
+            {
+              "sensor": {
+                "sensorType": {
+                  "value": ""
+                },
+                "sensorIsHostedBy": {
+                  "sensorPlatformType": {
+                    "value": ""
+                  },
+                  "sensorPlatformManufacturerName": {
+                    "value": ""
+                  },
+                  "sensorPlatformModelName": {
+                    "value": ""
+                  }
+                }
+              }
             }
           ]
         }

@@ -5,6 +5,10 @@ blocks:
         - titleValue:
             source: ["name", "headline"]
             type: "single"
+        - alternativeTitle:
+            type: "complex_list"
+            mapping:
+              alternativeTitleValue: ["name"]
         - datasetDescription:
             source: ["description"]
             type: "list"
@@ -16,6 +20,12 @@ blocks:
               authorName: ["@", "name", "contactPoint.name", "givenName"]
               authorAffiliation: ["affiliation.name", "publisher.name"]
               authorIdentifier: ["identifier"]
+        - datasetContact:
+            type: "complex_list"
+            default: [{"name": "FAIRagro Demonstrator", "email": "fairagro@demo.org"}]
+            mapping:
+              datasetContactName: ["name"]
+              datasetContactEmail: ["email"]
         - keyword:
             source: ["keywords"]
             type: "list"
@@ -24,6 +34,11 @@ blocks:
             source: ["about[*].name"]
             default: "Agricultural Sciences"
             type: "list"
+        - otherId:
+            type: "complex_list"
+            mapping:
+              otherIdValue: ["identifier"]
+              otherIdAgency: ["@id"]
         - publicationDate:
             source: ["datePublished"]
             type: "single"
@@ -46,3 +61,28 @@ blocks:
       - southLatitude:
             source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
             type: "single"
+
+  crop:
+    displayName: "Crop Metadata"
+    fields:
+      - crop:
+          type: "complex_list"
+          mapping:
+            cropSpecies: ["value"]
+            cropSpeciesURI: ["valueRef"]
+            cropPest: ["value"]
+            cropPestURI: ["valueRef"]
+
+  sensor:
+    displayName: "Sensor Metadata"
+    fields:
+      - sensor:
+          type: "complex_list"
+          mapping:
+            sensorType: ["value"]
+            sensorIsHostedBy:
+              type: "complex"
+              mapping:
+                sensorPlatformType: ["value"]
+                sensorPlatformManufacturerName: ["value"]
+                sensorPlatformModelName: ["value"]

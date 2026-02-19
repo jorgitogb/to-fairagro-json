@@ -1,29 +1,49 @@
 {
   "@context": {
     "@vocab": "https://schema.org/",
-    "sdo": "https://schema.org/"
+    "sdo": "https://schema.org/",
+    "Person": "https://schema.org/Person",
+    "LabProcess": "https://bioschemas.org/LabProcess",
+    "Sample": "https://bioschemas.org/Sample"
   },
   "@type": "Dataset",
-  "additionalType": "Investigation",
   "name": {},
+  "additionalType": {},
   "description": {},
   "datePublished": {},
   "license": {},
   "keywords": {},
   "creator": {
+    "@type": "Person",
     "name": {},
     "affiliation": {
       "name": {}
     }
   },
+  "about": {
+    "@type": "LabProcess",
+    "object": {
+      "@type": "Sample",
+      "additionalProperty": {}
+    }
+  },
   "hasPart": {
     "@type": "Dataset",
     "name": {},
+    "additionalType": {},
     "description": {},
     "creator": {
+      "@type": "Person",
       "name": {},
       "affiliation": {
         "name": {}
+      }
+    },
+    "about": {
+      "@type": "LabProcess",
+      "object": {
+        "@type": "Sample",
+        "additionalProperty": {}
       }
     }
   }

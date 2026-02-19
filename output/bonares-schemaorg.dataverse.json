@@ -20,10 +20,13 @@
               ]
             },
             {
-              "author": [
+              "datasetContact": [
                 {
-                  "authorName": {
-                    "value": "Kiel University"
+                  "datasetContactName": {
+                    "value": "FAIRagro Demonstrator"
+                  },
+                  "datasetContactEmail": {
+                    "value": "fairagro@demo.org"
                   }
                 }
               ]
@@ -92,6 +95,18 @@
                 {
                   "value": {
                     "value": "Agricultural Sciences"
+                  }
+                }
+              ]
+            },
+            {
+              "otherId": [
+                {
+                  "otherIdValue": {
+                    "value": "[{'@language': 'en', '@value': '0a9ea801-78fa-4b42-92cb-21852cdf1775'}, {'@language': 'en', '@value': 'Child table of dataset https://doi.org/10.20387/bonares-kja7-z295'}]"
+                  },
+                  "otherIdAgency": {
+                    "value": "DOI"
                   }
                 }
               ]
