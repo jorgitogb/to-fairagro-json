@@ -1,88 +1,113 @@
 blocks:
   citation:
-      displayName: "Citation Metadata"
-      fields:
-        - titleValue:
-            source: ["name", "headline"]
-            type: "single"
-        - alternativeTitle:
-            type: "complex_list"
-            mapping:
-              alternativeTitleValue: ["name"]
-        - datasetDescription:
-            source: ["description"]
-            type: "list"
-            item_key: "descriptionValue"
-        - author:
-            source: ["creator", "author"]
-            type: "complex_list"
-            mapping:
-              authorName: ["@", "name", "contactPoint.name", "givenName"]
-              authorAffiliation: ["affiliation.name", "publisher.name"]
-              authorIdentifier: ["identifier"]
-        - datasetContact:
-            type: "complex_list"
-            default: [{"name": "FAIRagro Demonstrator", "email": "fairagro@demo.org"}]
-            mapping:
-              datasetContactName: ["name"]
-              datasetContactEmail: ["email"]
-        - keyword:
-            source: ["keywords"]
-            type: "list"
-            item_key: "keywordValue"
-        - subject:
-            source: ["about[*].name"]
-            default: "Agricultural Sciences"
-            type: "list"
-        - otherId:
-            type: "complex_list"
-            mapping:
-              otherIdValue: ["identifier"]
-              otherIdAgency: ["@id"]
-        - publicationDate:
-            source: ["datePublished"]
-            type: "single"
-        - license:
-            source: ["license"]
-            type: "single"
-
-  geospatial:
-    displayName: "Geospatial Metadata"
     fields:
-      - westLongitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
-      - eastLongitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
-      - northLatitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
-      - southLatitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
+      - title:
+          source: ["name", "headline"]
+          type: "string"
+      - alternativeTitle:
+          source: ["name"]
+          type: "string_array"
+      - dsDescription:
+          source: ["description"]
+          type: "complex_list"
+          mapping:
+            dsDescriptionValue: ["@"]
+      - author:
+          source: ["creator", "author"]
+          type: "complex_list"
+          mapping:
+            authorName: ["@", "name", "contactPoint.name", "givenName"]
+            authorAffiliation: ["affiliation.name", "memberOf.name", "publisher.name", "affiliation", "memberOf"]
+            authorIdentifier: ["@id"]
+            authorIdentifierScheme: ["scheme"] # Will be handled by logic or default
+      - datasetContact:
+          type: "complex_list"
+          default: [{"datasetContactName": "FAIRagro Demonstrator", "datasetContactEmail": "fairagro@demo.org"}]
+          # No mapper source, logic will fill or default
+      - keyword:
+          source: ["keywords"]
+          type: "complex_list"
+          mapping:
+            keywordValue: ["@"]
+      - subject:
+          source: ["about[*].name"]
+          default: ["Agricultural Sciences"]
+          type: "string_array"
+      - otherId:
+          type: "complex_list"
+          mapping:
+            otherIdValue: ["identifier"]
+            otherIdAgency: ["@id"]
+      - productionDate:
+          source: ["datePublished"]
+          type: "string"
+      - distributionDate:
+          source: ["datePublished"]
+          type: "string"
+
+  generalExtended:
+    fields:
+      - license:
+          source: ["license"]
+          type: "string"
+      - sourceDatasetURI:
+          source: ["@id"]
+          type: "string"
+
+  geographic:
+    fields:
+      - geographicBoundingBox:
+          source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+          type: "complex_list"
+          mapping:
+            westLongitude:
+              source: ["_geo_west"]
+              wrap: true
+            eastLongitude:
+              source: ["_geo_east"]
+              wrap: true
+            northLatitude:
+              source: ["_geo_north"]
+              wrap: true
+            southLatitude:
+              source: ["_geo_south"]
+              wrap: true
 
   crop:
-    displayName: "Crop Metadata"
     fields:
       - crop:
           type: "complex_list"
           mapping:
-            cropSpecies: ["value"]
-            cropSpeciesURI: ["valueRef"]
-            cropPest: ["value"]
-            cropPestURI: ["valueRef"]
+            cropSpecies:
+              source: ["_crop_species"]
+              wrap: true
+            cropSpeciesURI:
+              source: ["_crop_species_uri"]
+              wrap: true
+            cropPestName:
+              source: ["_crop_pest_name"]
+              wrap: true
+            cropPestURI:
+              source: ["_crop_pest_uri"]
+              wrap: true
 
   sensor:
-    displayName: "Sensor Metadata"
     fields:
       - sensor:
           type: "complex_list"
           mapping:
-            sensorType: ["value"]
+            sensorSensorType:
+              source: ["_sensor_type"]
+              wrap: true
             sensorIsHostedBy:
               type: "complex"
               mapping:
-                sensorPlatformType: ["value"]
-                sensorPlatformManufacturerName: ["value"]
-                sensorPlatformModelName: ["value"]
+                sensorPlatformType:
+                  source: ["_platform_type"]
+                  wrap: true
+                sensorPlatformManufacturerName:
+                  source: ["_manufacturer"]
+                  wrap: true
+                sensorPlatformModelName:
+                  source: ["_model"]
+                  wrap: true

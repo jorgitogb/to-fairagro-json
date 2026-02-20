@@ -86,20 +86,23 @@ class MetadataMapper:
                     name = self._get_literal(person)
                     if name and name not in seen:
                         seen.add(name)
-                        author_obj = {"authorName": {"value": name}}
+                        author_obj = {"authorName": name}
 
                         affiliation = self._resolve_source(
                             person, ["affiliation", "memberOf"]
                         )
                         if affiliation:
-                            author_obj["authorAffiliation"] = {
-                                "value": self._get_literal(affiliation)
-                            }
+                            author_obj["authorAffiliation"] = self._get_literal(
+                                affiliation
+                            )
 
                         identifier = person.get("@id")
-                        if identifier and "orcid.org" in identifier:
-                            author_obj["authorIdentifier"] = {"value": identifier}
-                            author_obj["authorIdentifierScheme"] = {"value": "ORCID"}
+                        if identifier:
+                            author_obj["authorIdentifier"] = identifier
+                            if "orcid.org" in identifier:
+                                author_obj["authorIdentifierScheme"] = "ORCID"
+                            else:
+                                author_obj["authorIdentifierScheme"] = "Other"
 
                         authors.append(author_obj)
         return authors
@@ -136,26 +139,26 @@ class MetadataMapper:
                                 if isinstance(prop, dict):
                                     name = prop.get("name")
                                     if name == "Organism":
-                                        crop_info["cropSpecies"] = {
-                                            "value": str(prop.get("value", ""))
-                                        }
-                                        crop_info["cropSpeciesURI"] = {
-                                            "value": str(prop.get("valueRef", ""))
-                                        }
+                                        crop_info["_crop_species"] = str(
+                                            prop.get("value", "")
+                                        )
+                                        crop_info["_crop_species_uri"] = str(
+                                            prop.get("valueRef", "")
+                                        )
                                     elif name == "Infection Taxon":
-                                        crop_info["cropPest"] = {
-                                            "value": str(prop.get("value", ""))
-                                        }
-                                        crop_info["cropPestURI"] = {
-                                            "value": str(prop.get("valueRef", ""))
-                                        }
+                                        crop_info["_crop_pest_name"] = str(
+                                            prop.get("value", "")
+                                        )
+                                        crop_info["_crop_pest_uri"] = str(
+                                            prop.get("valueRef", "")
+                                        )
 
                             if crop_info:
                                 # Create a unique key for deduplication
-                                key = f"{crop_info.get('cropSpecies', {}).get('value')}|{crop_info.get('cropPest', {}).get('value')}"
+                                key = f"{crop_info.get('_crop_species')}|{crop_info.get('_crop_pest_name')}"
                                 if key not in seen:
                                     seen.add(key)
-                                    crops.append({"crop": crop_info})
+                                    crops.append(crop_info)
         return crops
 
     def _extract_sensors(self):
@@ -197,20 +200,18 @@ class MetadataMapper:
                         objects = [objects]
                     for obj in objects:
                         sensor_obj = {
-                            "sensorType": {"value": measurement_method},
+                            "_sensor_type": measurement_method,
                             "sensorIsHostedBy": {
-                                "sensorPlatformType": {"value": measurement_technique},
-                                "sensorPlatformManufacturerName": {
-                                    "value": manufacturer
-                                },
-                                "sensorPlatformModelName": {"value": model},
+                                "_platform_type": measurement_technique,
+                                "_manufacturer": manufacturer,
+                                "_model": model,
                             },
                         }
                         # Deduplicate by all fields
                         key = f"{measurement_method}|{measurement_technique}|{manufacturer}|{model}"
                         if key not in seen:
                             seen.add(key)
-                            sensors.append({"sensor": sensor_obj})
+                            sensors.append(sensor_obj)
         return sensors
 
     def _get_literal(self, v):
@@ -220,13 +221,20 @@ class MetadataMapper:
             return self._get_literal(v[0])
 
         if isinstance(v, dict):
+            # Resolve reference if it's just an @id
+            if len(v) == 1 and "@id" in v:
+                resolved = self._resolve_ref(v)
+                if isinstance(resolved, dict) and resolved != v:
+                    return self._get_literal(resolved)
+
             # Handle Schema.org/JSON-LD name/value/literal patterns
-            if v.get("@value"):
+            if "@value" in v:
                 return self._get_literal(v["@value"])
-            if v.get("name"):
+            if "name" in v:
                 return self._get_literal(v["name"])
-            if v.get("value"):
+            if "value" in v:
                 return self._get_literal(v["value"])
+
             # Support Schema.org Person names
             if "givenName" in v or "familyName" in v:
                 given = self._get_literal(v.get("givenName", ""))
@@ -237,12 +245,15 @@ class MetadataMapper:
             if "text" in v:
                 return self._get_literal(v["text"])
 
+            # If it's a dict but we can't find a literal, stringify it as fallback (or return empty if preferred)
+            return str(v)
+
         if isinstance(v, str):
             return self.cleaner.clean(v)
-        return v
+        return str(v)
 
     def format_field(self, name, val, cfg):
-        ftype = cfg.get("type", "single")
+        ftype = cfg.get("type", "string")
 
         # Specialized logic for Geo Bounding Boxes
         geo_fields = [
@@ -251,37 +262,30 @@ class MetadataMapper:
             "northLatitude",
             "southLatitude",
         ]
-        if name in geo_fields:
+        if name in geo_fields or any(
+            k in str(cfg.get("mapping", {})) for k in ["_geo_"]
+        ):
             lit_val = self._get_literal(val)
             if isinstance(lit_val, (str, bytes)):
                 geo_vals = self._parse_geo_box(str(lit_val))
-                if geo_vals and name in geo_vals:
-                    return {name: {"value": str(geo_vals[name])}}
+                if geo_vals:
+                    # If we are inside a complex_list mapping, return the dict
+                    return geo_vals
 
-        if ftype == "single":
-            lit = self._get_literal(val)
-            return {name: {"value": str(lit)}}
+        if ftype == "string":
+            lit = str(self._get_literal(val))
+            if cfg.get("wrap"):
+                return {name: {"value": lit, "aiGenerated": False}}
+            return {name: lit}
 
-        if ftype == "list":
-            item_key = cfg.get("item_key", "value")
+        if ftype == "string_array":
             if isinstance(val, str):
                 vals = [v.strip() for v in val.split(",")]
             elif isinstance(val, list):
-                vals = val
+                vals = [str(self._get_literal(v)) for v in val]
             else:
-                vals = [val]
-
-            items = []
-            for v in vals:
-                lit = self._get_literal(v)
-                if isinstance(lit, list):
-                    for item in lit:
-                        items.append(
-                            {item_key: {"value": str(self._get_literal(item))}}
-                        )
-                else:
-                    items.append({item_key: {"value": str(lit)}})
-            return {name: items}
+                vals = [str(self._get_literal(val))]
+            return {name: vals}
 
         if ftype == "complex_list":
             items = []
@@ -289,17 +293,87 @@ class MetadataMapper:
                 val = [val]
             for item in val:
                 sub_fields = {}
-                for sub_name, sub_sources in cfg.get("mapping", {}).items():
-                    sub_val = self._resolve_source(item, sub_sources)
-                    if sub_val:
-                        sub_fields[sub_name] = {
-                            "value": str(self._get_literal(sub_val))
-                        }
+                # If no mapping, and item is a dict, just use it (pass-through for defaults)
+                if not cfg.get("mapping"):
+                    if isinstance(item, dict):
+                        items.append(item)
+                    continue
+
+                # Special cases for geo/crop/sensor where we use placeholders
+                if isinstance(item, dict):
+                    # Check for geo box mapping
+                    if "_geo_west" in str(cfg.get("mapping", {})):
+                        geo = self._parse_geo_box(self._get_literal(item))
+                        if geo:
+                            for k, v in geo.items():
+                                sub_cfg = cfg["mapping"].get(k, {})
+                                if sub_cfg.get("wrap"):
+                                    sub_fields[k] = {
+                                        "value": str(v),
+                                        "aiGenerated": False,
+                                    }
+                                else:
+                                    sub_fields[k] = str(v)
+                    else:
+                        for sub_name, sub_cfg in cfg.get("mapping", {}).items():
+                            if isinstance(sub_cfg, dict):
+                                sub_sources = sub_cfg.get("source", [])
+                                # Handle placeholders from special extractions
+                                if sub_sources and sub_sources[0].startswith("_"):
+                                    sub_val = item.get(sub_sources[0])
+                                else:
+                                    sub_val = self._resolve_source(item, sub_sources)
+
+                                if sub_val:
+                                    lit = str(self._get_literal(sub_val))
+                                    if sub_cfg.get("wrap"):
+                                        sub_fields[sub_name] = {
+                                            "value": lit,
+                                            "aiGenerated": False,
+                                        }
+                                    else:
+                                        sub_fields[sub_name] = lit
+                            elif isinstance(sub_cfg, list):
+                                # Simple mapping
+                                sub_val = self._resolve_source(item, sub_cfg)
+                                if sub_val:
+                                    sub_fields[sub_name] = str(
+                                        self._get_literal(sub_val)
+                                    )
+                else:
+                    # Item is a literal (e.g. from dsDescription or keyword)
+                    for sub_name, sub_cfg in cfg.get("mapping", {}).items():
+                        sub_sources = (
+                            sub_cfg
+                            if isinstance(sub_cfg, list)
+                            else sub_cfg.get("source", [])
+                        )
+                        if "@" in sub_sources:
+                            sub_fields[sub_name] = str(self._get_literal(item))
+
                 if sub_fields:
                     items.append(sub_fields)
             return {name: items}
 
-        return {name: {"value": str(self._get_literal(val))}}
+        if ftype == "complex":
+            # Nested object (like sensorIsHostedBy)
+            obj = {}
+            for sub_name, sub_cfg in cfg.get("mapping", {}).items():
+                if isinstance(sub_cfg, dict):
+                    sub_sources = sub_cfg.get("source", [])
+                    sub_val = self._resolve_source(val, sub_sources)
+                    if sub_sources and sub_sources[0].startswith("_"):
+                        sub_val = val.get(sub_sources[0])
+
+                    if sub_val:
+                        lit = str(self._get_literal(sub_val))
+                        if sub_cfg.get("wrap"):
+                            obj[sub_name] = {"value": lit, "aiGenerated": False}
+                        else:
+                            obj[sub_name] = lit
+            return {name: obj}
+
+        return {name: str(self._get_literal(val))}
 
     def _parse_geo_box(self, box_str):
         """Parses a Schema.org box string into a dict using regex."""
@@ -319,90 +393,80 @@ class MetadataMapper:
         return {}
 
     def map_entity(self, entity):
-        """Maps an entity to Dataverse blocks, with special handling for RO-Crate aggregations."""
-        blocks = {}
+        """Maps an entity to FAIRagro Core spec blocks."""
+        result = {}
         for block_name, block_cfg in self.mapping.get("blocks", {}).items():
-            fields = []
+            block_data = {}
 
             # Special Block Handling
             if block_name == "crop":
-                fields = self._extract_crops()
-                if fields:
-                    blocks[block_name] = {
-                        "displayName": block_cfg.get("displayName", "Crop Metadata"),
-                        "fields": fields,
-                    }
-                continue
+                crops = self._extract_crops()
+                if crops:
+                    formatted = self.format_field(
+                        "crop", crops, block_cfg["fields"][0]["crop"]
+                    )
+                    block_data.update(formatted)
+            elif block_name == "sensor":
+                sensors = self._extract_sensors()
+                if sensors:
+                    formatted = self.format_field(
+                        "sensor", sensors, block_cfg["fields"][0]["sensor"]
+                    )
+                    block_data.update(formatted)
+            else:
+                for field_cfg in block_cfg.get("fields", []):
+                    field_name = list(field_cfg.keys())[0]
+                    cfg = field_cfg[field_name]
 
-            if block_name == "sensor":
-                fields = self._extract_sensors()
-                if fields:
-                    blocks[block_name] = {
-                        "displayName": block_cfg.get("displayName", "Sensor Metadata"),
-                        "fields": fields,
-                    }
-                continue
-
-            for field_cfg in block_cfg.get("fields", []):
-                field_name = list(field_cfg.keys())[0]
-                cfg = field_cfg[field_name]
-
-                val = None
-                # Special Field Handling
-                if block_name == "citation":
-                    if field_name == "author":
-                        val = self._extract_authors()
-                        if val:
-                            fields.append({"author": val})
-                        continue
-                    elif field_name == "alternativeTitle":
-                        # Visit Study | Assay, parse name
-                        titles = []
-                        datasets = self._get_entities_by_type(
-                            "Dataset", ["Study", "Assay"]
-                        )
-                        for ds in datasets:
-                            name = self._get_literal(ds.get("name"))
-                            if name:
-                                titles.append(name)
-                        if titles:
-                            fields.append(
-                                {
-                                    "alternativeTitle": [
-                                        {"alternativeTitleValue": {"value": t}}
-                                        for t in titles
-                                    ]
-                                }
+                    val = None
+                    # Special Field Handling
+                    if block_name == "citation":
+                        if field_name == "author":
+                            val = self._extract_authors()
+                            if val:
+                                block_data["author"] = val
+                            continue
+                        elif field_name == "alternativeTitle":
+                            titles = []
+                            datasets = self._get_entities_by_type(
+                                "Dataset", ["Study", "Assay"]
                             )
-                        continue
-                    elif field_name == "otherId":
-                        # Not available in RO-Crate per user, but let's check for DOI
-                        val = self._resolve_source(entity, ["identifier"])
-                        if val and "doi.org" in str(val):
-                            fields.append(
-                                {
-                                    "otherId": [
-                                        {
-                                            "otherIdValue": {"value": str(val)},
-                                            "otherIdAgency": {"value": "DOI"},
-                                        }
-                                    ]
-                                }
-                            )
-                        continue
+                            for ds in datasets:
+                                name = self._get_literal(ds.get("name"))
+                                if name:
+                                    titles.append(name)
+                            if titles:
+                                block_data["alternativeTitle"] = titles
+                            continue
+                        elif field_name == "otherId":
+                            val = self._resolve_source(entity, ["identifier"])
+                            if val and "doi.org" in str(val):
+                                block_data["otherId"] = [
+                                    {
+                                        "otherIdValue": str(val),
+                                        "otherIdAgency": "DOI",
+                                    }
+                                ]
+                            continue
 
-                if "source" in cfg:
-                    val = self._resolve_source(entity, cfg["source"])
+                    if "source" in cfg:
+                        val = self._resolve_source(entity, cfg["source"])
 
-                if not val and "default" in cfg:
-                    val = cfg["default"]
+                    if not val and "default" in cfg:
+                        val = cfg["default"]
 
-                if val:
-                    fields.append(self.format_field(field_name, val, cfg))
+                    if val:
+                        formatted = self.format_field(field_name, val, cfg)
+                        block_data.update(formatted)
 
-            if fields:
-                blocks[block_name] = {
-                    "displayName": block_cfg.get("displayName", block_name),
-                    "fields": fields,
-                }
-        return blocks
+            if block_data:
+                result[block_name] = block_data
+
+        # Add identifier if present
+        identifier = self._get_literal(entity.get("identifier")) or self._get_literal(
+            entity.get("@id")
+        )
+        if identifier:
+            result["identifier"] = str(identifier)
+
+        return result
