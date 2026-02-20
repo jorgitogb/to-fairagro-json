@@ -1,0 +1,50 @@
+{
+  "citation": {
+    "title": "High resolution long-term measurements of carbon dioxide and ammonia concentrations in a naturally ventilated dairy barn",
+    "datasetContact": [
+      {
+        "datasetContactName": "FAIRagro Demonstrator",
+        "datasetContactEmail": "fairagro@demo.org"
+      }
+    ],
+    "keyword": [
+      {
+        "keywordValue": "Natuerliche Ressourcen,Energie & Umwelt"
+      },
+      {
+        "keywordValue": "Landwirtschaft und verwandte Bereiche"
+      },
+      {
+        "keywordValue": "carbon dioxide (CO2)"
+      },
+      {
+        "keywordValue": "ammonia (NH3)"
+      },
+      {
+        "keywordValue": "long-term measurements"
+      },
+      {
+        "keywordValue": "naturally ventilated dairy barn"
+      },
+      {
+        "keywordValue": "dairy barn"
+      }
+    ],
+    "subject": [
+      "Agricultural Sciences"
+    ],
+    "otherId": [
+      {
+        "otherIdValue": "[{'@type': 'PropertyValue', 'propertyID': {'@language': 'en', '@value': 'https://registry.identifiers.org/registry/doi'}, 'url': {'@language': 'en', '@value': 'https://doi.org/10.4126/FRL01-006420709'}, 'value': {'@language': 'en', '@value': '10.4126/FRL01-006420709'}}, {'@type': 'PropertyValue', 'propertyID': {'@language': 'en', '@value': 'frl-internal'}, 'url': {'@language': 'en', '@value': 'https://repository.publisso.de/resource/frl:6420709'}, 'value': {'@language': 'en', '@value': 'frl:6420709'}}]",
+        "otherIdAgency": "DOI"
+      }
+    ],
+    "productionDate": "2020",
+    "distributionDate": "2020"
+  },
+  "generalExtended": {
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006420709"
+  },
+  "identifier": "10.4126/FRL01-006420709"
+}

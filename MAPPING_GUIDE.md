@@ -1,4 +1,4 @@
-# Mapping Guide: From RO-Crate to Dataverse JSON
+# Mapping Guide: From RO-Crate to FAIRagro Core JSON
 
 This document explains how the mapping system is structured and how to extend it with new metadata blocks and fields.
 
@@ -7,8 +7,8 @@ This document explains how the mapping system is structured and how to extend it
 The mapping process follows three main steps:
 
 1. **Framing**: RO-Crate (JSON-LD) is reshaped into a predictable tree using `config/rocrate/frame.json`.
-2. **Mapping Configuration**: `config/dataverse/mapping.yaml` defines which fields to extract and how to format them.
-3. **Mapper Logic**: `to_dataverse_json/mapper.py` implements the traversal, reference resolution, and aggregation logic.
+2. **Mapping Configuration**: `config/fairagro/mapping.yaml` defines which fields to extract and how to format them.
+3. **Mapper Logic**: `to_fairagro_json/mapper.py` implements the traversal, reference resolution, and aggregation logic.
 
 ---
 
@@ -18,16 +18,15 @@ To add a new metadata block (e.g., "Project Metadata"), follow these steps:
 
 ### 1. Update `mapping.yaml`
 
-Add the new block under the `blocks` key. Use `type: single`, `list`, or `complex_list` for fields.
+Add the new block under the `blocks` key. Use `type: string`, `string_array`, or `complex_list` for fields.
 
 ```yaml
 blocks:
   project:
-    displayName: "Project Metadata"
     fields:
       - projectName:
           source: ["name"]
-          type: "single"
+          type: "string"
       - projectLead:
           type: "complex_list"
           mapping:
@@ -43,15 +42,12 @@ If the block requires complex logic (like aggregating data from multiple entitie
 ```python
 def _extract_project_leads(self):
     leads = []
-    # 1. Gather relevant entities
     projects = self._get_entities_by_type("Project")
     for p in projects:
-        # 2. Resolve references
         lead_ref = p.get("funder") 
         lead = self._resolve_ref(lead_ref)
-        # 3. Format according to Dataverse requirements
         if lead:
-            leads.append({"leadName": {"value": self._get_literal(lead)}})
+            leads.append({"leadName": self._get_literal(lead)})
     return leads
 ```
 
@@ -65,7 +61,7 @@ def map_entity(self, entity):
     if block_name == "project":
         fields = self._extract_project_leads()
         if fields:
-            blocks[block_name] = {"displayName": "Project Metadata", "fields": fields}
+            block_data["project"] = fields
         continue
     # ...
 ```
@@ -82,76 +78,56 @@ Use `self._resolve_ref(item)` to automatically follow `@id` references. This all
 
 The `_get_nested` helper supports deep path lookups. If a property in the path is a list, it will automatically search through all items in that list.
 
-### Deduplication
+### Metadata Wrapping (`wrap: true`)
 
-When aggregating data (like Authors or Sensors), use a `set()` or a unique key to avoid duplicate entries in the Dataverse JSON output.
+Certain blocks (like `crop` and `sensor`) require a specific object structure for values: `{"value": "...", "aiGenerated": false}`. This is controlled by the `wrap: true` flag in `mapping.yaml`.
+
+```yaml
+cropSpecies:
+  source: ["_crop_species"]
+  wrap: true
+```
 
 ### Field Types
 
-The `type` property in `mapping.yaml` determines how the extracted value is wrapped for the Dataverse API.
+The `type` property in `mapping.yaml` determines the output format.
 
-#### 1. `single`
+#### 1. `string`
 
-Used for fields that contain a single string or literal value.
+Used for fields that contain a single string value.
 
-- **Dataverse Format**: `{"value": "..."}`
-- **Usage**:
+- **Format**: `"value"`
+- **With `wrap: true`**: `{"value": "...", "aiGenerated": false}`
 
-  ```yaml
-  titleValue:
-    source: ["name"]
-    type: "single"
-  ```
+#### 2. `string_array`
 
-#### 2. `list`
+Used for simple lists of strings.
 
-Used for fields that are arrays of simple strings (e.g., Keywords or Subjects).
-
-- **Dataverse Format**: `[{"value": "val1"}, {"value": "val2"}]`
-- **Optional `item_key`**: If the Dataverse field expects a different key than `value` inside the list items, specify it with `item_key` (default is `value`).
-- **Usage**:
-
-  ```yaml
-  keyword:
-    source: ["keywords"]
-    type: "list"
-    item_key: "keywordValue"
-  ```
+- **Format**: `["val1", "val2"]`
 
 #### 3. `complex_list`
 
-Used for nested fields where each item in the list is an object with its own sub-fields (e.g., Authors or Contacts).
+Used for nested fields where each item is an object with its own sub-fields.
 
-- **Dataverse Format**: `[{"subField1": {"value": "..."}, "subField2": {"value": "..."}}]`
-- **`mapping`**: Defines how to extract sub-fields from the resolved object.
-- **Usage**:
-
-  ```yaml
-  author:
-    type: "complex_list"
-    mapping:
-      authorName: ["name"]
-      authorAffiliation: ["affiliation", "memberOf"]
-  ```
+- **Format**: `[{"subField1": "...", "subField2": "..."}]`
 
 ---
 
 ## The `blocks` Key
 
-The `blocks` section in `mapping.yaml` organizes fields into logical groups corresponding to Dataverse Metadata Blocks.
+The `blocks` section in `mapping.yaml` organizes fields into logical groups.
 
-- **`displayName`**: The label shown in the Dataverse UI.
-- **`fields`**: A list of field definitions. Each field name must match a valid field in that Dataverse block's TSV definition.
+- **`fields`**: A list of field definitions. 
 
 ### Example Block Structure
 
 ```yaml
 blocks:
   blockName: # e.g., citation, crop, sensor
-    displayName: "Human Readable Label"
     fields:
       - fieldName:
           source: ["path.to.value"] # Path in the framed JSON
-          type: "single"            # single | list | complex_list
+          type: "string"            # string | string_array | complex_list
+          wrap: true                # optional metadata wrapping
           default: "optional"       # Default value if source is missing
 ```
