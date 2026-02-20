@@ -5,8 +5,8 @@ from .loader import DocumentLoader
 from .mapper import MetadataMapper
 
 
-class DataverseConverter:
-    def __init__(self, profile="schemaorg", target="dataverse"):
+class FairagroConverter:
+    def __init__(self, profile="schemaorg", target="fairagro"):
         base_path = Path(__file__).parent.parent
         self.profile = profile
         self.target = target

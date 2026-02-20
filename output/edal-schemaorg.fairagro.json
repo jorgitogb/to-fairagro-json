@@ -1,0 +1,31 @@
+{
+  "citation": {
+    "title": "A case study for efficient management of high throughput primary lab data",
+    "dsDescription": [
+      {
+        "dsDescriptionValue": "Source code for the LimsLight primary data management system"
+      }
+    ],
+    "datasetContact": [
+      {
+        "datasetContactName": "FAIRagro Demonstrator",
+        "datasetContactEmail": "fairagro@demo.org"
+      }
+    ],
+    "keyword": [
+      {
+        "keywordValue": "bioinformatics, source code, database, LIMS, primary data"
+      }
+    ],
+    "subject": [
+      "Agricultural Sciences"
+    ],
+    "productionDate": "Sat Jan 01 00:00:00 CET 2011",
+    "distributionDate": "Sat Jan 01 00:00:00 CET 2011"
+  },
+  "generalExtended": {
+    "license": "$licenseURL",
+    "sourceDatasetURI": "10.5447/ipk/2011/0"
+  },
+  "identifier": "10.5447/ipk/2011/0"
+}

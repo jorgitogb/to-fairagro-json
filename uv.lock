@@ -247,7 +247,7 @@ wheels = [
 ]
 
 [[package]]
-name = "to-dataverse-json"
+name = "to-fairagro-json"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

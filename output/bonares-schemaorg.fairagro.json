@@ -1,0 +1,72 @@
+{
+  "citation": {
+    "title": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)",
+    "dsDescription": [
+      {
+        "dsDescriptionValue": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)."
+      }
+    ],
+    "datasetContact": [
+      {
+        "datasetContactName": "FAIRagro Demonstrator",
+        "datasetContactEmail": "fairagro@demo.org"
+      }
+    ],
+    "keyword": [
+      {
+        "keywordValue": "Soil"
+      },
+      {
+        "keywordValue": "Trifolium repens"
+      },
+      {
+        "keywordValue": "Brassica napus subsp. napobrassica"
+      },
+      {
+        "keywordValue": "Festuca arundinacea"
+      },
+      {
+        "keywordValue": "Opendata"
+      },
+      {
+        "keywordValue": "Above-ground biomass"
+      },
+      {
+        "keywordValue": "Trifolium pretense"
+      },
+      {
+        "keywordValue": "Raphanus sativus var. oleiformis"
+      },
+      {
+        "keywordValue": "Lolium perenne"
+      },
+      {
+        "keywordValue": "Boden"
+      },
+      {
+        "keywordValue": "inspireidentifiziert"
+      }
+    ],
+    "subject": [
+      "Agricultural Sciences"
+    ],
+    "otherId": [
+      {
+        "otherIdValue": "[{'@language': 'en', '@value': '0a9ea801-78fa-4b42-92cb-21852cdf1775'}, {'@language': 'en', '@value': 'Child table of dataset https://doi.org/10.20387/bonares-kja7-z295'}]",
+        "otherIdAgency": "DOI"
+      }
+    ],
+    "productionDate": "2023-07-12",
+    "distributionDate": "2023-07-12"
+  },
+  "generalExtended": {
+    "license": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "geographic": {
+    "westLongitude": 9.995111,
+    "eastLongitude": 9.996946,
+    "northLatitude": 54.312613,
+    "southLatitude": 54.311173
+  },
+  "identifier": "0a9ea801-78fa-4b42-92cb-21852cdf1775"
+}

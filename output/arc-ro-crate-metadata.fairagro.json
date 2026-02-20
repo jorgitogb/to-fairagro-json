@@ -1,0 +1,49 @@
+{
+  "citation": {
+    "title": "Untitled ARC",
+    "alternativeTitle": [
+      "drone flyover processes",
+      "Plant Plots"
+    ],
+    "datasetContact": [
+      {
+        "datasetContactName": "FAIRagro Demonstrator",
+        "datasetContactEmail": "fairagro@demo.org"
+      }
+    ],
+    "subject": [
+      "Agricultural Sciences"
+    ],
+    "productionDate": "2026-01-29T14:30:55.9873990",
+    "distributionDate": "2026-01-29T14:30:55.9873990"
+  },
+  "generalExtended": {
+    "license": "ALL RIGHTS RESERVED BY THE AUTHORS",
+    "sourceDatasetURI": "./"
+  },
+  "crop": {
+    "crop": [
+      {
+        "cropSpecies": {
+          "value": "Solanum tuberosum",
+          "aiGenerated": false
+        },
+        "cropPestName": {
+          "value": "Potyvirus yituberosi",
+          "aiGenerated": false
+        }
+      }
+    ]
+  },
+  "sensor": {
+    "sensor": [
+      {
+        "sensorSensorType": {
+          "value": "digital camera",
+          "aiGenerated": false
+        }
+      }
+    ]
+  },
+  "identifier": "AgDaFair_Drone_Flyovers"
+}
