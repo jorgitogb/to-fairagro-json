@@ -59,18 +59,39 @@ class FairagroConverter:
         self.entities.sort(key=get_rank)
 
     def convert(self, output_path=None):
-        """Orchestrates the conversion of all entities to FAIRagro Core Spec."""
+        """Orchestrates the conversion of all entities to FAIRagro Core Spec.
+
+        - If the input has an ARC Investigation hierarchy, outputs a single JSON object.
+        - If the input is a flat list of independent datasets, outputs a JSON array.
+        """
+        # Check if any entity is ARC-typed (Investigation/Study/Assay)
+        has_arc_hierarchy = any(
+            atype in str(e.get("additionalType", ""))
+            for e in self.entities
+            for atype in ["Investigation", "Study", "Assay"]
+        )
+
         output_results = []
-        for entity in self.entities:
-            blocks = self.mapper.map_entity(entity)
+        if has_arc_hierarchy:
+            # For ARC inputs: only map the primary entity (Investigation or first)
+            primary = self.entities[0]
+            blocks = self.mapper.map_entity(primary)
             if blocks:
                 output_results.append(blocks)
+        else:
+            # For flat inputs (Schema.org arrays): map each entity independently
+            for entity in self.entities:
+                # Give mapper a single-entity view so extraction is scoped to this dataset
+                single_mapper = MetadataMapper(self.mapping, all_entities=[entity])
+                blocks = single_mapper.map_entity(entity)
+                if blocks:
+                    output_results.append(blocks)
 
         if not output_results:
             return None
 
-        # Return the primary entity (Investigation if found, else first dataset)
-        final_output = output_results[0]
+        # Return array for multiple independent datasets, single object for ARC
+        final_output = output_results[0] if len(output_results) == 1 else output_results
 
         if output_path:
             output_path = Path(output_path)
