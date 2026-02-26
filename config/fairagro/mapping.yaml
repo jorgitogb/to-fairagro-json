@@ -51,8 +51,14 @@ blocks:
           source: ["license"]
           type: "string"
       - sourceDatasetURI:
-          source: ["@id"]
+          source: ["@id", "url", "identifier"]
           type: "string"
+          default: ""
+      - sourceRDI:
+          type: "complex"
+          default:
+            sourceRDIName: "FAIRagro"
+            sourceRDIURI: "https://fairagro.net"
 
   geographic:
     fields:
