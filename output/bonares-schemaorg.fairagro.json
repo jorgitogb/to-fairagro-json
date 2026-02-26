@@ -6,6 +6,13 @@
         "dsDescriptionValue": "Maize and cover crop biomass development, soil mineral N and water contents at Hohenschulen field site in the first and second trial year of Rhizo4Bio - RootWayS project. - Nitrogen uptake of the cover crops during the first trial (2020/2021)."
       }
     ],
+    "author": [
+      {
+        "authorName": "Holzhauser, Katja",
+        "authorAffiliation": "Kiel University",
+        "authorEmail": "holzhauser@pflanzenbau.uni-kiel.de"
+      }
+    ],
     "datasetContact": [
       {
         "datasetContactName": "FAIRagro Demonstrator",
@@ -52,7 +59,11 @@
     ],
     "otherId": [
       {
-        "otherIdValue": "[{'@language': 'en', '@value': '0a9ea801-78fa-4b42-92cb-21852cdf1775'}, {'@language': 'en', '@value': 'Child table of dataset https://doi.org/10.20387/bonares-kja7-z295'}]",
+        "otherIdValue": "0a9ea801-78fa-4b42-92cb-21852cdf1775",
+        "otherIdAgency": "Other"
+      },
+      {
+        "otherIdValue": "Child table of dataset https://doi.org/10.20387/bonares-kja7-z295",
         "otherIdAgency": "DOI"
       }
     ],

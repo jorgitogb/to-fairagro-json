@@ -8,7 +8,7 @@ blocks:
           source: ["name"]
           type: "string_array"
       - dsDescription:
-          source: ["description"]
+          source: ["description", "comment"]
           type: "complex_list"
           mapping:
             dsDescriptionValue: ["@"]
@@ -25,7 +25,7 @@ blocks:
           default: [{"datasetContactName": "FAIRagro Demonstrator", "datasetContactEmail": "fairagro@demo.org"}]
           # No mapper source, logic will fill or default
       - keyword:
-          source: ["keywords"]
+          source: ["keywords", "keyword"]
           type: "complex_list"
           mapping:
             keywordValue: ["@"]
@@ -51,8 +51,14 @@ blocks:
           source: ["license"]
           type: "string"
       - sourceDatasetURI:
-          source: ["@id"]
+          source: ["@id", "url", "identifier"]
           type: "string"
+          default: ""
+      - sourceRDI:
+          type: "complex"
+          default:
+            sourceRDIName: "FAIRagro"
+            sourceRDIURI: "https://fairagro.net"
 
   geographic:
     fields:

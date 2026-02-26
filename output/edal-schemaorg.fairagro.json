@@ -1,31 +1,113 @@
-{
-  "citation": {
-    "title": "A case study for efficient management of high throughput primary lab data",
-    "dsDescription": [
-      {
-        "dsDescriptionValue": "Source code for the LimsLight primary data management system"
-      }
-    ],
-    "datasetContact": [
-      {
-        "datasetContactName": "FAIRagro Demonstrator",
-        "datasetContactEmail": "fairagro@demo.org"
-      }
-    ],
-    "keyword": [
-      {
-        "keywordValue": "bioinformatics, source code, database, LIMS, primary data"
-      }
-    ],
-    "subject": [
-      "Agricultural Sciences"
-    ],
-    "productionDate": "Sat Jan 01 00:00:00 CET 2011",
-    "distributionDate": "Sat Jan 01 00:00:00 CET 2011"
+[
+  {
+    "citation": {
+      "title": "A case study for efficient management of high throughput primary lab data",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "Source code for the LimsLight primary data management system"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Christian Colmsee",
+          "authorIdentifier": "https://orcid.org/0000-0003-4387-4923",
+          "authorIdentifierScheme": "ORCID"
+        },
+        {
+          "authorName": "Steffen Flemming"
+        },
+        {
+          "authorName": "Matthias Klapperstueck"
+        },
+        {
+          "authorName": "Matthias Lange",
+          "authorIdentifier": "https://orcid.org/0000-0002-4316-078X",
+          "authorIdentifierScheme": "ORCID"
+        },
+        {
+          "authorName": "Uwe Scholz",
+          "authorIdentifier": "https://orcid.org/0000-0001-6113-3518",
+          "authorIdentifierScheme": "ORCID"
+        },
+        {
+          "authorName": "Christian Friedrich"
+        },
+        {
+          "authorName": "Burkhard Steuernagel"
+        },
+        {
+          "authorName": "Stephan Weise"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "bioinformatics, source code, database, LIMS, primary data"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "productionDate": "Sat Jan 01 00:00:00 CET 2011",
+      "distributionDate": "Sat Jan 01 00:00:00 CET 2011"
+    },
+    "generalExtended": {
+      "license": "$licenseURL",
+      "sourceDatasetURI": "10.5447/ipk/2011/0"
+    },
+    "identifier": "10.5447/ipk/2011/0"
   },
-  "generalExtended": {
-    "license": "$licenseURL",
-    "sourceDatasetURI": "10.5447/ipk/2011/0"
-  },
-  "identifier": "10.5447/ipk/2011/0"
-}
+  {
+    "citation": {
+      "title": "Visualising comparative genomics with Hilbert curves",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "Poster - Bioinformatics of Human and Animal Genomics 2011"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Thomas Schmutzer",
+          "authorIdentifier": "https://orcid.org/0000-0003-1073-6719",
+          "authorIdentifierScheme": "ORCID"
+        },
+        {
+          "authorName": "Fabian Bull",
+          "authorIdentifier": "https://orcid.org/0000-0002-9185-9819",
+          "authorIdentifierScheme": "ORCID"
+        },
+        {
+          "authorName": "Uwe Scholz",
+          "authorIdentifier": "https://orcid.org/0000-0001-6113-3518",
+          "authorIdentifierScheme": "ORCID"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "bioinformatics, source code, database, LIMS, primary data"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "productionDate": "Sat Jan 01 00:00:00 CET 2011",
+      "distributionDate": "Sat Jan 01 00:00:00 CET 2011"
+    },
+    "generalExtended": {
+      "license": "$licenseURL",
+      "sourceDatasetURI": "10.5447/ipk/2011/1"
+    },
+    "identifier": "10.5447/ipk/2011/1"
+  }
+]

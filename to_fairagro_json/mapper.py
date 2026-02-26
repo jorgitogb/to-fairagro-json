@@ -67,44 +67,108 @@ class MetadataMapper:
                     results.append(e)
         return results
 
+    def _extract_person(self, person, seen):
+        """Extracts an author object from a Person entity. Returns None if already seen."""
+        if not isinstance(person, dict):
+            return None
+
+        # Try to get the name: prefer explicit 'name', then givenName+familyName, then contactPoint
+        name = None
+        if person.get("name"):
+            name = self._get_literal(person["name"])
+        elif person.get("givenName") or person.get("familyName"):
+            given = self._get_literal(person.get("givenName", ""))
+            family = self._get_literal(person.get("familyName", ""))
+            name = f"{given} {family}".strip()
+        elif isinstance(person.get("contactPoint"), dict):
+            # Schema.org Organization with contactPoint as the actual person
+            cp = person["contactPoint"]
+            name = self._get_literal(cp.get("name"))
+
+        if not name or name in seen:
+            return None
+        seen.add(name)
+
+        author_obj = {"authorName": name}
+
+        affiliation = self._resolve_source(person, ["affiliation", "memberOf"])
+        if affiliation:
+            author_obj["authorAffiliation"] = self._get_literal(affiliation)
+        elif "Organization" in str(person.get("@type", "")) and person.get("name"):
+            # The entity itself is the organization — use its name as affiliation
+            author_obj["authorAffiliation"] = self._get_literal(person.get("name"))
+
+        identifier = person.get("@id")
+        if (
+            identifier
+            and not identifier.startswith("#")
+            or (identifier and "orcid.org" in identifier)
+        ):
+            author_obj["authorIdentifier"] = identifier
+            if "orcid.org" in identifier:
+                author_obj["authorIdentifierScheme"] = "ORCID"
+            else:
+                author_obj["authorIdentifierScheme"] = "Other"
+
+        return author_obj
+
     def _extract_authors(self):
         authors = []
         seen = set()
-        datasets = self._get_entities_by_type(
+
+        # First pass: ARC-typed entities (Investigation / Study / Assay)
+        arc_datasets = self._get_entities_by_type(
             "Dataset", ["Investigation", "Study", "Assay"]
         )
 
-        for ds in datasets:
-            creators = ds.get("creator", [])
-            if not isinstance(creators, list):
-                creators = [creators]
-            for c in creators:
-                person = self._resolve_ref(c)
-                if isinstance(person, dict) and "Person" in str(
-                    person.get("@type", "")
-                ):
-                    name = self._get_literal(person)
-                    if name and name not in seen:
-                        seen.add(name)
-                        author_obj = {"authorName": name}
+        for ds in arc_datasets:
+            for field in ["creator", "author"]:
+                persons = ds.get(field, [])
+                if not isinstance(persons, list):
+                    persons = [persons]
+                for raw in persons:
+                    person = self._resolve_ref(raw)
+                    if isinstance(person, dict):
+                        obj = self._extract_person(person, seen)
+                        if obj:
+                            authors.append(obj)
 
-                        affiliation = self._resolve_source(
-                            person, ["affiliation", "memberOf"]
-                        )
-                        if affiliation:
-                            author_obj["authorAffiliation"] = self._get_literal(
-                                affiliation
-                            )
-
-                        identifier = person.get("@id")
-                        if identifier:
-                            author_obj["authorIdentifier"] = identifier
-                            if "orcid.org" in identifier:
-                                author_obj["authorIdentifierScheme"] = "ORCID"
+        # Second pass: plain Dataset entities (Schema.org) if nothing found yet
+        if not authors:
+            plain_datasets = self._get_entities_by_type("Dataset")
+            for ds in plain_datasets:
+                for field in ["author", "creator"]:
+                    persons = ds.get(field)
+                    if persons is None:
+                        continue
+                    if not isinstance(persons, list):
+                        persons = [persons]
+                    for raw in persons:
+                        person = self._resolve_ref(raw)
+                        if isinstance(person, dict):
+                            # Handle Organization-as-author with nested contactPoint
+                            if "Organization" in str(
+                                person.get("@type", "")
+                            ) and isinstance(person.get("contactPoint"), dict):
+                                cp = person["contactPoint"]
+                                cp_name = self._get_literal(cp.get("name"))
+                                if cp_name and cp_name not in seen:
+                                    seen.add(cp_name)
+                                    obj = {
+                                        "authorName": cp_name,
+                                        "authorAffiliation": self._get_literal(
+                                            person.get("name")
+                                        ),
+                                    }
+                                    email = self._get_literal(cp.get("email"))
+                                    if email:
+                                        obj["authorEmail"] = email
+                                    authors.append(obj)
                             else:
-                                author_obj["authorIdentifierScheme"] = "Other"
+                                obj = self._extract_person(person, seen)
+                                if obj:
+                                    authors.append(obj)
 
-                        authors.append(author_obj)
         return authors
 
     def _extract_crops(self):
@@ -438,15 +502,49 @@ class MetadataMapper:
                             if titles:
                                 block_data["alternativeTitle"] = titles
                             continue
+                        elif field_name == "dsDescription":
+                            # Try top-level description first
+                            desc = self._resolve_source(
+                                entity, ["description", "comment"]
+                            )
+                            if not desc:
+                                # Fall back to aggregating descriptions from Study/Assay parts
+                                seen_descs = set()
+                                desc_items = []
+                                for ds in self._get_entities_by_type(
+                                    "Dataset", ["Study", "Assay"]
+                                ):
+                                    d = self._get_literal(
+                                        ds.get("description") or ds.get("comment")
+                                    )
+                                    if d and d not in seen_descs:
+                                        seen_descs.add(d)
+                                        desc_items.append({"dsDescriptionValue": d})
+                                if desc_items:
+                                    block_data["dsDescription"] = desc_items
+                                continue
+                            # Otherwise let the normal format_field path handle it
                         elif field_name == "otherId":
-                            val = self._resolve_source(entity, ["identifier"])
-                            if val and "doi.org" in str(val):
-                                block_data["otherId"] = [
-                                    {
-                                        "otherIdValue": str(val),
-                                        "otherIdAgency": "DOI",
-                                    }
-                                ]
+                            identifiers = self._resolve_source(entity, ["identifier"])
+                            if identifiers:
+                                if not isinstance(identifiers, list):
+                                    identifiers = [identifiers]
+                                other_ids = []
+                                for ident in identifiers:
+                                    ident_str = str(self._get_literal(ident))
+                                    if not ident_str or ident_str in ("None", ""):
+                                        continue
+                                    agency = (
+                                        "DOI" if "doi.org" in ident_str else "Other"
+                                    )
+                                    other_ids.append(
+                                        {
+                                            "otherIdValue": ident_str,
+                                            "otherIdAgency": agency,
+                                        }
+                                    )
+                                if other_ids:
+                                    block_data["otherId"] = other_ids
                             continue
 
                     if "source" in cfg:
