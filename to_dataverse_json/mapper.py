@@ -155,8 +155,8 @@ class MetadataMapper:
                                 key = f"{crop_info.get('cropSpecies', {}).get('value')}|{crop_info.get('cropPest', {}).get('value')}"
                                 if key not in seen:
                                     seen.add(key)
-                                    crops.append({"crop": crop_info})
-        return crops
+                                    crops.append(crop_info)
+        return [{"crop": crops}] if crops else []
 
     def _extract_sensors(self):
         sensors = []
@@ -210,8 +210,8 @@ class MetadataMapper:
                         key = f"{measurement_method}|{measurement_technique}|{manufacturer}|{model}"
                         if key not in seen:
                             seen.add(key)
-                            sensors.append({"sensor": sensor_obj})
-        return sensors
+                            sensors.append(sensor_obj)
+        return [{"sensor": sensors}] if sensors else []
 
     def _get_literal(self, v):
         if v is None:
@@ -263,7 +263,7 @@ class MetadataMapper:
             return {name: {"value": str(lit)}}
 
         if ftype == "list":
-            item_key = cfg.get("item_key", "value")
+            item_key = cfg.get("item_key")
             if isinstance(val, str):
                 vals = [v.strip() for v in val.split(",")]
             elif isinstance(val, list):
@@ -274,13 +274,13 @@ class MetadataMapper:
             items = []
             for v in vals:
                 lit = self._get_literal(v)
-                if isinstance(lit, list):
-                    for item in lit:
-                        items.append(
-                            {item_key: {"value": str(self._get_literal(item))}}
-                        )
-                else:
-                    items.append({item_key: {"value": str(lit)}})
+                lit_list = lit if isinstance(lit, list) else [lit]
+                for item in lit_list:
+                    str_val = str(self._get_literal(item))
+                    if item_key:
+                        items.append({item_key: {"value": str_val}})
+                    else:
+                        items.append(str_val)
             return {name: items}
 
         if ftype == "complex_list":
@@ -368,27 +368,28 @@ class MetadataMapper:
                         if titles:
                             fields.append(
                                 {
-                                    "alternativeTitle": [
-                                        {"alternativeTitleValue": {"value": t}}
-                                        for t in titles
-                                    ]
+                                    "alternativeTitle": titles
                                 }
                             )
                         continue
                     elif field_name == "otherId":
-                        # Not available in RO-Crate per user, but let's check for DOI
                         val = self._resolve_source(entity, ["identifier"])
+                        agency = "Other"
                         if val and "doi.org" in str(val):
-                            fields.append(
-                                {
-                                    "otherId": [
-                                        {
-                                            "otherIdValue": {"value": str(val)},
-                                            "otherIdAgency": {"value": "DOI"},
-                                        }
-                                    ]
-                                }
-                            )
+                            agency = "DOI"
+                        elif not val:
+                            val = f"arc-rocrate-{entity.get('@id', 'unknown')}"
+                            
+                        fields.append(
+                            {
+                                "otherId": [
+                                    {
+                                        "otherIdValue": {"value": str(val)},
+                                        "otherIdAgency": {"value": agency},
+                                    }
+                                ]
+                            }
+                        )
                         continue
 
                 if "source" in cfg:

@@ -1,66 +1,68 @@
 blocks:
   citation:
-      displayName: "Citation Metadata"
-      fields:
-        - titleValue:
-            source: ["name", "headline"]
-            type: "single"
-        - alternativeTitle:
-            type: "complex_list"
-            mapping:
-              alternativeTitleValue: ["name"]
-        - datasetDescription:
-            source: ["description"]
-            type: "list"
-            item_key: "descriptionValue"
-        - author:
-            source: ["creator", "author"]
-            type: "complex_list"
-            mapping:
-              authorName: ["@", "name", "contactPoint.name", "givenName"]
-              authorAffiliation: ["affiliation.name", "publisher.name"]
-              authorIdentifier: ["identifier"]
-        - datasetContact:
-            type: "complex_list"
-            default: [{"name": "FAIRagro Demonstrator", "email": "fairagro@demo.org"}]
-            mapping:
-              datasetContactName: ["name"]
-              datasetContactEmail: ["email"]
-        - keyword:
-            source: ["keywords"]
-            type: "list"
-            item_key: "keywordValue"
-        - subject:
-            source: ["about[*].name"]
-            default: "Agricultural Sciences"
-            type: "list"
-        - otherId:
-            type: "complex_list"
-            mapping:
-              otherIdValue: ["identifier"]
-              otherIdAgency: ["@id"]
-        - publicationDate:
-            source: ["datePublished"]
-            type: "single"
-        - license:
-            source: ["license"]
-            type: "single"
-
-  geospatial:
-    displayName: "Geospatial Metadata"
+    displayName: "Citation Metadata"
     fields:
-      - westLongitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
-      - eastLongitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
-      - northLatitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
-      - southLatitude:
-            source: ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
-            type: "single"
+      - title:
+          source: ["name", "headline"]
+          type: "single"
+      - alternativeTitle:
+          type: "complex_list"
+          mapping:
+            alternativeTitleValue: ["name"]
+      - dsDescription:
+          source: ["description"]
+          default: "Dataset generated from RO-Crate"
+          type: "list"
+          item_key: "dsDescriptionValue"
+      - author:
+          source: ["creator", "author"]
+          type: "complex_list"
+          mapping:
+            authorName: ["@", "name", "contactPoint.name", "givenName"]
+            authorAffiliation: ["affiliation.name", "publisher.name"]
+            authorIdentifier: ["identifier"]
+      - datasetContact:
+          type: "complex_list"
+          default:
+            [{ "name": "FAIRagro Demonstrator", "email": "fairagro@demo.org" }]
+          mapping:
+            datasetContactName: ["name"]
+            datasetContactEmail: ["email"]
+      - keyword:
+          source: ["keywords"]
+          default: "unspecified"
+          type: "list"
+          item_key: "keywordValue"
+      - subject:
+          source: ["about[*].name"]
+          default: "Agricultural Sciences"
+          type: "list"
+      - otherId:
+          type: "complex_list"
+          mapping:
+            otherIdValue: ["identifier"]
+            otherIdAgency: ["@id"]
+      - publicationDate:
+          source: ["datePublished"]
+          type: "single"
+      - license:
+          source: ["license"]
+          type: "single"
+
+  geographic:
+    displayName: "Geographic Metadata"
+    fields:
+      - geographicBoundingBox:
+          type: "complex_list"
+          mapping:
+            westLongitude:
+              ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            eastLongitude:
+              ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            northLatitude:
+              ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
+            southLatitude:
+              ["spatialCoverage.geo.box", "spatialCoverage.0.geo.box"]
 
   crop:
     displayName: "Crop Metadata"

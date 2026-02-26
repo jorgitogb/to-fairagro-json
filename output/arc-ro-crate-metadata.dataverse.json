@@ -6,20 +6,21 @@
           "displayName": "Citation Metadata",
           "fields": [
             {
-              "titleValue": {
+              "title": {
                 "value": "Untitled ARC"
               }
             },
             {
               "alternativeTitle": [
+                "drone flyover processes",
+                "Plant Plots"
+              ]
+            },
+            {
+              "dsDescription": [
                 {
-                  "alternativeTitleValue": {
-                    "value": "drone flyover processes"
-                  }
-                },
-                {
-                  "alternativeTitleValue": {
-                    "value": "Plant Plots"
+                  "dsDescriptionValue": {
+                    "value": "Dataset generated from RO-Crate"
                   }
                 }
               ]
@@ -55,10 +56,27 @@
               ]
             },
             {
-              "subject": [
+              "keyword": [
                 {
-                  "value": {
-                    "value": "Agricultural Sciences"
+                  "keywordValue": {
+                    "value": "unspecified"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                "Agricultural Sciences"
+              ]
+            },
+            {
+              "otherId": [
+                {
+                  "otherIdValue": {
+                    "value": "AgDaFair_Drone_Flyovers"
+                  },
+                  "otherIdAgency": {
+                    "value": "Other"
                   }
                 }
               ]
@@ -79,30 +97,30 @@
           "displayName": "Crop Metadata",
           "fields": [
             {
-              "crop": {
-                "cropSpecies": {
-                  "value": "Solanum tuberosum"
+              "crop": [
+                {
+                  "cropSpecies": {
+                    "value": "Solanum tuberosum"
+                  },
+                  "cropSpeciesURI": {
+                    "value": ""
+                  },
+                  "cropPest": {
+                    "value": "Potyvirus yituberosi"
+                  },
+                  "cropPestURI": {
+                    "value": ""
+                  }
                 },
-                "cropSpeciesURI": {
-                  "value": ""
-                },
-                "cropPest": {
-                  "value": "Potyvirus yituberosi"
-                },
-                "cropPestURI": {
-                  "value": ""
+                {
+                  "cropPest": {
+                    "value": ""
+                  },
+                  "cropPestURI": {
+                    "value": ""
+                  }
                 }
-              }
-            },
-            {
-              "crop": {
-                "cropPest": {
-                  "value": ""
-                },
-                "cropPestURI": {
-                  "value": ""
-                }
-              }
+              ]
             }
           ]
         },
@@ -110,22 +128,24 @@
           "displayName": "Sensor Metadata",
           "fields": [
             {
-              "sensor": {
-                "sensorType": {
-                  "value": "digital camera"
-                },
-                "sensorIsHostedBy": {
-                  "sensorPlatformType": {
-                    "value": "Drone"
+              "sensor": [
+                {
+                  "sensorType": {
+                    "value": "digital camera"
                   },
-                  "sensorPlatformManufacturerName": {
-                    "value": ""
-                  },
-                  "sensorPlatformModelName": {
-                    "value": ""
+                  "sensorIsHostedBy": {
+                    "sensorPlatformType": {
+                      "value": "Drone"
+                    },
+                    "sensorPlatformManufacturerName": {
+                      "value": ""
+                    },
+                    "sensorPlatformModelName": {
+                      "value": ""
+                    }
                   }
                 }
-              }
+              ]
             }
           ]
         }
@@ -139,28 +159,20 @@
           "displayName": "Citation Metadata",
           "fields": [
             {
-              "titleValue": {
+              "title": {
                 "value": "drone flyover processes"
               }
             },
             {
               "alternativeTitle": [
-                {
-                  "alternativeTitleValue": {
-                    "value": "drone flyover processes"
-                  }
-                },
-                {
-                  "alternativeTitleValue": {
-                    "value": "Plant Plots"
-                  }
-                }
+                "drone flyover processes",
+                "Plant Plots"
               ]
             },
             {
-              "datasetDescription": [
+              "dsDescription": [
                 {
-                  "descriptionValue": {
+                  "dsDescriptionValue": {
                     "value": "The drone flew to preselected gelocations o take one picture of each plant. Image metadata were extracted from the images and added to the assay process."
                   }
                 }
@@ -197,10 +209,27 @@
               ]
             },
             {
-              "subject": [
+              "keyword": [
                 {
-                  "value": {
-                    "value": "Agricultural Sciences"
+                  "keywordValue": {
+                    "value": "unspecified"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                "Agricultural Sciences"
+              ]
+            },
+            {
+              "otherId": [
+                {
+                  "otherIdValue": {
+                    "value": "drone_image_capture"
+                  },
+                  "otherIdAgency": {
+                    "value": "Other"
                   }
                 }
               ]
@@ -211,30 +240,30 @@
           "displayName": "Crop Metadata",
           "fields": [
             {
-              "crop": {
-                "cropSpecies": {
-                  "value": "Solanum tuberosum"
+              "crop": [
+                {
+                  "cropSpecies": {
+                    "value": "Solanum tuberosum"
+                  },
+                  "cropSpeciesURI": {
+                    "value": ""
+                  },
+                  "cropPest": {
+                    "value": "Potyvirus yituberosi"
+                  },
+                  "cropPestURI": {
+                    "value": ""
+                  }
                 },
-                "cropSpeciesURI": {
-                  "value": ""
-                },
-                "cropPest": {
-                  "value": "Potyvirus yituberosi"
-                },
-                "cropPestURI": {
-                  "value": ""
+                {
+                  "cropPest": {
+                    "value": ""
+                  },
+                  "cropPestURI": {
+                    "value": ""
+                  }
                 }
-              }
-            },
-            {
-              "crop": {
-                "cropPest": {
-                  "value": ""
-                },
-                "cropPestURI": {
-                  "value": ""
-                }
-              }
+              ]
             }
           ]
         },
@@ -242,22 +271,24 @@
           "displayName": "Sensor Metadata",
           "fields": [
             {
-              "sensor": {
-                "sensorType": {
-                  "value": "digital camera"
-                },
-                "sensorIsHostedBy": {
-                  "sensorPlatformType": {
-                    "value": "Drone"
+              "sensor": [
+                {
+                  "sensorType": {
+                    "value": "digital camera"
                   },
-                  "sensorPlatformManufacturerName": {
-                    "value": ""
-                  },
-                  "sensorPlatformModelName": {
-                    "value": ""
+                  "sensorIsHostedBy": {
+                    "sensorPlatformType": {
+                      "value": "Drone"
+                    },
+                    "sensorPlatformManufacturerName": {
+                      "value": ""
+                    },
+                    "sensorPlatformModelName": {
+                      "value": ""
+                    }
                   }
                 }
-              }
+              ]
             }
           ]
         }
@@ -271,28 +302,20 @@
           "displayName": "Citation Metadata",
           "fields": [
             {
-              "titleValue": {
+              "title": {
                 "value": "Plant Plots"
               }
             },
             {
               "alternativeTitle": [
-                {
-                  "alternativeTitleValue": {
-                    "value": "drone flyover processes"
-                  }
-                },
-                {
-                  "alternativeTitleValue": {
-                    "value": "Plant Plots"
-                  }
-                }
+                "drone flyover processes",
+                "Plant Plots"
               ]
             },
             {
-              "datasetDescription": [
+              "dsDescription": [
                 {
-                  "descriptionValue": {
+                  "dsDescriptionValue": {
                     "value": "potato plants were pton plots in a large distance to each other to ensure that images captured contain only one specimen. Infection labels were assigned manually by human experts."
                   }
                 }
@@ -329,10 +352,27 @@
               ]
             },
             {
-              "subject": [
+              "keyword": [
                 {
-                  "value": {
-                    "value": "Agricultural Sciences"
+                  "keywordValue": {
+                    "value": "unspecified"
+                  }
+                }
+              ]
+            },
+            {
+              "subject": [
+                "Agricultural Sciences"
+              ]
+            },
+            {
+              "otherId": [
+                {
+                  "otherIdValue": {
+                    "value": "plant_plots"
+                  },
+                  "otherIdAgency": {
+                    "value": "Other"
                   }
                 }
               ]
@@ -343,30 +383,30 @@
           "displayName": "Crop Metadata",
           "fields": [
             {
-              "crop": {
-                "cropSpecies": {
-                  "value": "Solanum tuberosum"
+              "crop": [
+                {
+                  "cropSpecies": {
+                    "value": "Solanum tuberosum"
+                  },
+                  "cropSpeciesURI": {
+                    "value": ""
+                  },
+                  "cropPest": {
+                    "value": "Potyvirus yituberosi"
+                  },
+                  "cropPestURI": {
+                    "value": ""
+                  }
                 },
-                "cropSpeciesURI": {
-                  "value": ""
-                },
-                "cropPest": {
-                  "value": "Potyvirus yituberosi"
-                },
-                "cropPestURI": {
-                  "value": ""
+                {
+                  "cropPest": {
+                    "value": ""
+                  },
+                  "cropPestURI": {
+                    "value": ""
+                  }
                 }
-              }
-            },
-            {
-              "crop": {
-                "cropPest": {
-                  "value": ""
-                },
-                "cropPestURI": {
-                  "value": ""
-                }
-              }
+              ]
             }
           ]
         },
@@ -374,22 +414,24 @@
           "displayName": "Sensor Metadata",
           "fields": [
             {
-              "sensor": {
-                "sensorType": {
-                  "value": "digital camera"
-                },
-                "sensorIsHostedBy": {
-                  "sensorPlatformType": {
-                    "value": "Drone"
+              "sensor": [
+                {
+                  "sensorType": {
+                    "value": "digital camera"
                   },
-                  "sensorPlatformManufacturerName": {
-                    "value": ""
-                  },
-                  "sensorPlatformModelName": {
-                    "value": ""
+                  "sensorIsHostedBy": {
+                    "sensorPlatformType": {
+                      "value": "Drone"
+                    },
+                    "sensorPlatformManufacturerName": {
+                      "value": ""
+                    },
+                    "sensorPlatformModelName": {
+                      "value": ""
+                    }
                   }
                 }
-              }
+              ]
             }
           ]
         }
