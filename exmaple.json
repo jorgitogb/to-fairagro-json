@@ -1,0 +1,221 @@
+{
+    "identifier": "12345",
+    "citation": {
+        "otherId": [
+            {
+                "otherIdValue": "12345",
+                "otherIdAgency": "DataCite"
+            }
+        ],
+        "title": "Example title",
+        "alternativeTitle": [
+            "Alternative title"
+        ],
+        "author": [
+            {
+                "authorName": "John Doe",
+                "authorAffiliation": "Example institute",
+                "authorIdentifier": "0000-0000-0000-0000",
+                "authorIdentifierScheme": "ORCID"
+            }
+        ],
+        "contributor": [
+            {
+                "contributorName": "Jane Doe",
+                "contributorType": "Data Curator"
+            }
+        ],
+        "datasetContact": [
+            {
+                "datasetContactName": "Max Mustermann",
+                "datasetContactAffiliation": "Example University",
+                "datasetContactEmail": "MaxMustermann@ExampleUniversity.de"
+            }
+        ],
+        "dsDescription": [
+            {
+                "dsDescriptionValue": "This is an example description"
+            }
+        ],
+        "subject": [
+            "Agricultural Sciences"
+        ],
+        "keyword": [
+            {
+                "keywordValue": "Example term",
+                "keywordTermURI": "http://purl.obolibrary.org/obo/TO_0000277",
+                "keywordVocabulary": "Agronomy Ontology",
+                "keywordVocabularyURI": "http://purl.obolibrary.org/obo/agro-edit.owl"
+            }
+        ],
+        "language": [
+            "eng"
+        ],
+        "productionDate": "2025-01-01",
+        "distributionDate": "2026-01-01",
+        "publication": [
+            {
+                "publicationCitation": "Example full citation",
+                "publicationIDType": "DOI",
+                "publicationIDNumber": "12345",
+                "publicationURL": "https://example.org/"
+            }
+        ],
+        "relatedDatasets": [
+            "Example related dataset"
+        ],
+        "timePeriodCovered": [
+            {
+                "timePeriodCoveredStart": "2020-01-01",
+                "timePeriodCoveredEnd": "2021-01-01"
+            }
+        ]
+    },
+    "generalExtended": {
+        "resourceType": "Example resource type",
+        "accessRights": [
+            "Example access rights"
+        ],
+        "accessType": "Open",
+        "yieldMeasurementMethod": "Example yield method",
+        "dataSource": "Example data source",
+        "sourceRDI": {
+            "sourceRDIName": "BonaRes Repository",
+            "sourceRDIURI": "https://maps.bonares.de/mapapps/resources/apps/bonares",
+            "sourceRDIID": {
+                "sourceRDIIDvalue": "https://doi.org/10.17616/R31NJMVY",
+                "sourceRDIIDscheme": "DOI"
+            }
+        },
+        "sourceDatasetURI": "https://maps.bonares.de/mapapps/resources/apps/bonares/index.html?lang=en&mid=e1562f46-4a0d-4d8a-ac13-44cb47366e36",
+        "license": "https://creativecommons.org/licenses/by/4.0",
+        "format": [
+            "csv"
+        ],
+        "dateModified": "2026-02-03",
+        "spatialResolution": "100.5",
+        "versionNumber": "1.2",
+        "variableMeasured": [
+            {
+                "variableMeasuredName": "Example variable",
+                "variableMeasuredAbbreviation": "Example abbreviation",
+                "variableMeasuredDescription": "Example description",
+                "variableMeasuredURI": "Example URI",
+                "variableMeasuredValue": "5",
+                "variableMeasuredValueURI": "Example value URI",
+                "variableMeasuredUnit": "Example Unit",
+                "variableMeasuredUnitURI": "http://purl.obolibrary.org/obo/UO_0000008",
+                "variableMeasuredMeasurementTechnique": "Example measurement technique"
+            }
+        ]
+    },
+    "geographic": {
+        "geographicCoverage": [
+            {
+                "city": "Example City"
+            },
+            {
+                "country": "Example Country"
+            },
+            {
+                "state": "Example state"
+            }
+        ],
+        "geographicBoundingBox": [
+            {
+                "westLongitude": "-74.1",
+                "eastLongitude": "-71.12",
+                "northLatitude": "40.73",
+                "southLatitude": "40.01"
+            }
+        ]
+    },
+    "crop": {
+        "crop": [
+            {
+                "cropSpecies": "Example crop species",
+                "cropSpeciesURI": "http://aims.fao.org/aos/agrovoc/c_7951",
+                "cropVariety": [
+                    "KWS EMERICK"
+                ],
+                "cropVarietyURI": "https://www.kws.com/de/de/produkte/weizen/sortenuebersicht/kws-emerick/",
+                "cropSowingDate": "2025-03-25",
+                "cropHarvestingDate": "2026-06-07",
+                "cropPestName": "Petrobia latens",
+                "cropPestURI": "https://gd.eppo.int/taxon/PETRLA"
+            }
+        ]
+    },
+    "soil": {
+        "soil": [
+            {
+                "soilTexture": "coarse sand",
+                "soilTextureURI": "http://aims.fao.org/aos/agrovoc/c_c03927e1",
+                "soilReferenceGroup": "Alisols",
+                "soilReferenceGroupURI": "http://aims.fao.org/aos/agrovoc/c_479c499a",
+                "soilPH": "3",
+                "soilBulkDensity": "1.77",
+                "soilDepth": {
+                    "soilTopDepth": "0",
+                    "soilBottomDepth": "15"
+                },
+                "soilAvailableWaterContent": "0.15",
+                "soilOrganicCarbon": "1.5",
+                "soilTotalCarbon": "2.3",
+                "soilTotalNitrogen": "0.23"
+            }
+        ]
+    },
+    "plot": {
+        "plot": [
+            {
+                "plotLocation": {
+                    "plotLocationDescription": "Example plot description",
+                    "plotLocationBoundingBox": {
+                        "plotLocationWestLongitude": "21.887842645",
+                        "plotLocationEastLongitude": "-17.9612289364",
+                        "plotLocationNorthLatitude": "33.4856876971",
+                        "plotLocationSouthLatitude": "-8.23825652429"
+                    }
+                },
+                "plotCropYield": "65.3",
+                "plotElevation": "723",
+                "plotSize": "700",
+                "plotSpatialReferenceSystem": "WGS84"
+            }
+        ]
+    },
+    "sensor": {
+        "sensor": [
+            {
+                "sensorIsHostedBy": {
+                    "sensorPlatformType": "Drone",
+                    "sensorPlatformTypeURI": "http://aims.fao.org/aos/agrovoc/c_3eb20052",
+                    "sensorPlatformModelName": "Example model name",
+                    "sensorPlatformManufacturerName": "Example manufacturer name"
+                },
+                "sensorActivityType": "Example activity type",
+                "sensorSensorType": "Example sensor type",
+                "sensorBandCategory": "Example band category",
+                "sensorSpectralBand": [
+                    "Example spectral band"
+                ]
+            }
+        ]
+    },
+    "agriculturalProcess": {
+        "agriculturalProcess": [
+            {
+                "agriculturalProcessName": "Example agricultural process"
+            }
+        ]
+    },
+    "chemicalSubstance": {
+        "chemicalSubstance": [
+            {
+                "chemicalSubstanceName": "Example chemical substance name",
+                "chemicalSubstanceApprovalNumber": "Example chemical substance approval number"
+            }
+        ]
+    }
+}

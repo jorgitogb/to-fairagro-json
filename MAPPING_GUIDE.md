@@ -78,26 +78,15 @@ Use `self._resolve_ref(item)` to automatically follow `@id` references. This all
 
 The `_get_nested` helper supports deep path lookups. If a property in the path is a list, it will automatically search through all items in that list.
 
-### Metadata Wrapping (`wrap: true`)
+### Metadata Mapping
 
-Certain blocks (like `crop` and `sensor`) require a specific object structure for values: `{"value": "...", "aiGenerated": false}`. This is controlled by the `wrap: true` flag in `mapping.yaml`.
-
-```yaml
-cropSpecies:
-  source: ["_crop_species"]
-  wrap: true
-```
-
-### Field Types
-
-The `type` property in `mapping.yaml` determines the output format.
+The mapper uses the `type` property in `mapping.yaml` to determine the output format.
 
 #### 1. `string`
 
 Used for fields that contain a single string value.
 
 - **Format**: `"value"`
-- **With `wrap: true`**: `{"value": "...", "aiGenerated": false}`
 
 #### 2. `string_array`
 
@@ -111,13 +100,19 @@ Used for nested fields where each item is an object with its own sub-fields.
 
 - **Format**: `[{"subField1": "...", "subField2": "..."}]`
 
+#### 4. `complex`
+
+Used for a single nested object.
+
+- **Format**: `{"subField1": "...", "subField2": "..."}`
+
 ---
 
 ## The `blocks` Key
 
 The `blocks` section in `mapping.yaml` organizes fields into logical groups.
 
-- **`fields`**: A list of field definitions. 
+- **`fields`**: A list of field definitions.
 
 ### Example Block Structure
 
@@ -127,7 +122,6 @@ blocks:
     fields:
       - fieldName:
           source: ["path.to.value"] # Path in the framed JSON
-          type: "string"            # string | string_array | complex_list
-          wrap: true                # optional metadata wrapping
+          type: "string"            # string | string_array | complex_list | complex
           default: "optional"       # Default value if source is missing
 ```

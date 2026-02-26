@@ -4,22 +4,40 @@
       "title": "High resolution long-term measurements of carbon dioxide and ammonia concentrations in a naturally ventilated dairy barn",
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dilya Willink"
+          "authorName": "Dilya Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Barbara Amon"
+          "authorName": "Barbara Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anke Roemer"
+          "authorName": "Anke Roemer",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -65,11 +83,20 @@
         }
       ],
       "productionDate": "2020",
-      "distributionDate": "2020"
+      "distributionDate": "2020",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006420709"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006420709",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006420709"
   },
@@ -78,22 +105,40 @@
       "title": "Velocity measurements of a 1:100 scaled model of a naturally ventilated dairy barn in an atmospheric boundary layer wind tunnel",
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Qinyiang Yi"
+          "authorName": "Qinyiang Yi",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Lars Thormann"
+          "authorName": "Lars Thormann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Barbara Amon"
+          "authorName": "Barbara Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -139,11 +184,20 @@
         }
       ],
       "productionDate": "2020",
-      "distributionDate": "2020"
+      "distributionDate": "2020",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006420859"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006420859",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006420859"
   },
@@ -157,16 +211,28 @@
       ],
       "author": [
         {
-          "authorName": "Adrian Fritz"
+          "authorName": "Adrian Fritz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Till Lesker"
+          "authorName": "Till Lesker",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Andreas Bremges"
+          "authorName": "Andreas Bremges",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Alice McHardy"
+          "authorName": "Alice McHardy",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -216,7 +282,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006421672"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006421672",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006421672"
   },
@@ -225,19 +295,34 @@
       "title": "High resolution long-term measurements of carbon dioxide, ammonia, and methane concentrations in two naturally ventilated dairy barns",
       "author": [
         {
-          "authorName": "Dilya Willink"
+          "authorName": "Dilya Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Barbara Amon"
+          "authorName": "Barbara Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -295,11 +380,20 @@
         }
       ],
       "productionDate": "2020",
-      "distributionDate": "2020"
+      "distributionDate": "2020",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006421675"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006421675",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006421675"
   },
@@ -313,34 +407,64 @@
       ],
       "author": [
         {
-          "authorName": "Moritz Markel"
+          "authorName": "Moritz Markel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Marco Ginzel"
+          "authorName": "Marco Ginzel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Nicole Peukert"
+          "authorName": "Nicole Peukert",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Hartmut Schneider"
+          "authorName": "Hartmut Schneider",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Rainer Haak"
+          "authorName": "Rainer Haak",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Steffi Mayer"
+          "authorName": "Steffi Mayer",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anne Suttkus"
+          "authorName": "Anne Suttkus",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Lacher"
+          "authorName": "Martin Lacher",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dietrich Kluth"
+          "authorName": "Dietrich Kluth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Jan-Hendrik Gosemann"
+          "authorName": "Jan-Hendrik Gosemann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -381,7 +505,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006423454"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006423454",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006423454"
   },
@@ -395,19 +523,34 @@
       ],
       "author": [
         {
-          "authorName": "Marco Ginzel"
+          "authorName": "Marco Ginzel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Illya Martynov"
+          "authorName": "Illya Martynov",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Rainer Haak"
+          "authorName": "Rainer Haak",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Lacher"
+          "authorName": "Martin Lacher",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dietrich Kluth"
+          "authorName": "Dietrich Kluth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -442,7 +585,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006424446"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006424446",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006424446"
   },
@@ -456,13 +603,22 @@
       ],
       "author": [
         {
-          "authorName": "Adrian Fritz"
+          "authorName": "Adrian Fritz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Zhi-Luo Deng"
+          "authorName": "Zhi-Luo Deng",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Alice McHardy"
+          "authorName": "Alice McHardy",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -512,7 +668,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006424451"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006424451",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006424451"
   },
@@ -526,16 +686,28 @@
       ],
       "author": [
         {
-          "authorName": "Adrian Fritz"
+          "authorName": "Adrian Fritz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Till Lesker"
+          "authorName": "Till Lesker",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Andreas Bremges"
+          "authorName": "Andreas Bremges",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Alice McHardy"
+          "authorName": "Alice McHardy",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -591,7 +763,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006425518"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006425518",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006425518"
   },
@@ -605,67 +781,130 @@
       ],
       "author": [
         {
-          "authorName": "Adrian Fritz"
+          "authorName": "Adrian Fritz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Till Lesker"
+          "authorName": "Till Lesker",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Andreas Bremges"
+          "authorName": "Andreas Bremges",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "N. P. Willassen"
+          "authorName": "N. P. Willassen",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "N. Smit"
+          "authorName": "N. Smit",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "T. Strowig"
+          "authorName": "T. Strowig",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Susanne Haeussler"
+          "authorName": "Susanne Haeussler",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Petra Gastmeier"
+          "authorName": "Petra Gastmeier",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Friederike Maechler"
+          "authorName": "Friederike Maechler",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "R. Koenig"
+          "authorName": "R. Koenig",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "A. Khaledi"
+          "authorName": "A. Khaledi",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "P. W. Dabrowski"
+          "authorName": "P. W. Dabrowski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "A. Nitsche"
+          "authorName": "A. Nitsche",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "L. H. Hansen"
+          "authorName": "L. H. Hansen",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "T. S. J\u00f8rgensen"
+          "authorName": "T. S. J\u00f8rgensen",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "S. Hacquard"
+          "authorName": "S. Hacquard",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "F. Mesny"
+          "authorName": "F. Mesny",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "S. Radutoiu"
+          "authorName": "S. Radutoiu",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "R. G. Oter"
+          "authorName": "R. G. Oter",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "P. Schulze-Lefert"
+          "authorName": "P. Schulze-Lefert",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Alice McHardy"
+          "authorName": "Alice McHardy",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -721,7 +960,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006425521"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006425521",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006425521"
   },
@@ -735,7 +978,10 @@
       ],
       "author": [
         {
-          "authorName": "Till Sauerwein"
+          "authorName": "Till Sauerwein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -785,7 +1031,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006427216"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006427216",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006427216"
   },
@@ -799,22 +1049,40 @@
       ],
       "author": [
         {
-          "authorName": "Aliaksandra Shutsko"
+          "authorName": "Aliaksandra Shutsko",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carsten Oliver Schmidt"
+          "authorName": "Carsten Oliver Schmidt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Johannes Darms"
+          "authorName": "Johannes Darms",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sophie Anne Ines Klopfenstein"
+          "authorName": "Sophie Anne Ines Klopfenstein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carina Nina Vorisek"
+          "authorName": "Carina Nina Vorisek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Golebiewski"
+          "authorName": "Martin Golebiewski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -873,7 +1141,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006431357"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006431357",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006431357"
   },
@@ -887,22 +1159,40 @@
       ],
       "author": [
         {
-          "authorName": "Aliaksandra Shutsko"
+          "authorName": "Aliaksandra Shutsko",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carsten Oliver Schmidt"
+          "authorName": "Carsten Oliver Schmidt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sophie Anne Ines Klopfenstein"
+          "authorName": "Sophie Anne Ines Klopfenstein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Johannes Darms"
+          "authorName": "Johannes Darms",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Golebiewski"
+          "authorName": "Martin Golebiewski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carina Nina Vorisek"
+          "authorName": "Carina Nina Vorisek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -961,7 +1251,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006434859"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006434859",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006434859"
   },
@@ -975,25 +1269,46 @@
       ],
       "author": [
         {
-          "authorName": "Aliaksandra Shutsko"
+          "authorName": "Aliaksandra Shutsko",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carsten Oliver Schmidt"
+          "authorName": "Carsten Oliver Schmidt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sophie Anne Ines Klopfenstein"
+          "authorName": "Sophie Anne Ines Klopfenstein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Johannes Darms"
+          "authorName": "Johannes Darms",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Golebiewski"
+          "authorName": "Martin Golebiewski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carina Nina Vorisek"
+          "authorName": "Carina Nina Vorisek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Haitham Abaza"
+          "authorName": "Haitham Abaza",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1052,7 +1367,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006439110"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006439110",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006439110"
   },
@@ -1066,22 +1385,40 @@
       ],
       "author": [
         {
-          "authorName": "Haitham Abaza"
+          "authorName": "Haitham Abaza",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aliaksandra Shutsko"
+          "authorName": "Aliaksandra Shutsko",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Golebiewski"
+          "authorName": "Martin Golebiewski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sophie A. I. Klopfenstein"
+          "authorName": "Sophie A. I. Klopfenstein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carsten Oliver Schmidt"
+          "authorName": "Carsten Oliver Schmidt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carina Vorisek"
+          "authorName": "Carina Vorisek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1140,7 +1477,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006450625"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006450625",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006450625"
   },
@@ -1154,55 +1495,106 @@
       ],
       "author": [
         {
-          "authorName": "Beatrix Adam"
+          "authorName": "Beatrix Adam",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Adam Basha"
+          "authorName": "Adam Basha",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Michael Cop"
+          "authorName": "Michael Cop",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Cordes"
+          "authorName": "Birte Cordes",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Catriona Eschke"
+          "authorName": "Catriona Eschke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Corinna Feeken"
+          "authorName": "Corinna Feeken",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Bernhard Frankenberger"
+          "authorName": "Bernhard Frankenberger",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Jens Freund"
+          "authorName": "Jens Freund",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dorit Jerger"
+          "authorName": "Dorit Jerger",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Nicole Jung"
+          "authorName": "Nicole Jung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Evamaria Krause"
+          "authorName": "Evamaria Krause",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christoph Marutschke"
+          "authorName": "Christoph Marutschke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Florian Rhiem"
+          "authorName": "Florian Rhiem",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Rose"
+          "authorName": "Thomas Rose",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Nina Ruffing"
+          "authorName": "Nina Ruffing",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Andreas Schieberle"
+          "authorName": "Andreas Schieberle",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1252,7 +1644,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006452815"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006452815",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006452815"
   },
@@ -1266,22 +1662,40 @@
       ],
       "author": [
         {
-          "authorName": "Haitham Abaza"
+          "authorName": "Haitham Abaza",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aliaksandra Shutsko"
+          "authorName": "Aliaksandra Shutsko",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Golebiewski"
+          "authorName": "Martin Golebiewski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sophie A. I. Klopfenstein"
+          "authorName": "Sophie A. I. Klopfenstein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carsten Oliver Schmidt"
+          "authorName": "Carsten Oliver Schmidt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carina N. Vorisek"
+          "authorName": "Carina N. Vorisek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1340,7 +1754,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006453422"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006453422",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006453422"
   },
@@ -1354,85 +1772,166 @@
       ],
       "author": [
         {
-          "authorName": "Haitham Abaza"
+          "authorName": "Haitham Abaza",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aliaksandra Shutsko"
+          "authorName": "Aliaksandra Shutsko",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martin Golebiewski"
+          "authorName": "Martin Golebiewski",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sophie A. I. Klopfenstein"
+          "authorName": "Sophie A. I. Klopfenstein",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carsten Oliver Schmidt"
+          "authorName": "Carsten Oliver Schmidt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carina N. Vorisek"
+          "authorName": "Carina N. Vorisek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Claudia Bruenings-Kuppe"
+          "authorName": "Claudia Bruenings-Kuppe",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Vera Clemens"
+          "authorName": "Vera Clemens",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Johannes Darms"
+          "authorName": "Johannes Darms",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabine Hanss"
+          "authorName": "Sabine Hanss",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Timm Intemann"
+          "authorName": "Timm Intemann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Franziska Jannasch"
+          "authorName": "Franziska Jannasch",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Elisa Kasbohm"
+          "authorName": "Elisa Kasbohm",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Matthias Loebe"
+          "authorName": "Matthias Loebe",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Ester Orban"
+          "authorName": "Ester Orban",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Ines Perrar"
+          "authorName": "Ines Perrar",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Manuela Peters"
+          "authorName": "Manuela Peters",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Ulrich Sax"
+          "authorName": "Ulrich Sax",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Matthias Schulze"
+          "authorName": "Matthias Schulze",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Claudia Schupp"
+          "authorName": "Claudia Schupp",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Florian Schwarz"
+          "authorName": "Florian Schwarz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carolina Schwedhelm"
+          "authorName": "Carolina Schwedhelm",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Stefan Strathmann"
+          "authorName": "Stefan Strathmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dagmar Waltemath"
+          "authorName": "Dagmar Waltemath",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Hannes Wuensche"
+          "authorName": "Hannes Wuensche",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Atinkut A. Zeleke"
+          "authorName": "Atinkut A. Zeleke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1491,7 +1990,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006472531"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006472531",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006472531"
   },
@@ -1505,19 +2008,34 @@
       ],
       "author": [
         {
-          "authorName": "Julia Zimmer"
+          "authorName": "Julia Zimmer",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Laura Hartog"
+          "authorName": "Laura Hartog",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dirk Oetting"
+          "authorName": "Dirk Oetting",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Henri Poentynen"
+          "authorName": "Henri Poentynen",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Mathias Dietz"
+          "authorName": "Mathias Dietz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1567,7 +2085,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483142"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483142",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006483142"
   },
@@ -1581,10 +2103,16 @@
       ],
       "author": [
         {
-          "authorName": "Julia Fuerst"
+          "authorName": "Julia Fuerst",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1622,7 +2150,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483992"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483992",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006483992"
   },
@@ -1636,10 +2168,16 @@
       ],
       "author": [
         {
-          "authorName": "Julia Fuerst"
+          "authorName": "Julia Fuerst",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1677,7 +2215,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483993"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483993",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006483993"
   },
@@ -1691,10 +2233,16 @@
       ],
       "author": [
         {
-          "authorName": "Julia Fuerst"
+          "authorName": "Julia Fuerst",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1732,7 +2280,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483994"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483994",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006483994"
   },
@@ -1746,10 +2298,16 @@
       ],
       "author": [
         {
-          "authorName": "Julia Fuerst"
+          "authorName": "Julia Fuerst",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1787,7 +2345,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483995"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006483995",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006483995"
   },
@@ -1801,40 +2363,76 @@
       ],
       "author": [
         {
-          "authorName": "Beatrix Adam"
+          "authorName": "Beatrix Adam",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Adam Basha"
+          "authorName": "Adam Basha",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Tilman Brodmeier"
+          "authorName": "Tilman Brodmeier",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Michael Cop"
+          "authorName": "Michael Cop",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Catriona Eschke"
+          "authorName": "Catriona Eschke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Corinna Feeken"
+          "authorName": "Corinna Feeken",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Dorit Jerger"
+          "authorName": "Dorit Jerger",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Nicole Jung"
+          "authorName": "Nicole Jung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Carolin Leister"
+          "authorName": "Carolin Leister",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Birte Lindstaedt"
+          "authorName": "Birte Lindstaedt",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Florian Rhiem"
+          "authorName": "Florian Rhiem",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Rose"
+          "authorName": "Thomas Rose",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1884,7 +2482,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006511159"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006511159",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006511159"
   },
@@ -1898,13 +2500,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -1969,7 +2580,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526035"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526035",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526035"
   },
@@ -1983,13 +2598,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2054,7 +2678,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526036"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526036",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526036"
   },
@@ -2068,13 +2696,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2139,7 +2776,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526037"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526037",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526037"
   },
@@ -2153,13 +2794,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2224,7 +2874,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526038"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526038",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526038"
   },
@@ -2238,13 +2892,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2309,7 +2972,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526039"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526039",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526039"
   },
@@ -2323,13 +2990,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2394,7 +3070,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526040"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526040",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526040"
   },
@@ -2403,13 +3083,22 @@
       "title": "EmiMin Emission dataset D (NH3, CO2, CH4, N2O) from a natural ventilated dairy cattle cubicle housing with slatted floor equipped with rubber inserts and emission reducing slit sealing flaps",
       "author": [
         {
-          "authorName": "Manfred Trimborn"
+          "authorName": "Manfred Trimborn",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Veronika Ebertz"
+          "authorName": "Veronika Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Peter Ebertz"
+          "authorName": "Peter Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2473,11 +3162,20 @@
         }
       ],
       "productionDate": "2023",
-      "distributionDate": "2023"
+      "distributionDate": "2023",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526085"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526085",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526085"
   },
@@ -2486,13 +3184,22 @@
       "title": "EmiMin Emission dataset C (NH3, CO2, CH4, N2O) from a natural ventilated dairy cattle cubicle housing with slatted floor equipped with rubber inserts and emission reducing slit sealing flaps",
       "author": [
         {
-          "authorName": "Manfred Trimborn"
+          "authorName": "Manfred Trimborn",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Veronika Ebertz"
+          "authorName": "Veronika Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Peter Ebertz"
+          "authorName": "Peter Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2556,11 +3263,20 @@
         }
       ],
       "productionDate": "2023",
-      "distributionDate": "2023"
+      "distributionDate": "2023",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526086"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526086",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526086"
   },
@@ -2574,16 +3290,28 @@
       ],
       "author": [
         {
-          "authorName": "Manfred Trimborn"
+          "authorName": "Manfred Trimborn",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Veronika Ebertz"
+          "authorName": "Veronika Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Peter Ebertz"
+          "authorName": "Peter Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Wolfgang Buescher"
+          "authorName": "Wolfgang Buescher",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2648,7 +3376,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526089"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526089",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526089"
   },
@@ -2662,22 +3394,40 @@
       ],
       "author": [
         {
-          "authorName": "Florian Buerger"
+          "authorName": "Florian Buerger",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Martim Dias Gomes"
+          "authorName": "Martim Dias Gomes",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Nica Gutu"
+          "authorName": "Nica Gutu",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Adri\u00e1n Granada"
+          "authorName": "Adri\u00e1n Granada",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "No\u00e9mie Moreau"
+          "authorName": "No\u00e9mie Moreau",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Katarzyna Bozek"
+          "authorName": "Katarzyna Bozek",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2733,7 +3483,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526608"
+      "sourceDatasetURI": "https://doi.org/10.4126/FRL01-006526608",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.4126/FRL01-006526608"
   },
@@ -2747,16 +3501,28 @@
       ],
       "author": [
         {
-          "authorName": "Francois du Toit"
+          "authorName": "Francois du Toit",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Marina Rautenbach"
+          "authorName": "Marina Rautenbach",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "David van Niekerk"
+          "authorName": "David van Niekerk",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Jacob Snoep"
+          "authorName": "Jacob Snoep",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2814,7 +3580,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6407998"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6407998",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6407998"
   },
@@ -2828,10 +3598,16 @@
       ],
       "author": [
         {
-          "authorName": "Kathrin Grahmann"
+          "authorName": "Kathrin Grahmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Kristin Meier"
+          "authorName": "Kristin Meier",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2871,7 +3647,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6484032"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6484032",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6484032"
   },
@@ -2885,13 +3665,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -2952,7 +3741,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525984"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525984",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525984"
   },
@@ -2966,13 +3759,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3033,7 +3835,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525985"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525985",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525985"
   },
@@ -3047,13 +3853,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3114,7 +3929,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525986"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525986",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525986"
   },
@@ -3128,13 +3947,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3195,7 +4023,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525987"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525987",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525987"
   },
@@ -3209,13 +4041,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3276,7 +4117,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525988"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525988",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525988"
   },
@@ -3290,13 +4135,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3357,7 +4211,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525994"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525994",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525994"
   },
@@ -3371,13 +4229,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3438,7 +4305,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525995"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525995",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525995"
   },
@@ -3452,13 +4323,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3519,7 +4399,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525996"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525996",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525996"
   },
@@ -3533,13 +4417,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3600,7 +4493,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525997"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525997",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525997"
   },
@@ -3614,13 +4511,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3681,7 +4587,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525998"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6525998",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6525998"
   },
@@ -3695,13 +4605,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3762,7 +4681,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526004"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526004",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526004"
   },
@@ -3776,13 +4699,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3843,7 +4775,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526005"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526005",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526005"
   },
@@ -3857,13 +4793,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -3924,7 +4869,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526006"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526006",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526006"
   },
@@ -3938,13 +4887,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4005,7 +4963,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526007"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526007",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526007"
   },
@@ -4019,13 +4981,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4086,7 +5057,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526008"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526008",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526008"
   },
@@ -4100,13 +5075,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4167,7 +5151,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526015"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526015",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526015"
   },
@@ -4181,13 +5169,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4248,7 +5245,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526016"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526016",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526016"
   },
@@ -4262,13 +5263,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4329,7 +5339,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526017"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526017",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526017"
   },
@@ -4343,13 +5357,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4410,7 +5433,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526018"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526018",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526018"
   },
@@ -4424,13 +5451,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4491,7 +5527,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526019"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526019",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526019"
   },
@@ -4505,13 +5545,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4572,7 +5621,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526025"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526025",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526025"
   },
@@ -4586,13 +5639,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4653,7 +5715,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526026"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526026",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526026"
   },
@@ -4667,13 +5733,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4734,7 +5809,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526027"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526027",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526027"
   },
@@ -4748,13 +5827,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4815,7 +5903,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526028"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526028",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526028"
   },
@@ -4829,13 +5921,22 @@
       ],
       "author": [
         {
-          "authorName": "Lilly Wokel"
+          "authorName": "Lilly Wokel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eva Gallmann"
+          "authorName": "Eva Gallmann",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Anita Kapun"
+          "authorName": "Anita Kapun",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4896,7 +5997,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526029"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526029",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526029"
   },
@@ -4910,25 +6015,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -4992,7 +6118,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526049"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526049",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526049"
   },
@@ -5006,25 +6136,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5088,7 +6239,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526050"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526050",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526050"
   },
@@ -5102,25 +6257,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5184,7 +6360,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526051"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526051",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526051"
   },
@@ -5198,25 +6378,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5280,7 +6481,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526052"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526052",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526052"
   },
@@ -5294,25 +6499,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5376,7 +6602,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526053"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526053",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526053"
   },
@@ -5390,25 +6620,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5472,7 +6723,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526054"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526054",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526054"
   },
@@ -5486,25 +6741,46 @@
       ],
       "author": [
         {
-          "authorName": "David Janke"
+          "authorName": "David Janke",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Thomas Amon"
+          "authorName": "Thomas Amon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Aditya Rawat"
+          "authorName": "Aditya Rawat",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Moustapha Doumbia"
+          "authorName": "Moustapha Doumbia",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Christian Ammon"
+          "authorName": "Christian Ammon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Sabrina Hempel"
+          "authorName": "Sabrina Hempel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Diliara Willink"
+          "authorName": "Diliara Willink",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5565,7 +6841,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526055"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526055",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526055"
   },
@@ -5574,10 +6854,16 @@
       "title": "EmiMin Emission dataset B (NH3, CO2, CH4, N20) from naturally-ventilated fattening pig housing with urease inhibitor application in combination with an underfloor scraper in multi area pens with slatted and solid floor and semi liquid manure system, urease inhibitor dose 50 mg/m\u00b2",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5634,11 +6920,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526063"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526063",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526063"
   },
@@ -5647,10 +6942,16 @@
       "title": "EmiMin Emission dataset A (NH3, CO2, CH4, N20) from hybrid-ventilated fattening pig housing with urease inhibitor application in combination with an underfloor scraper in multi area pens with slatted and solid floor and semi liquid manure system, urease inhibitor dose 50 mg/m\u00b2",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5707,11 +7008,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526064"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526064",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526064"
   },
@@ -5725,10 +7035,16 @@
       ],
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5789,7 +7105,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526065"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526065",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526065"
   },
@@ -5798,10 +7118,16 @@
       "title": "EmiMin Emission dataset D (NH3, CO2, CH4, N20) from natural-ventilated fattening pig housings with an underfloor scraper in multi area pens with slatted and solid floor and semi liquid manure system",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5858,11 +7184,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526069"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526069",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526069"
   },
@@ -5871,10 +7206,16 @@
       "title": "EmiMin Emission dataset C (NH3, CO2, CH4, N20) from natural-ventilated fattening pig housings with an underfloor scraper in multi area pens with slatted and solid floor and semi liquid manure system",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -5931,11 +7272,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526070"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526070",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526070"
   },
@@ -5944,10 +7294,16 @@
       "title": "EmiMin Emission dataset B (NH3, CO2, CH4, N20) from hybrid-ventilated fattening pig housings with an underfloor scraper in multi area pens with slatted and solid floor and semi liquid manure system",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6004,11 +7360,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526071"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526071",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526071"
   },
@@ -6017,10 +7382,16 @@
       "title": "EmiMin Emission dataset A (NH3, CO2, CH4, N20) from hybrid-ventilated fattening pig housings with an underfloor scraper in multi area pens with slatted and solid floor and semi liquid manure system",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6077,11 +7448,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526072"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526072",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526072"
   },
@@ -6095,10 +7475,16 @@
       ],
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6159,7 +7545,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526073"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526073",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526073"
   },
@@ -6168,10 +7558,16 @@
       "title": "EmiMin Emission dataset B (NH3, CO2, CH4, N20) from natural-ventilated fattening pig housings with urease inhibitor application in multi area pens with solid floor and solid manure system, urease inhibitor dose 50 mg/m\u00b2",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6228,11 +7624,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526079"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526079",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526079"
   },
@@ -6241,10 +7646,16 @@
       "title": "EmiMin Emission dataset A (NH3, CO2, CH4, N20) from natural-ventilated fattening pig housings with urease inhibitor application in multi area pens with solid floor and solid manure system, urease inhibitor dose 50 mg/m\u00b2",
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6301,11 +7712,20 @@
         }
       ],
       "productionDate": "2024",
-      "distributionDate": "2024"
+      "distributionDate": "2024",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526080"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526080",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526080"
   },
@@ -6319,10 +7739,16 @@
       ],
       "author": [
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6383,7 +7809,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526081"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526081",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526081"
   },
@@ -6392,13 +7822,22 @@
       "title": "EmiMin Emission dataset B (NH3, CO2, CH4, N2O) from a natural ventilated dairy cattle cubicle housing with slatted floor equipped with rubber inserts and emission reducing slit sealing flaps",
       "author": [
         {
-          "authorName": "Manfred Trimborn"
+          "authorName": "Manfred Trimborn",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Veronika Ebertz"
+          "authorName": "Veronika Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Peter Ebertz"
+          "authorName": "Peter Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6458,11 +7897,20 @@
         }
       ],
       "productionDate": "2023",
-      "distributionDate": "2023"
+      "distributionDate": "2023",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526087"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526087",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526087"
   },
@@ -6471,13 +7919,22 @@
       "title": "EmiMin Emission dataset A (NH3, CO2, CH4, N2O) from a natural ventilated dairy cattle cubicle housing with slatted floor equipped with rubber inserts and emission reducing slit sealing flaps",
       "author": [
         {
-          "authorName": "Manfred Trimborn"
+          "authorName": "Manfred Trimborn",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Veronika Ebertz"
+          "authorName": "Veronika Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Peter Ebertz"
+          "authorName": "Peter Ebertz",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6537,11 +7994,20 @@
         }
       ],
       "productionDate": "2023",
-      "distributionDate": "2023"
+      "distributionDate": "2023",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "No description available"
+        }
+      ]
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526088"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526088",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526088"
   },
@@ -6555,13 +8021,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6622,7 +8097,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526095"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526095",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526095"
   },
@@ -6636,13 +8115,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6703,7 +8191,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526096"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526096",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526096"
   },
@@ -6717,13 +8209,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6784,7 +8285,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526097"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526097",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526097"
   },
@@ -6798,13 +8303,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6865,7 +8379,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526098"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526098",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526098"
   },
@@ -6879,13 +8397,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -6946,7 +8473,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526099"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526099",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526099"
   },
@@ -6960,13 +8491,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -7027,7 +8567,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526100"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526100",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526100"
   },
@@ -7041,13 +8585,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -7108,7 +8661,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526101"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526101",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526101"
   },
@@ -7122,13 +8679,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -7189,7 +8755,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526102"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526102",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526102"
   },
@@ -7203,13 +8773,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -7270,7 +8849,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526103"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526103",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526103"
   },
@@ -7284,13 +8867,22 @@
       ],
       "author": [
         {
-          "authorName": "Henning Schulte"
+          "authorName": "Henning Schulte",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Eberhard Hartung"
+          "authorName": "Eberhard Hartung",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Frauke Hagenkamp-Korth"
+          "authorName": "Frauke Hagenkamp-Korth",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -7351,7 +8943,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526104"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526104",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526104"
   },
@@ -7365,28 +8961,52 @@
       ],
       "author": [
         {
-          "authorName": "Abanoub Abdelmalak"
+          "authorName": "Abanoub Abdelmalak",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Gabriel Schneider"
+          "authorName": "Gabriel Schneider",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Heike Riegler"
+          "authorName": "Heike Riegler",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Kristin Meier"
+          "authorName": "Kristin Meier",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Xenia Specka"
+          "authorName": "Xenia Specka",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Nikolai Svoboda"
+          "authorName": "Nikolai Svoboda",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Juliane Fluck"
+          "authorName": "Juliane Fluck",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Murtuza Husain"
+          "authorName": "Murtuza Husain",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -7432,7 +9052,11 @@
     },
     "generalExtended": {
       "license": "https://creativecommons.org/licenses/by/4.0",
-      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526458"
+      "sourceDatasetURI": "https://repository.publisso.de/resource/frl:6526458",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "frl:6526458"
   }

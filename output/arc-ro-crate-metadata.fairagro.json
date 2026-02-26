@@ -27,6 +27,11 @@
         "datasetContactEmail": "fairagro@demo.org"
       }
     ],
+    "keyword": [
+      {
+        "keywordValue": "{'keywordValue': 'Unknown'}"
+      }
+    ],
     "subject": [
       "Agricultural Sciences"
     ],
@@ -41,29 +46,24 @@
   },
   "generalExtended": {
     "license": "ALL RIGHTS RESERVED BY THE AUTHORS",
-    "sourceDatasetURI": "./"
+    "sourceDatasetURI": "./",
+    "sourceRDI": {
+      "sourceRDIName": "FAIRagro",
+      "sourceRDIURI": "https://fairagro.net"
+    }
   },
   "crop": {
     "crop": [
       {
-        "cropSpecies": {
-          "value": "Solanum tuberosum",
-          "aiGenerated": false
-        },
-        "cropPestName": {
-          "value": "Potyvirus yituberosi",
-          "aiGenerated": false
-        }
+        "cropSpecies": "Solanum tuberosum",
+        "cropPestName": "Potyvirus yituberosi"
       }
     ]
   },
   "sensor": {
     "sensor": [
       {
-        "sensorSensorType": {
-          "value": "digital camera",
-          "aiGenerated": false
-        }
+        "sensorSensorType": "digital camera"
       }
     ]
   },

@@ -1,0 +1,3309 @@
+[
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP21aRL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2026-15",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2026",
+      "distributionDate": "2026"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2026-15",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2026-15"
+  },
+  {
+    "citation": {
+      "title": "LULUCF database (submission 2025)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "In the UN Framework Convention on Climate Change (UNFCCC) Germany has committed to the mitigation of emissions of greenhouse gases. The convention as well as the EU LULUCF Regulation (Regulation (EU) 2018/841) requires annual reporting of greenhouse gas emissions. The database contains input data and results of the calculation of GHG emissions and carbon sequestration in the Land Use, Land-Use Change and Forestry (LULUCF) sector in the years 1990 - 2023. The data is on a 100 m x 100 m grid over Germany."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Fuss, Roland",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gensior, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Stuemer, Wolfgang",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Laggner, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Adam, Sascha",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Drexler, Sophie",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Piyada, Arndt",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Scherstjanoi, Marc",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Rueter, Sebastian",
+          "authorAffiliation": "Thuenen Institut fuer Holzforschung",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/DATA20250122144856-0",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00104459",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025-03-15",
+      "distributionDate": "2025-03-15"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/DATA20250122144856-0",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/DATA20250122144856-0"
+  },
+  {
+    "citation": {
+      "title": "LULUCF database (2024, all reporting)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "In the UN Framework Convention on Climate Change (UNFCCC) Germany has committed to the mitigation of emissions of greenhouse gases. The convention as well as the EU LULUCF Regulation (Regulation (EU) 2018/841) requires annual reporting of greenhouse gas emissions. The database contains input data and results of the calculation of GHG emissions and carbon sequestration in the Land Use, Land-Use Change and Forestry (LULUCF) sector in the years 1990 - 2022, and preliminary emission estimations for 2023 (as reported according to the Federal Climate Change Act) as well as projections of future emissions until 2050. The data is on a 100 m x 100 m grid over Germany."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Fuss, Roland",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gensior, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Stuemer, Wolfgang",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Laggner, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Adam, Sascha",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Drexler, Sophie",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-22",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00100026",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025-03-15",
+      "distributionDate": "2025-03-15"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-22",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-22"
+  },
+  {
+    "citation": {
+      "title": "Datensatz: Dynamik und raeumliche Muster forstlicher Standorte in Deutschland. Ergebnisse der Bodenzustandserhebung im Wald 2006 bis 2008",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Der Zustand der Waldboeden hat begonnen sich seit der ersten Bodenzustandserhebung (BZE I) in den 1990er Jahren langsam zu erholen. Ursache hierfuer ist in erster Linie die Minderung der atmosphaerischen Eintraege insbesondere von Schwefel (S) und Blei (Pb) im Rahmen der grenzueberschreitenden Massnahmen zur Luftreinhaltung. Zudem sind viele Boeden aus Gruenden des Bodenschutzes gekalkt worden und in den letzten 20 Jahren hat ein Umbau von Nadelwald-Reinbestaenden zu Laub- und Mischbestaenden stattgefunden. Beide Massnahmen haben ebenfalls insgesamt positive Wirkungen auf den Waldboden. Basis fuer die Auswertungen der BZE waren deutschlandweit 1.900 Inventurpunkte. Die Aussenaufnahmen der zweiten Bodenzustandserhebung (BZE II) fand von 2006 bis 2008, die Analytik von 2009 bis 2010 statt. Die flaechendeckende Oberbodenversauerung und Basenverarmung, die bei der BZE I festgestellt wurden, sind in dem Masse nicht mehr zu beobachten. Der Saeure-Base-Zustand und die Naehrstoffversorgung der Oberboeden haben sich im Mittel verbessert. Insbesondere gekalkte Standorte und jene mit Laubbaumbestockung weisen deutliche Erholungstendenzen auf. Die Ergebnisse der BZE II zeigen, dass seit der ersten Inventur ein Anstieg der pH\u2011Werte vor allem in den oberen Bodenschichten stattfand. Die S\u2011Vorraete im Auflagehumus sind signifikant zurueckgegangen. Die Basensaettigung in 0\u20115 cm Tiefe hat im Mittel zugenommen, waehrend sie in den tieferen Bodenschichten ab 10 cm Tiefe signifikant abgenommen hat. Eine fortschreitende Versauerung des Unterbodens tritt in besonderem Masse fuer ungekalkte, versauerungsempfindliche Standorte auf. Die mittleren Vorraete an koenigswasserextrahierbarem Calcium (Ca) und Magnesium (Mg) sowie an austauschbarem Calcium, Magnesium und Kalium (K) weisen regionale Unterschiede auf, die in erster Linie vom Ausgangssubstrat bestimmt werden sowie von der Kalkung. Eine regionale Besonderheit stellt die bis Anfang der 1990er Jahre durch Flugascheeintraege ausgeloeste Dynamik der basischen Kationen in Teilen des Nordostdeutschen Tieflands dar, die zwischen BZE I und BZE II einem verstaerkten Austrag unterlagen. Eine Herausforderung stellen die Stickstoff (N)\u2011Eintraege dar, die weiterhin hoch geblieben sind und zur Eutrophierung sowie Versauerung der Waldoekosysteme beitragen. Die Critical Loads fuer eutrophierenden N waren 2007 an 59 % der untersuchten Standorte ueberschritten. Im Vergleich zur BZE I nahmen die N\u2011Vorraete bundesweit und bezogen auf alle Bodenschichten (bis 60 cm Tiefe) um 12 % ab. Waehrend im Auflagehumus keine Veraenderung und im Oberboden (0\u201110 cm) sogar eine Zunahme erkennbar war, wurde eine erhebliche N\u2011Abnahme im Mineralboden ab 30 cm Tiefe beobachtet, die durch eine gesteigerte N\u2011Aufnahme im Baumbestand, einem hoeheren Nitrataustrag und bzw. oder durch gasfoermige N\u2011Verluste verursacht worden sein koennen. Die Waldernaehrung, der Kronenzustand und die Bodenvegetation deuten auf eine Ueberversorgung mit N hin. An etwa der Haelfte der Probepunkte sind Kiefer und Eiche mit N ueberversorgt. Fichte und Buche an etwa einem Viertel der Inventurpunkte. Bei allen vier Hauptbaumarten haben die N\u2011Gehalte der Nadeln und Blaetter in den letzten 20 Jahren zugenommen. Die S\u2011Gehalte haben ebenfalls abgenommen. Die Ernaehrung mit Ca, Mg und K ist ueberwiegend normal. Calcium- und Mg-Defizite konnten mit Hilfe der Kalkung behoben werden, es besteht jedoch das Risiko verringerter K\u2011Gehalte. Phosphordefizite bei Buche und Eiche (an 60 bzw. 38 % der Inventurpunkte) sollten in Zukunft mehr Aufmerksamkeit erhalten. Die Kiefer ist an Hauptnaehrelementen am besten und die Buche am schlechtesten ernaehrt. Die Zusammensetzung der Bodenvegetation haengt in erster Linie von der Naehrstoffvorraeten und dem pH-Wert ab. In Bezug auf Kohlenstoff (C) zeigen die Boeden hohe Speicherkapazitaet. Die Vorraete des Gesamtprofils (Auflagehumus und Mineralboden bis 90 cm Tiefe) belaufen sich im Mittel auf 117 t ha\u20111 (17 % im Auflagehumus und 58 % im Oberboden bis 30 cm). Somit sind Boeden noch vor der Biomasse des Bestands der groesste C-Pool der Waelder. Fuer das Gesamtprofil wurde eine jaehrliche Zunahme der C\u2011Vorraete von 0,75 t ha\u20111 von BZE I zu BZE II beobachtet. Positive Aenderungsraten fanden sich besonders im Auflagehumus und im Oberboden. Insbesondere im Norddeutschen Tiefland lagen hohe C\u2011Zunahmen vor. Die C\u2011Speicherung im Auflagehumus ist fuer Nadelbaumarten hoeher als fuer Laubbaumarten. Mit der Kalkung erhoeht sich der im Mineralboden gespeicherte C, waehrend der Auflagehumus C verliert. Bezogen auf das Gesamtprofil fuehrt die Kalkung zu einer staerkeren C-Zunahme als auf ungekalkten Standorten. Infolge der C-Zunahme und N-Abnahme hat sich das C/N\u2011Verhaeltnis signifikant geweitet. Die Schwermetallgehalte der Boeden werden sowohl durch den geogenen Grundgehalt des Ausgangsgesteins als auch durch atmogene Eintraege bestimmt. Der atmogene Eintrag hat im Zeitraum zwischen BZE I und BZE II abgenommen, was bei gleichzeitiger Verlagerung der Schwermetalle in den Oberboden zu einer Abreicherung im Auflagehumus gefuehrt hat. Dieser Effekt wird durch die Kalkung tendenziell verstaerkt. Einzig Arsen (13 % der Inventurpunkte) und Pb (22 %) weisen eine nennenswerte Ueberschreitung der Vorsorgewerte auf. Belastet sind vor allem Bergbauregionen sowie Gebiete mit erhoehten atmogenen Eintraegen. Die abgeleiteten Zeitreihen von Trockenstressindizes und der pflanzenverfuegbaren Bodenwasserspeicherfuellung zeigen, dass seit 1990 die Intensitaet des Wassermangels zugenommen hat und gut mit Wasser versorgte Jahre nur noch sporadisch auftreten. Die Auswertungen zum Kronenzustand bestaetigen, dass die direkten Wirkungen der S\u2011Eintraege, die bis in die 1980er Jahre erheblich zu hohen Kronenverlichtungen beigetragen haben, zurueckgetreten und in den letzten beiden Jahrzehnten unter den gegebenen Vorbelastungen der Waldboeden die Folgen des Klimawandels (Trockenstress, Insektenbefall) in den Vordergrund getreten sind. Auch wenn sich der Zustand des Waldbodens langsam verbessert, sollte ein weiterer Rueckgang der Bodenversauerung und von Schadstoffeintraegen regional differenziert angestrebt werden, um unerwuenschte Austraege, z.B. von Nitrat ins Sicker- und Grundwasser, zu vermeiden und Stressfaktoren fuer die Waldbaeume zu verringern. Besondere Prioritaet gilt der Minderung von N\u2011Eintraegen (insbesondere von Ammonium-N). Eine Bodenschutzkalkung von Standorten mit eintragsbedingter Versauerung ist weiterhin empfehlenswert."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Unknown",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-247",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "TI-Atlas",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2026",
+      "distributionDate": "2026"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-247",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-247"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20aER",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-167",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-167",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-167"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20aEL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-166",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-166",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-166"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP21aRR",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-243",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-243",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-243"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20fHL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-242",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-242",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-242"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20dEL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-241",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-241",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-241"
+  },
+  {
+    "citation": {
+      "title": "Biotop- und Nutzungstypenkartierung fuer das Projekt FInAL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Die Biotop- und Nutzungstypenkartierung ist eine detaillierte und flaechendeckende Kartierung der drei 900 ha grossen Landschaftslabore (in denen durch insektenfoerdernde Massnahmen eine Transformation in Richtung insektenfreundlicher Gestaltung der Agrarlandschaft angestrebt wird) und der zugehoerigen Referenzlandschaften (in raeumlicher Naehe gelegene, moeglichst aehnliche Landschaften, die als Referenz zu den Landschaftslaboren dienen) des Projekts FInAL (Foerderung von Insekten in Agrarlandschaften durch integrierte Anbausysteme mit nachwachsenden Rohstoffen - Ein wissenschaftlich begleitetes Modell- und Demonstrationsvorhaben in Landschaftslaboren, siehe auch: https://www.final-projekt.de/). Sie basiert auf Drohnen-Luftaufnahmen aus den Jahren 2020 bis 2022 (siehe Datensatz \u201eLuftbildbefliegungen fuer das Projekt FInAL'). Sie erfolgte in Anlehnung an die \u201eSystematik der Biotoptypen- und Nutzungstypenkartierung (Kartieranleitung)' (Bundesamt fuer Naturschutz 1995)."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Bethwell, Claudia",
+          "authorAffiliation": "Leibniz-Zentrum fuer Agrarlandschaftsforschung (ZALF) e. V.",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-147",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00099104",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025-09",
+      "distributionDate": "2025-09"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-147",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-147"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20cER",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-240",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-240",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-240"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20cEL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-239",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-239",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-239"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20bER",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-238",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-238",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-238"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP20bEL",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-237",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-237",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-237"
+  },
+  {
+    "citation": {
+      "title": "PV-Freiflaechenanlagen in der Landwirtschaft - Projektierer",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Geschaeftsgeheimnisse Der Datensatz wird auf Anfrage fuer Forschungszwecke zur Verfuegung gestellt. Eine Datennutzungsvereinbarung wird abgeschlossen. Der Datensatz enthaelt Rohdaten zum Investitionsbedarf verschiedener Anlagenteile und technische Spezifikationen fuer verschiedene PV-FFA und Agri-PV Anlagen von verschiedenen Projektierern und Anlagenherstellern. Die Angaben sind vertraulich und koennen nur aggregiert und anonymisiert veroeffentlicht werden."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Boehm, Jonas",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "de Witte, Thomas",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-125",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00100444",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-125",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-125"
+  },
+  {
+    "citation": {
+      "title": "PV-Freiflaechenanlagen in der Landwirtschaft - Wirtschaftlichkeit",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Geschaeftsgeheimnisse Der Datensatz wird auf Anfrage fuer Forschungszwecke zur Verfuegung gestellt. Eine Datennutzungsvereinbarung wird abgeschlossen. Der Datensatz enthaelt Daten zum Investitionsbedarf, den Stromertraegen, den Stromgestehungskosten sowie der Rentabilitaet unterschiedlicher Photovoltaikkonzepte auf landwirtschaftlichen Flaechen."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Boehm, Jonas",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "de Witte, Thomas",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-124",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00098443",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-124",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-124"
+  },
+  {
+    "citation": {
+      "title": "LULUCF database (estimation 2025, climate change act)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "In the UN Framework Convention on Climate Change (UNFCCC) Germany has committed to the mitigation of emissions of greenhouse gases. The convention as well as the EU LULUCF Regulation (Regulation (EU) 2018/841) requires annual reporting of greenhouse gas emissions. The LULUCF regulation and the Federal Climate Change Act require also reporting a short-term estimate for the previous year. The database contains input data and results of the calculation of GHG emissions and carbon sequestration in the Land Use, Land-Use Change and Forestry (LULUCF) sector in the years 1990 - 2024 on which the short-term estimate for 2024 is based on. The data is on a 100 m x 100 m grid over Germany."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Fuss, Roland",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gensior, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Stuemer, Wolfgang",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Laggner, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Adam, Sascha",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Drexler, Sophie",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Piyada, Arndt",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Scherstjanoi, Edgar",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Rueter, Sebastian",
+          "authorAffiliation": "Thuenen Institut fuer Holzforschung",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-20",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00104458",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-20",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-20"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2018",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-228",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-228",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-228"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2023",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-233",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-233",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-233"
+  },
+  {
+    "citation": {
+      "title": "Forest Land Use Potential and Ecosystem Service Recovery in Africa (FLESRA)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Forest and Landscape Restoration has gained momentum as an approach to help reverse forest degradation and deforestation. However, it has been hindered by a lack of proper impact assessment and monitoring to enable timely adaptive management decision-making to ensure the success of projects. Scientific studies on forest restoration are often subject-specific with a focus on socioeconomic (profitability and markets), governance processes (stakeholder mapping, enabling policy environment-institutions), or biophysical settings (silviculture and site conditions among disturbance gradients), often ignoring the need to integrate all the dimensions. This dataset was developed as part of the FLESRA project (see link), which sought to empirically combine these three dimensions, in a geographically diverse Ethiopia, to help develop tools and recommendations for the successful decision-making, implementation and monitoring of forest and landscape restoration (FLR) initiatives with the potential to expand to the entire sub-Saharan Africa (SSA). The project focused on the interface of both site level (dominant use, single stakeholder, on-site effects-ecosystem services) and landscape level (enabling policy environment, multiple actors, beliefs-values-norms, and off-site effects-ecosystem services), using a combination of tools and methodologies. At the site level (WP 1-2), we analysed restrictions towards efficiency and economic viability of forest restoration strategies using cost-benefit analysis and the effect of soil, environmental variables, and management on the performance of various silvicultural strategies using dominant land use as reference. At the landscape level, we analysed potential coalitions, trade-offs, and synergies of multiple ecosystem services, core values, beliefs, and norms of multiple stakeholders across scales (WP 3). The dataset is tailored to be used by government bodies, finance institutions, NGOs, local community organisations, and research institutions to aid in decision-making towards cost-effective forest land restoration transition approaches and serve as a baseline for FLR monitoring in Ethiopia. Work packages in detail and justification In detail, the work packages are: WP 1: Silviculture (Institute of Forest Ecosystems _WO) WP 2: Environmental Cost-Benefit structures of restoration strategies (Institute of Forestry-WF) WP 3: Governance processes- stakeholder settings (Institute of Forestry-WF) Description of datasets per work package Work package 1: The forest inventory dataset includes measured vegetation attributes from 1,521 plots in several sites of woodlots, agroforestry, boundary plantings, natural forests, grazing lands, plantations, and exclosures, including assisted natural regenerated sites. The attributes are as detailed below: Site context information including site_id, name, location (region, district, village), assessment date, area, ownership, support, participants, restoration goals, planting year, stand age, former and surrounding land uses, restoration type, dominant species, seedling sources, laborers, work-days, silviculture activities, soil type, and other notes At plot-level assessment (seedlings and saplings) site_id, plot_id, species_id (local and scientific), and individual counts At plot-level assessment (trees) measurements of tree heights (m), diameter at breast height (DBH, cm), species_id, site_id, plot_id. The soil dataset is from 337 plots in the above restoration strategies includes site_id, plot_id, soil depth, and target soil variables (physical and chemical parameters like bulk density, soil organic carbon, total nitrogen, cation concentration, pH, sand, silt, and clay contents among others). Data was collected at two depths: 0-10 cm and 10-30 cm. The forest inventory and soil datasets also include plot coordinates. All the information for the study regions is currently captured in CSV format. Work package 2: FLESRA_household_assets_wellbeing_Dataset: The dataset (in Excel) contains information on 1,537 households from 30 villages in Ethiopia's restoration landscapes. The attributes are based on the livelihood and well-being evaluation framework. The dataset includes (per respective sheet) household location, household head information, household restoration goals, household farm physical equipment, household non-farm physical assets, household social assets (group memberships), household livestock assets, household remittances, household incentives and subsidies, subjective well-being, impact of restoration restrictions, ecosystem service ranks per respective land use, and challenges and barriers to restoration. The household parameters are linked with the unique household ID, similar to that of the household patch level dataset. FLESRA_household_patch_level_Dataset: The dataset (in Excel) contains information on 5,645 patches owned by 1,537 households in the respective restoration landscapes in Ethiopia. The characterization of the farm system is based on the farm systems analytical framework of a peasant farm household. Within the farm system analysis, the farm system includes the management of numerous farm patches by an individual farmer. These patches represent land use with either only crop, pasture for grazing, fallow, tree-based systems, and mixed land cover (crops mixed with trees, pasture mixed with trees). The database includes patch location attributes, inputs (establishment and labour costs), and outputs(benefits). Note: all patches correspond to specific household IDs, so patch-level variables can easily be matched with the household_assets_wellbeing dataset. FLESRA_household_level_WTP_Dataset: The dataset (in Excel) contains the Willingness to Pay (WTP) of 2,616 households for the restoration of degraded landscapes in Ethiopia. The data includes: household location, household head general information, importance and sources of threats attached to forests, hypothetical restoration project including preferred restoration activities, bid values for restoration, and stated amount of willingness to pay for FLR upscaling. FLESRA_institutional_patch_level_Dataset: The dataset (in Excel) contains information on 281 patches owned by 134 actors (enterprises, schools, church-mosque, state, community, and NGOs) in Ethiopia. The data includes: Actor general information with actor_ids, actor category and location. Patch level information with patch_ids, patch size, ecological zones, perceived soil traits (fertility, drainage, and erosion), patch distances, and ownership information. Costs mainly include establishment, transaction, labour, and costs spent on tools. Stated output information, which includes market type, harvested quantity, and unit cost per strategy and product type. Note: all components are linked with a similar actor-id. Work package 3: FLESRA_actor_network_VBN_Dataset includes: Dataset (in Excel) contains information of 314 actors interviewed at different jurisdictional levels, i.e., federal, district, and village levels (forest landscapes) in Ethiopia. The data is based on various indicators obtained from various theoretical frameworks. The actor network includes actor_id and flow of financial, information, equipment, seeds/seedlings, and authority. Actor resources and value-beliefs-norms include actor_ids, actor category, scale of operation, role in forest restoration, actor invested and planned resources, restoration activities, and finances. Actor current and intended future restoration activities, actor perceived ecosystem services (ecosystem valued attributes), value orientations, actor preferences and priorities (management activities-resource extraction and resource use and access), actor beliefs (environment concern), norm, enabling policy environment, and restoration challenges of 489 interviewed actors. All attribute codes are explained under the sheet: variable dictionary."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Ahimbisibwe, Vianny",
+          "authorAffiliation": "Thuenen Institute of Forestry",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Aleeje, Alfred",
+          "authorAffiliation": "Thuenen Institute of Forest Ecosystems",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Bolte, Andreas",
+          "authorAffiliation": "Thuenen Institute of Forest Ecosystems",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Cheru, Ephrem Yakob",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Dieter, Matthias",
+          "authorAffiliation": "Thuenen Institute of Forestry",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Elsasser, Peter",
+          "authorAffiliation": "Thuenen Institute of Forestry",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Fischer, Richard",
+          "authorAffiliation": "Thuenen Institute of Forestry",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Hoehl, Markus",
+          "authorAffiliation": "Thuenen Institute of Forest Ecosystems",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Humnessa, Tesfaye",
+          "authorAffiliation": "Ethiopian Forest Development",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Kassa, Habtemariam",
+          "authorAffiliation": "Centre for International Forestry Research, Addis Ababa, Addis Ababa, Ethiopia",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Merkeb, Yebaherlay",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Tolera, Busha Teshome",
+          "authorAffiliation": "Centre for International Forestry Research, Addis Ababa, Ethiopia",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Yilma, Zewdu",
+          "authorAffiliation": "Central Ethiopia Forest Development Center",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Zhunusova, Eliza",
+          "authorAffiliation": "Thuenen Institute of Forestry",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Guenter, Sven",
+          "authorAffiliation": "Thuenen Institute of Forestry",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-130",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "sperrarchiv_00108459",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "WO-2019-2331",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025-07-22",
+      "distributionDate": "2025-07-22"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-130",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-130"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2020",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-230",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-230",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-230"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2021",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-231",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-231",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-231"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2014",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-224",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-224",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-224"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2019",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-229",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-229",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-229"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2022",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-232",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-232",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-232"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2016",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-226",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-226",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-226"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2007 bis 2010",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-215",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-215",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-215"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2017",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-227",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-227",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-227"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2013",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-218",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-218",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-218"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2011",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-216",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-216",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-216"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2015",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-225",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-225",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-225"
+  },
+  {
+    "citation": {
+      "title": "Fotos von Gehoersteinen von Fischen aus Bodenfischsurveys und Proben der kommerziellen Fischerei - 2012",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Fuer die Bestandsabschaetzungen der kommerziell genutzten Bodenfischbestaende in der Ostsee liefert das Thuenen-Institut fuer Ostseefischerei jaehrlich die Altersdaten der beprobten Fische aus der deutschen Ostseefischerei an den internationalen Rat fuer Meeresforschung (ICES). Konkret geht es um Fische aus Bestaenden folgender Bodenfischarten: Dorsch, Flunder, Scholle, Kliesche, Steinbutt und Glattbutt; und ab 2024 auch Seezunge. Die Fische stammen hauptsaechlich aus dem BITS (Baltic International Survey) und aus Proben der kommerziellen Fischerei. Details zum BITS finden sich in der Metadatenbeschreibung des BITS. Die deutschen kommerziellen Bodenfisch-Fischereien in der Ostsee werden ganzjaehrig beprobt, indem regelmaessig unsortierte Fangproben aufgekauft werden. Diese werden im Institut nach fischereibiologischen Standardmethoden aufgearbeitet, einschliesslich der Entnahme der Gehoersteine (Otolithen), die traditionell zur Altersbestimmung der Fische verwendet werden. Die Gehoersteine werden aus der Schaedelkapsel der Fische entnommen, in der Regel wird das groesste Gehoerstein-Paar (genannt Sagitta) verwendet. Einer von beiden Otolithen geht in das Archiv. Der andere wird fuer die Altersbestimmung verwendet. Die Otolithen werden nach einem festen System so in Polyesterharz eingebettet, dass man sie entlang ihre aufgereihten Kernregionen schneiden kann. Dafuer haertet das Harz ca. 1 Woche aus. Dann wird mit einer Knochensaege eine 0,5 mm dicke Scheibe aus dem Kernbereich der entlang einer Linie aufgereihten Otolithen herausgeschnitten. Die in der Scheibe von links nach rechts aufgereihten Otolithenschnitte werden einzeln unter einem Mikroskop fotografiert. Die Fotos werden dann genutzt, um anhand der Abfolge hellerer und dunklerer Zonen in den einzelnen Otolithen nach festgelegten Regeln das Alter des Fisches zu bestimmen. Dabei wird auch die Zuordnung der einzelnen Jahresringe des Otolithen durch die sogenannte Altersleserin markiert, so dass gleichzeitig auch die Altersbestimmung durch die Altersleserin mit dokumentiert wird."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Rotzoll, Britta",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Albrecht, Cornelia",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Krumme, Uwe",
+          "authorAffiliation": "Thuenen-Institut fuer Ostseefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-217",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025",
+      "distributionDate": "2025"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-217",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-217"
+  },
+  {
+    "citation": {
+      "title": "Datensatz Biomassestudie",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Im Rahmen einer vom nova-Institut durchgefuehrten Studie modelliert das Thuenen-Institut fuer Waldwirtschaft als Unterauftragnehmer die Auswirkungen verschiedener Politiken und gesellschaftlicher Trends auf den Holzmarkt. Die Studie ist von der Renewable Carbon Initiative (RCI) und des Bio-based Industries Consortium (BIC) beauftragt. Der zentrale Forschungsauftrag der Konsortien lautet: Unter der Praemisse, dass der chemische Industriesektor eine vollstaendige Defossilisierung anstrebt, soll quantifiziert werden, welcher Anteil des Kohlenstoffinputs, den die chemische Industrien als Input benoetigen, im Jahr 2050 nachhaltig aus agrarischer und forstlicher Biomasse bereitgestellt werden kann. Fuer diesen Zweck werden ein Referenzszenario und zwei alternative Szenarien entworfen, die verschiedene zukuenftige Entwicklungspfade beschreiben. Die Szenarien betreffen sowohl den landwirtschaftlichen als auch den forstwirtschaftlichen Sektor. Die hier dargestellten Forstsektoranalysen untersuchen moegliche Entwicklungen zur Verfuegbarkeit forstbasierter Biomassepotentiale. Die Entwicklung der globalen Waldflaeche in den Szenarien wird normativ angepasst, sodass beispielweise die Entwaldung abnimmt. Das Thuenen-Institut fuer Waldwirtschaft nutzt zur Modellierung das Timber market Model for policy-Based Analysis (TiMBA), wobei angebots- und nachfrageseitig 19 Holz und holzbasierte Produkte in 180 Laendern bis zum Jahr 2050 simuliert werden. In enger Zusammenarbeit mit dem nova-Institut kalibriert das Thuenen-Institut fuer Waldwirtschaft das Model. Im Anschluss werden mit TiMBA verschiedene Szenarien simuliert, wobei die Eingangsdaten und Parameter von FAOstat[1], World Bank[2], FRA[3], IIASA-SSP[4], WTO[5], the fibre yearbook 2023[6] und Skoczinski et al. 2024[7] zum Einsatz kommen. Die Modellierungsergebnisse zeigen eine Erhoehung der Rohholzlieferung zwischen 2020 und 2050 um bis zu 38%. Die steigende Nachfrage nach holzbasierten Produkten, vom Schnittholz (bis zu +36%) bis zur Textilfaser (bis zu +447%), kann dadurch gedeckt werden. Trotz dieser starken, relativen Produktionssteigerungen bleiben holzbasierte Fasern und chemische Derivate, gemessen am Gesamtvolumen aller holzbasierten Sektoren, weiterhin Nischenprodukte. Steigende Bedarfe, insbesondere in sich neu bildendenden Energiemaerkten, fuehren zu einem Nachfrageueberhang nach Holznebenprodukten, welche heute vor allem Einsatz in der Plattenindustrie finden. Neue Nachfragemaerkte umschliessen beispielsweise die Pelletindustrie, Hersteller von gruenem Treibstoff fuer die Luftfahrt sowie Bioraffinerien. Dies fuehrt erwartungsgemaess zu steigenden Ressourcenkonkurrenzen. In den hier dargestellten Dokumenten sind Eingangsdaten, Datenkalibrierungen, Modelinputdaten, Ergebnisse der Modellierung der drei Szenarien und Hintergrundinformationen abgelegt. Die Dokumente sind auf Anfrage verfuegbar. [1] FAOStat, 2023. Forestry Production and Trade, Statistical Database. www.fao. org/FAOSTAT/en/#data/FO (Accessed on November 2023). [2] World Bank, 2023: World Development Indicators: https://datatopics.worldbank.org/world-development-indicators/. [3] Forest Resource Assessment, 2020: 2020: Main Report. 2020. Rome: FAO. https://doi.org/10.4060/ca9825en. [4] International Institute for Applied Systems Analyses, 2018. Shared Socioeconomic Pathways Scenario Database (SSP). https://iiasa.ac.at/models-tools-data/ssp (Accessed on November 2023) [5] World Trade Organization, 2024. Integrated Database (IDB). http://tariffdata.wto.org/default.aspx (Accessed on August 2024) [6] The fibre year consulting, 2023. Selected data provided by the nova institute. (E-Mail 17.11.2023) [7] Pia Skoczinski, Michael Carus, Gillian Tweddle, Pauline Ruiz, Nicolas Hark, Ann Zhang, Doris de Guzman, Jan Ravenstijn, Harald Kaeb and Achim Raschka. 2024: Bio-based Building Blocks and Polymers - Global Capacities, Production and Trends 2023-2028. nova-Institut GmbH (Ed.),Huerth, Germany, 2024-03. https://doi.org/10.52548/VXTH2416"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Schier, Franziska",
+          "authorAffiliation": "Thuenen-Institut fuer Waldwirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Tandetzki, Julia",
+          "authorAffiliation": "Thuenen-Institut fuer Waldwirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Porc, Olaf",
+          "authorAffiliation": "nova-Institut",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Carus, Michael",
+          "authorAffiliation": "nova-Institut",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/DATA20241128160411-0",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2024-12-10",
+      "distributionDate": "2024-12-10"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/DATA20241128160411-0",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/DATA20241128160411-0"
+  },
+  {
+    "citation": {
+      "title": "Datensatz: Die Biomasse- und Fangergebnisse von Ecospace (EwE) Simulationen fuer die suedliche Nordsee getestet mit verschiedenen Biomasseverteilungskarten (Zeitskala und Habitatdarstellung (Vorhandensein/Abwesenheit versus Abundanz)).",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Raeumlich-zeitlich aufgeloeste Oekosystemdynamiken lassen sich mit Hilfe des Programms Ecopath with Ecosim, im speziellen der raeumlichen Komponente Ecospace darstellen. Dieses Modul hat sich in den letzten Dekaden staendig weiterentwickelt und neue Moeglichkeiten der Modellparametrisierungen sind dazu gekommen. Eine neue Methode ist der \u201espatio-temporal dataframework', welcher eine Veraenderung der raeumlichen Komponenten ueber die Modellprojektionszeit ermoeglicht, inklusive der Habitatpraeferenzen basierend auf Biomassekarten verschiedener im Model eingebundener Gruppen. Allerdings fehlen vor allem zu der Implementierung von Biomassekarten als Habitatpraeferenzen fuer einzelne Gruppen noch weitestgehend \u201ebest practice' Empfehlungen. Getestet wurde daher die Frequenz der Veraenderungen (statisch, halbjaehrig, jaehrlich, alle 5 Jahre) und die Art der Habitatpraeferenz (ausgedrueckt durch Anwesenheit/Abwesenheit oder durch Abundanz). Die hier praesentierten Datensaetze sind Modellergebnisse (Biomasse und Fang) fuer das Oekosystemmodell der suedlichen Nordsee fuer alle Frequenzen und Habitatpraeferenzen."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Puets, Miriam",
+          "authorAffiliation": "Thuenen Institut fuer Seefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Taylor, Marc",
+          "authorAffiliation": "Thuenen Institut fuer Seefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Nu\u00f1ez-Riboni, Ismael",
+          "authorAffiliation": "Thuenen Institut fuer Seefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Kempf, Alexander",
+          "authorAffiliation": "Thuenen Institut fuer Seefischerei",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/DATA20240816154916-0",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2024-08-20",
+      "distributionDate": "2024-08-20"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/DATA20240816154916-0",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/DATA20240816154916-0"
+  },
+  {
+    "citation": {
+      "title": "2020_Helfrich_AGEE",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Datenmeldung nach dem EGovG. Der Datensatz kann auf Anfrage zur Verfuegung gestellt werden. Eine Datennutzungsvereinbarung wird abgeschlossen. Grassland conversion to cropland bears a risk of increased nitrate (NO3\u2212) leaching and nitrous oxide (N2O) emission due to enhanced nitrogen (N) mineralization. This study investigates the dynamics of mineral N and N2O emissions following chemical and mechanical conversion from permanent grassland to cropland (maize) at two sites with different texture (clayey loam and sandy loam) and fertilization regime (with and without mineral N-fertilization) over a two-year period. Soil mineral N levels increased shortly after conversion and remained elevated in converted plots compared to permanent grassland or long-term cropland in the second year of investigation. Fluxes of N2O were higher from converted plots than permanent grassland or cropland. However, soil mineral N contents and cumulative N2O emissions did not differ between conversion types. Only the distribution of N2O losses over the two years differed: while losses were of similar magnitude in both years in mechanically converted plots, the major part of N2O loss in chemically converted plots occurred in the first year after conversion while emissions approximated grassland level in the second year. N2O fluxes were mainly controlled by water-filled pore space and soil NO3\u2212 levels. Despite differences in N levels at the two sites, these key findings are similar on both study sites. They indicate strongly accelerated mineralization after conversion, an effect that still lasted in the converted plots at the end of the two-year investigation irrespective of the conversion type used."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Helfrich, Mirjam",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Nicolay, Greta",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Well, Reinhard",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Buchen-Tschiskale, Caroline",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Dechow, Ren\u00e9",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gensior, Andreas",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Paulsen, Hans Marten",
+          "authorAffiliation": "Thuenen-Institut fuer Oekologischen Landbau",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Berendonk, Clara",
+          "authorAffiliation": "Landwirtschaftskammer NRW",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Flessa, Heinz",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2024",
+      "distributionDate": "2024"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "2018_Gronwald_BFS",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Datenmeldung nach dem EGovG. Der Datensatz kann auf Anfrage zur Verfuegung gestellt werden. Eine Datennutzungsvereinbarung wird abgeschlossen. Nitrogen (N) loss as ammonia (NH3) from agricultural systems is one of the major sources of atmospheric pollutants and is responsible for more than 50% of global NH3 emissions. Ammonia volatilization from animal manures may be altered by amendment with chars derived from pyrolysis (pyrochars) or hydrothermal carbonization (hydrochars) by providing exchange sites for ammonium (NH4+) or changing the pH of manure. Pyrochar and hydrochar differ in chemical and structural composition, specific surface area, and pH and therefore may affect NH3 volatilization differently. In a laboratory incubation experiment, we investigated the effect of pyrochar (pH 9.0) and hydrochar (pH 3.8) from Miscanthus on NH3 emission after addition to poultry manure and cattle slurry. We analyzed manure treatments with and without char addition and acidification and determined the effect of char addition on immobilization of manure-derived NH4+. Ammonia emission from pure poultry manure amounted 84% of the applied NH4+-N, while 67% of the applied NH4+-N was lost as NH3 from cattle slurry. Addition of pyrochar or hydrochar had no or only marginal effects on NH3 emissions except for a reduction in NH3 emissions by 19% due to hydrochar application to CS (p < 0.05), which seems to be primarily related to the char pH. Sorption of NH4+ by admixture of chars to manure was generally small: between 0.1- and 0.5-mg NH4+-N g\u22121 chars were sorbed. This corresponds to between 0.1 and 3.5% of the NH4+ applied, which obviously was not strong enough to reduce emissions of NH3. Overall, our results do not provide evidence that addition of pyrochar or hydrochar to cattle slurry and poultry manure is an effective measure to reduce NH3 volatilization."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Gronwald, Marco",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Helfrich, Mirjam",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Don, Axel",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Fuss, Roland",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Well, Reinhard",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Flessa, Heinz",
+          "authorAffiliation": "Thuenen-Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2024",
+      "distributionDate": "2024"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "Praeferenzen der Verbraucher fuer Gefluegelfleisch in Ghana (Projekt PrimeA)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug Der Datensatz wird auf Anfrage fuer Forschungszwecke zur Verfuegung gestellt. Eine Datennutzungsvereinbarung wird abgeschlossen. Der Datensatz enthaelt die Befragungsdaten der Haushaltsbefragungen zu Verbraucherpraeferenzen fuer Gefluegelfleisch."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Weible, Daniela",
+          "authorAffiliation": "Thuenen-Institut fuer Marktanalyse",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Asante-Addo, Collins",
+          "authorAffiliation": "Thuenen-Institut fuer Marktanalyse",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2024",
+      "distributionDate": "2024"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "Agricultural land use (raster)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "The dataset contains maps of the main classes of agricultural land use (dominant crop types and other land use types) in Germany, which have been produced annually at the Thuenen Institute since 2017 on the basis of satellite data. The maps cover the entire open landscape, i.e. the agriculturally used area (UAA) and e.g. uncultivated areas. The map was derived from time series of Sentinel-1, Sentinel-2, Landsat 8 and additional environmental data. Map production is based on the methods described in Blickensdoerfer et al. (2022). The map extent covers all areas in Germany that are defined as agricultural land, small woody features, heathland or peatland according to ATKIS Basis-DLM 2020 (Geobasisdaten: \u00a9 GeoBasis-DE / BKG (2020)). Post-processing of the maps included a sieve filter as well as a ruleset for the reduction of non-plausible areas using the Basis-DLM. The final post-processing step comprises the aggregation of the gridded data to homogeneous objects (fields) based on the approach that is described in Tetteh et al. (2021). Data are available on request either in gridded (raster) format or in aggregated (vector) format."
+        },
+        {
+          "dsDescriptionValue": "Der Datensatz enthaelt Karten der wichtigsten landwirtschaftlichen Nutzungsklassen (vorherrschende Kulturarten und andere Landnutzungstypen) in Deutschland, die seit 2017 jaehrlich am Thuenen-Institut auf Basis von Satellitendaten erstellt werden. Die Karten umfassen die gesamte offene Landschaft, d.h. die landwirtschaftlich genutzte Flaeche (LF) und z.B. die nicht bewirtschafteten Flaechen des Offenlands. Die Karte wurde aus dichten Zeitreihen von Sentinel-1, Sentinel-2, Landsat 8 und zusaetzlichen Umweltdaten abgeleitet. Die Kartenerstellung basiert auf den in Blickensdoerfer et al. (2022) beschriebenen Methoden. Die Karten umfassen alle Flaechen in Deutschland, die nach ATKIS Basis-DLM 2020 (Geobasisdaten: \u00a9 GeoBasis-DE / BKG (2020)) als landwirtschaftliche Flaechen, Kleingehoelze, Heideflaechen oder Moorflaechen definiert sind. Die Nachbearbeitung der Karten umfasste eine Filterung sowie ein Regelwerk zur Reduktion von unplausiblen Flaechen unter Verwendung des Basis-DLM. Der letzte Nachbearbeitungsschritt umfasst die Aggregation der gerasterten Daten zu homogenen Objekten (Feldern), die nach dem in Tetteh et al. (2021) beschriebenen Ansatz erstellt wurden. Die Daten sind auf Anfrage entweder im Rasterformat oder im Vektorformat verfuegbar."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Schwieder, Marcel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Tetteh, Gideon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Blickensdoerfer, Lukas",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gocht, Alexander",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Erasmi, Stefan",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/DATA20230707103051-0",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "TI-Atlas",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "TI-Template",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 76b815ea-8cdd-4be5-ae37-d3f5bc90c4ec",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 7f8f257c-8201-42e7-b0e3-e73ec7f970f1",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: ad3f98a7-3ae1-4311-ba59-0582cf6e249a",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 383bba90-5b98-4685-81ee-64d6c3bf6a85",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 12007834-e1fa-4eba-b1f8-e2c55338dd8a",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2023-05-04",
+      "distributionDate": "2023-05-04"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/DATA20230707103051-0",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/DATA20230707103051-0"
+  },
+  {
+    "citation": {
+      "title": "Agricultural land use (vector)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "The dataset contains maps of the main classes of agricultural land use (dominant crop types and other land use types) in Germany, which have been produced annually at the Thuenen Institute since 2017 on the basis of satellite data. The maps cover the entire open landscape, i.e. the agriculturally used area (UAA) and e.g. uncultivated areas. The map was derived from time series of Sentinel-1, Sentinel-2, Landsat 8 and additional environmental data. Map production is based on the methods described in Blickensdoerfer et al. (2022). The map extent covers all areas in Germany that are defined as agricultural land, small woody features, heathland or peatland according to ATKIS Basis-DLM 2020 (Geobasisdaten: \u00a9 GeoBasis-DE / BKG (2020)). Post-processing of the maps included a sieve filter as well as a ruleset for the reduction of non-plausible areas using the Basis-DLM. The final post-processing step comprises the aggregation of the gridded data to homogeneous objects (fields) based on the approach that is described in Tetteh et al. (2021). Data are available on request either in gridded (raster) format or in aggregated (vector) format."
+        },
+        {
+          "dsDescriptionValue": "Der Datensatz enthaelt Karten der wichtigsten landwirtschaftlichen Nutzungsklassen (vorherrschende Kulturarten und andere Landnutzungstypen) in Deutschland, die seit 2017 jaehrlich am Thuenen-Institut auf Basis von Satellitendaten erstellt werden. Die Karten umfassen die gesamte offene Landschaft, d.h. die landwirtschaftlich genutzte Flaeche (LF) und z.B. die nicht bewirtschafteten Flaechen des Offenlands. Die Karte wurde aus dichten Zeitreihen von Sentinel-1, Sentinel-2, Landsat 8 und zusaetzlichen Umweltdaten abgeleitet. Die Kartenerstellung basiert auf den in Blickensdoerfer et al. (2022) beschriebenen Methoden. Die Karten umfassen alle Flaechen in Deutschland, die nach ATKIS Basis-DLM 2020 (Geobasisdaten: \u00a9 GeoBasis-DE / BKG (2020)) als landwirtschaftliche Flaechen, Kleingehoelze, Heideflaechen oder Moorflaechen definiert sind. Die Nachbearbeitung der Karten umfasste eine Filterung sowie ein Regelwerk zur Reduktion von unplausiblen Flaechen unter Verwendung des Basis-DLM. Der letzte Nachbearbeitungsschritt umfasst die Aggregation der gerasterten Daten zu homogenen Objekten (Feldern), die nach dem in Tetteh et al. (2021) beschriebenen Ansatz erstellt wurden. Die Daten sind auf Anfrage entweder im Rasterformat oder im Vektorformat verfuegbar."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Schwieder, Marcel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Tetteh, Gideon",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Blickensdoerfer, Lukas",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gocht, Alexander",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Erasmi, Stefan",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/DATA20230707103117-0",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "TI-Atlas",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "TI-Template",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: d9ea1184-678c-44e4-bcf3-37b63e8768cb",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 720f4c8f-c9f0-4ec3-898b-445e03be715b",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: b7957c5d-04b7-4151-98c5-f02d170574d5",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 53a7ef85-2cd8-4fca-8bbe-8a8268cf33a5",
+          "otherIdAgency": "Other"
+        },
+        {
+          "otherIdValue": "UUID: 56c468e8-e207-4d1d-936f-c981f67391a2",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2023-05-02",
+      "distributionDate": "2023-05-02"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/DATA20230707103117-0",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/DATA20230707103117-0"
+  },
+  {
+    "citation": {
+      "title": "FLUXNET2015 DE-Geb Gebesee",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": "This is the FLUXNET2015 version of the carbon flux data for the site DE-Geb Gebesee. Site Description - the study site is located near the village Gebesee about 20 km NW of Erfurt, the station is located in the middle of an agricultural field, an approximate semi-rectangular area of 750 by 850 m; in the neighbourhood possibly cultivation of different crops"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Bruemmer, Christian",
+          "authorAffiliation": "Thuenen Institute of Climate-Smart Agriculture, Braunschweig",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Lucas-Moffat, Antje M.",
+          "authorAffiliation": "Thuenen Institute of Climate-Smart Agriculture, Braunschweig",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Herbst, Mathias",
+          "authorAffiliation": "German Meteorological Service",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Kolle, Olaf",
+          "authorAffiliation": "Max Planck Institute for Biogeochemistry, Jena",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Delorme, Jean-Pierre",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.18140/flx/1440146",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2016",
+      "distributionDate": "2016"
+    },
+    "generalExtended": {
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceDatasetURI": "10.18140/flx/1440146",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.18140/flx/1440146"
+  },
+  {
+    "citation": {
+      "title": "Zukunft der Schafhaltung in Deutschland",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Die Rueckkehr des Wolfes nach Deutschland und die Notwendigkeit von Herdenschutzmassnahmen rueckte die Schafhaltung nach jahrelanger \u201eAbstinenz' wieder in den gesellschaftlichen Fokus. Die Datenlage zur Struktur und wirtschaftlichen Lage der der deutschen Schafhaltung war allerdings sehr lueckenhaft. Das Ziel dieses Projektes ist es, a) die aktuelle Lage zur Struktur und wirtschaftlichen Situation der Schafhaltung zu ermitteln, und b) Entwicklungsperspektiven fuer eine nachhaltige Zukunft aufzuzeigen. Derzeit ist Schritt a) abgeschlossen. Zunaechst wurde eine Befragung im deutschen Schafsektor zu Produktionssystemen, Betriebsstrukturen und der derzeitigen Situation durchgefuehrt. Mit diesem Datensatz von 359 Betrieben wurde eine Clusteranalyse zur Klassifizierung verschiedener Produktionssysteme der Schafhaltung durchgefuehrt. Die Clusteranalyse bildete dann die Basis fuer die Erhebung typischer Betriebe, die seit 2022 Bestandteil des agri benchmark Sheep Network sind und jaehrlich analysiert werden. Hierfuer wurden Daten von typischen Betrieben mit Schafhaltung aus dem agri benchmark Sheep Network verwendet."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Schuette, Johan",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "inPress",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "inPress",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "inPress"
+  },
+  {
+    "citation": {
+      "title": "Internationale Wettbewerbsfaehigkeit der Schweineproduktion im Kontext von Tierwohlaspekten",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Dieses Projekt untersucht die produktionstechnischen und wirtschaftlichen Auswirkungen des Verbots der betaeubungslosen Ferkelkastration in Deutschland. Zunaechst wurden die Kosten und der Nutzen verschiedener Alternativen zur betaeubungslosen Kastration untersucht (Ebermast, Immunokastration, Inhalationsnarkose, Injektionsnarkose, Lokalanaesthesie). Hierfuer wurden Daten von typischen Betrieben mit Schweinehaltung aus dem agri benchmark Pig Netzwerk verwendet. In einem weiteren Schritt konnte im Vergleich zu Daenemark und den Niederlanden konnte gezeigt werden, dass die unterschiedliche Gesetzgebung zur Kastration in diesen Laendern zu Wettbewerbsnachteilen fuer die deutschen Schweinehalter fuehrt."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Verhaagh, Mandes",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "inPress",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "inPress",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "inPress"
+  },
+  {
+    "citation": {
+      "title": "Datensatz: Differenzierte Bioaerosolmessungen",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Datenmeldung nach dem EGovG. Der Datensatz kann auf Anfrage zur Verfuegung gestellt werden. Eine Datennutzungsvereinbarung wird abgeschlossen. Datensatz zu differenzierte Bioaerosolmessung (Groessenverteilung und Zeitreihe) in den Emission von Gefluegelstaellen."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Clauss, Marcus",
+          "authorAffiliation": "Thuenen-Institut fuer Agrartechnologie",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Springorum, Annette Christiane",
+          "authorAffiliation": "Thuenen-Institut fuer Agrartechnologie",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Linke, Stefan",
+          "authorAffiliation": "Thuenen-Institut fuer Agrartechnologie",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "Datensatz: Begleitflora (Staphylokokken und Bakterien) im Waschwasser und Bioaerosol von landwirtschaftlichen Abluftreinigungsanlagen",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Datenmeldung nach dem EGovG. Der Datensatz kann auf Anfrage zur Verfuegung gestellt werden. Eine Datennutzungsvereinbarung wird abgeschlossen. Datensatz zur Begleitflora (Staphylokokken und Bakterien) im Waschwasser und Bioaerosol von landwirtschaftlichen Abluftreinigungsanlagen."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Clauss, Marcus",
+          "authorAffiliation": "Thuenen-Institut fuer Agrartechnologie",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "Datensatz: Ueberlebensrate von Staphylococcus xylosus und Staphylokokken in nativem Huehnerstallstaub in der Luft",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Datenmeldung nach dem EGovG. Der Datensatz kann auf Anfrage zur Verfuegung gestellt werden. Eine Datennutzungsvereinbarung wird abgeschlossen. Datensatz zur Ueberlebensrate von Staphylococcus xylosus und Staphylokokken in nativem Huehnerstallstaub in der Luft."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Clauss, Marcus",
+          "authorAffiliation": "Thuenen-Institut fuer Agrartechnologie",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "Innovationsnetzwerk Rind - zukunftsfaehige Rinderhaltung in Deutschland unter Beruecksichtigung von Tierwohl, Umweltwirkungen und gesellschaftlicher Akzeptanz",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Im Rahmen des Projektes InnoRind setzen Veruchsbetriebe diverse Tierwohlmassnahmen in der Rinderhaltung um. Dazu gehoeren z. B. die Muttergebundene Kaelberaufzucht, fruehe Gruppenhaltung von Kaelbern sowie vergroessertes Platzangebot fuer Mastrinder. Die Umsetzung der Massnahmen wird wissenschaftlich begleitet, dabei liegen die Schwerpunkte auf Tierwohl, gesellschaftlicher Akzeptanz, Umweltwirkungen, aber auch wirtschaftlicher Umsetzbarkeit. Das Team des Thuenen-Instituts fuer Betriebswirtschaft befasst sich mit dem Querschnittsthema \u201eoekonomische Bewertung der Massnahmen', untergliedert nach Rindergattungen \u201eKuh', \u201eKalb' und \u201eMast'. Hierzu erfolgte bereits die Erhebung der Baseline der Betriebe (Zustand der projektrelevanten Betriebszweige vor der Umsetzung der Massnahmen) auf der Grundlage von Vor-Ort-Besichtigungen mithilfe eines standardisierten Fragebogens. Der Fragebogen umfasst die materielle und personelle Ausstattung des Betriebes, Produktionskosten und tierische Leistungsparameter. Um die moeglichst hohe Vergleichbarkeit der Betriebe zu gewaehrleisten, wurden die erhobenen Daten nach dem Einpflegen standardisiert, z. B. durch die Annahme gleicher Futtermittelpreise fuer einheitliche Futtermittel. Im Anschluss erfolgt eine Modellierung der Entwicklung der relevanten Betriebszweige fuer die naechsten Jahre unter vorliegenden Gegebenheiten (Baseline-Szenario). Sobald die Betriebe mit der Umsetzung der Tierwohlmassnahmen starten, erfolgt eine Nacherhebung fuer das Versuchsszenario. Anschliessend werden das Baseline-Szenario und das Versuchsszenario miteinander und auch die Betriebe untereinander verglichen."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Edebohls, Imke",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Zavyalova, Katharina",
+          "authorAffiliation": "Thuenen-Institut fuer Betriebswirtschaft",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "inPress",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "inPress",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "inPress"
+  },
+  {
+    "citation": {
+      "title": "Anhang zu: Rueckkehrinitiativen in Deutschland: Eine Erhebung fuer den Zeitraum 2001 bis 2018",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Datenmeldung nach dem EGovG. Der Datensatz kann auf Anfrage in einer bearbeitbaren Form zur Verfuegung gestellt werden. Eine Datennutzungsvereinbarung wird abgeschlossen. Die Daten koennen jederzeit als PDF ueber das verlinkte Thuenen Working Paper 177 heruntergeladen werden. Im Rahmen des Forschungsvorhabens \u201eDie raeumliche Mobilitaet von Arbeitskraeften im Erwerbsverlauf -Analysen fuerlaendliche Raeume in Deutschland (MobiLae)' wurden fuer den Zeitraum 2001 bis 2018 ueberwiegend per Internetrecherche Initiativen ermittelt, die darauf abzielen, dass zuvor aus einer Region abgewanderte Einwohner zurueckkehren. Insgesamt wurden 91 unterschiedliche Rueckkehrinitiativen in Deutschland identifiziert, von denen im Jahr 2018 noch 79 Initiativen aktiv waren. Die erhobenen Informationen wurden im Projekt dazu verwendet, die Praesenz von Rueckkehrinitiativen neben einer Vielzahl weiterer moeglicher Determinanten in oekonometrischen Analysen von (Rueck-)Wanderungsbewegungen von Arbeitskraeften in Deutschland zu beruecksichtigen. Eine Kategorisierung der erfassten Initiativen ergibt, dass sich 13 Initiativen auf einmalige oder jaehrlich wiederholte Veranstaltungen konzentrieren, waehrend 78 Initiativen kontinuierliche Aktivitaeten zur Gewinnung von Rueckwanderern betreiben. 61 Initiativen haben ehemalige Einwohner eines oder mehrerer Kreise zur Zielgruppe, 20 Initiativen konzentrieren sich auf eine oder mehrere Gemeinden bzw. Ortsteile und zehn Initiativen decken ein gesamtes oder mehrere Bundeslaender ab. Auswertungen auf der Ebene der Kreise zeigen, dass sich die 81 der 91 nitiativen, die nicht ein ganzes oder mehrere Bundeslaender abdecken, 96 der 401 Kreise Deutschlands zuordnen lassen. Ueber drei Viertel der Kreise, fuer die wir im Beobachtungszeitraum mindestens eine Rueckkehrinitia-tive identifizieren, zaehlen gemaess derTypologie laendlicher Raeume des Thuenen-Instituts zu laendlichen Regionen mit weniger guter soziooekonomischer Lage. 42% aller Kreise dieses Regionstyps verzeichnen mindestens eine Initiative, waehrend dies nur fuer 9% der sonstigen Kreise der Fall ist. Die Anzahl der Kreise mit Rueckkehrinitiativen hat in den letzten Jahren deutlich zugenommen. Bis einschliesslich 2010 beobachten wir Rueckwanderungsinitiativen nur in ostdeutschen Regionen. Gruendungen entsprechender Initiativen in Westdeutschland wurden ab 2011 identifiziert, insbesondere in agglomerationsfernen, sehr laendlichen Regionen mit weniger guter soziooekonomischer Lage."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Stiller, Johannes",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Ohlhoff, Maren",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "TI-Datenmeldung",
+          "otherIdAgency": "Other"
+        }
+      ]
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "TI-Datenmeldung",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "TI-Datenmeldung"
+  },
+  {
+    "citation": {
+      "title": "LULUCF database (projection 2025)",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "In the UN Framework Convention on Climate Change (UNFCCC) Germany has committed to the mitigation of emissions of greenhouse gases. The EU LULUCF Regulation (Regulation (EU) 2018/841) and the federal climate change act require projections of GHG emissions and sinks in the LULUCF sector. The database contains results of the projections (2024 - 2050). Included are a Without-Measures scenario, scenarios for mitigation measures and With-Measures and With-Additional-Measures scenarios. The data is aggregated for federal states."
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Fuss, Roland",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Gensior, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Stuemer, Wolfgang",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Laggner, Andreas",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Adam, Sascha",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Drexler, Sophie",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Piyada, Arndt",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Scherstjanoi, Marc",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Rueter, Sebastian",
+          "authorAffiliation": "Thuenen Institut fuer Holzforschung",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Rock, Joachim",
+          "authorAffiliation": "Thuenen Institut fuer Waldoekosysteme",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Tiemeyer, Baerbel",
+          "authorAffiliation": "Thuenen Institut fuer Agrarklimaschutz",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        },
+        {
+          "authorName": "Osterburg, Bernhard",
+          "authorAffiliation": "Thuenen Institut / Stabsstelle Klima, Boden, Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2025-19",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2025-03-15",
+      "distributionDate": "2025-03-15"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2025-19",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2025-19"
+  },
+  {
+    "citation": {
+      "title": "Projekt FInAL - Befliegung AP22aHR",
+      "dsDescription": [
+        {
+          "dsDescriptionValue": ""
+        },
+        {
+          "dsDescriptionValue": "Sperrvermerk: Personenbezug und Geschaeftsgeheimnis Fuer das Projekt FInAL: Foerderung von Insekten in Agrarlandschaften (https://www.final-projekt.de/) wurden in den Jahren 2020 bis 2022 grossflaechige Drohnen-Luftaufnahmen der drei Landschaftslabore und zugehoerigen Referenzlandschaften aufgenommen. Sie liegen in der Aufloesung 3 cm/Pixel (RGB) und zum Teil in 7 cm/Pixel (Multispektral) vor. Aus den georeferenzierten Einzelbildern wurden RGB-Orthomosaike, Digitale Oberflaechenmodelle und 3D-Punktwolken abgeleitet. Der Gesamt-Datensatz wurde aufgeteilt in einzelne Befliegungen (Surveys), die jeweils eine Landschaft zu einem bestimmten Zeitpunkt abdecken. Beispiel: Befliegung AP20aEL: Aerial Photography 2020, Survey a, area Elm Labor"
+        }
+      ],
+      "author": [
+        {
+          "authorName": "Pickenbrock, Pia",
+          "authorAffiliation": "Thuenen-Institut fuer Biodiversitaet",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
+        }
+      ],
+      "datasetContact": [
+        {
+          "datasetContactName": "FAIRagro Demonstrator",
+          "datasetContactEmail": "fairagro@demo.org"
+        }
+      ],
+      "keyword": [
+        {
+          "keywordValue": "{'keywordValue': 'Unknown'}"
+        }
+      ],
+      "subject": [
+        "Agricultural Sciences"
+      ],
+      "otherId": [
+        {
+          "otherIdValue": "10.3220/253-2026-16",
+          "otherIdAgency": "Other"
+        }
+      ],
+      "productionDate": "2026",
+      "distributionDate": "2026"
+    },
+    "generalExtended": {
+      "license": "all rights reserved",
+      "sourceDatasetURI": "10.3220/253-2026-16",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
+    },
+    "identifier": "10.3220/253-2026-16"
+  }
+]

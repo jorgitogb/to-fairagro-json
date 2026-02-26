@@ -10,33 +10,51 @@
       "author": [
         {
           "authorName": "Christian Colmsee",
+          "authorAffiliation": "Unknown",
           "authorIdentifier": "https://orcid.org/0000-0003-4387-4923",
           "authorIdentifierScheme": "ORCID"
         },
         {
-          "authorName": "Steffen Flemming"
+          "authorName": "Steffen Flemming",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Matthias Klapperstueck"
+          "authorName": "Matthias Klapperstueck",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
           "authorName": "Matthias Lange",
+          "authorAffiliation": "Unknown",
           "authorIdentifier": "https://orcid.org/0000-0002-4316-078X",
           "authorIdentifierScheme": "ORCID"
         },
         {
           "authorName": "Uwe Scholz",
+          "authorAffiliation": "Unknown",
           "authorIdentifier": "https://orcid.org/0000-0001-6113-3518",
           "authorIdentifierScheme": "ORCID"
         },
         {
-          "authorName": "Christian Friedrich"
+          "authorName": "Christian Friedrich",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Burkhard Steuernagel"
+          "authorName": "Burkhard Steuernagel",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         },
         {
-          "authorName": "Stephan Weise"
+          "authorName": "Stephan Weise",
+          "authorAffiliation": "Unknown",
+          "authorIdentifier": "Unknown",
+          "authorIdentifierScheme": "Other"
         }
       ],
       "datasetContact": [
@@ -54,11 +72,21 @@
         "Agricultural Sciences"
       ],
       "productionDate": "Sat Jan 01 00:00:00 CET 2011",
-      "distributionDate": "Sat Jan 01 00:00:00 CET 2011"
+      "distributionDate": "Sat Jan 01 00:00:00 CET 2011",
+      "otherId": [
+        {
+          "otherIdValue": "Unknown",
+          "otherIdAgency": "Other"
+        }
+      ]
     },
     "generalExtended": {
       "license": "$licenseURL",
-      "sourceDatasetURI": "10.5447/ipk/2011/0"
+      "sourceDatasetURI": "10.5447/ipk/2011/0",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.5447/ipk/2011/0"
   },
@@ -73,16 +101,19 @@
       "author": [
         {
           "authorName": "Thomas Schmutzer",
+          "authorAffiliation": "Unknown",
           "authorIdentifier": "https://orcid.org/0000-0003-1073-6719",
           "authorIdentifierScheme": "ORCID"
         },
         {
           "authorName": "Fabian Bull",
+          "authorAffiliation": "Unknown",
           "authorIdentifier": "https://orcid.org/0000-0002-9185-9819",
           "authorIdentifierScheme": "ORCID"
         },
         {
           "authorName": "Uwe Scholz",
+          "authorAffiliation": "Unknown",
           "authorIdentifier": "https://orcid.org/0000-0001-6113-3518",
           "authorIdentifierScheme": "ORCID"
         }
@@ -102,11 +133,21 @@
         "Agricultural Sciences"
       ],
       "productionDate": "Sat Jan 01 00:00:00 CET 2011",
-      "distributionDate": "Sat Jan 01 00:00:00 CET 2011"
+      "distributionDate": "Sat Jan 01 00:00:00 CET 2011",
+      "otherId": [
+        {
+          "otherIdValue": "Unknown",
+          "otherIdAgency": "Other"
+        }
+      ]
     },
     "generalExtended": {
       "license": "$licenseURL",
-      "sourceDatasetURI": "10.5447/ipk/2011/1"
+      "sourceDatasetURI": "10.5447/ipk/2011/1",
+      "sourceRDI": {
+        "sourceRDIName": "FAIRagro",
+        "sourceRDIURI": "https://fairagro.net"
+      }
     },
     "identifier": "10.5447/ipk/2011/1"
   }

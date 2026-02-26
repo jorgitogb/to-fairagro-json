@@ -10,6 +10,8 @@
       {
         "authorName": "Holzhauser, Katja",
         "authorAffiliation": "Kiel University",
+        "authorIdentifier": "Unknown",
+        "authorIdentifierScheme": "Other",
         "authorEmail": "holzhauser@pflanzenbau.uni-kiel.de"
       }
     ],
@@ -71,7 +73,12 @@
     "distributionDate": "2023-07-12"
   },
   "generalExtended": {
-    "license": "https://creativecommons.org/licenses/by/4.0/"
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceDatasetURI": "0a9ea801-78fa-4b42-92cb-21852cdf1775",
+    "sourceRDI": {
+      "sourceRDIName": "FAIRagro",
+      "sourceRDIURI": "https://fairagro.net"
+    }
   },
   "geographic": {
     "westLongitude": 9.995111,

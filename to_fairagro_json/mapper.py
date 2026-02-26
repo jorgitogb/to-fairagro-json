@@ -93,10 +93,16 @@ class MetadataMapper:
 
         affiliation = self._resolve_source(person, ["affiliation", "memberOf"])
         if affiliation:
-            author_obj["authorAffiliation"] = self._get_literal(affiliation)
+            author_obj["authorAffiliation"] = (
+                self._get_literal(affiliation) or "Unknown"
+            )
         elif "Organization" in str(person.get("@type", "")) and person.get("name"):
             # The entity itself is the organization — use its name as affiliation
-            author_obj["authorAffiliation"] = self._get_literal(person.get("name"))
+            author_obj["authorAffiliation"] = (
+                self._get_literal(person.get("name")) or "Unknown"
+            )
+        else:
+            author_obj["authorAffiliation"] = "Unknown"
 
         identifier = person.get("@id")
         if (
@@ -109,6 +115,9 @@ class MetadataMapper:
                 author_obj["authorIdentifierScheme"] = "ORCID"
             else:
                 author_obj["authorIdentifierScheme"] = "Other"
+        else:
+            author_obj["authorIdentifier"] = "Unknown"
+            author_obj["authorIdentifierScheme"] = "Other"
 
         return author_obj
 
@@ -158,7 +167,10 @@ class MetadataMapper:
                                         "authorName": cp_name,
                                         "authorAffiliation": self._get_literal(
                                             person.get("name")
-                                        ),
+                                        )
+                                        or "Unknown",
+                                        "authorIdentifier": "Unknown",
+                                        "authorIdentifierScheme": "Other",
                                     }
                                     email = self._get_literal(cp.get("email"))
                                     if email:
@@ -420,6 +432,12 @@ class MetadataMapper:
             return {name: items}
 
         if ftype == "complex":
+            # If no mapping, and item is a dict, just use it (pass-through for defaults)
+            if not cfg.get("mapping"):
+                if isinstance(val, dict):
+                    return {name: val}
+                return {name: {}}
+
             # Nested object (like sensorIsHostedBy)
             obj = {}
             for sub_name, sub_cfg in cfg.get("mapping", {}).items():
@@ -481,14 +499,22 @@ class MetadataMapper:
                 for field_cfg in block_cfg.get("fields", []):
                     field_name = list(field_cfg.keys())[0]
                     cfg = field_cfg[field_name]
-
                     val = None
+
                     # Special Field Handling
                     if block_name == "citation":
                         if field_name == "author":
                             val = self._extract_authors()
-                            if val:
-                                block_data["author"] = val
+                            if not val:
+                                val = [
+                                    {
+                                        "authorName": "Unknown",
+                                        "authorAffiliation": "Unknown",
+                                        "authorIdentifier": "Unknown",
+                                        "authorIdentifierScheme": "Other",
+                                    }
+                                ]
+                            block_data["author"] = val
                             continue
                         elif field_name == "alternativeTitle":
                             titles = []
@@ -501,6 +527,38 @@ class MetadataMapper:
                                     titles.append(name)
                             if titles:
                                 block_data["alternativeTitle"] = titles
+                            continue
+                        elif field_name == "datasetContact":
+                            # Try to extract contact from entity
+                            contacts = self._resolve_source(
+                                entity, ["contactPoint", "maintainer"]
+                            )
+                            if not contacts:
+                                # Default internal FAIRagro contact if nothing found
+                                val = cfg.get("default")
+                            else:
+                                if not isinstance(contacts, list):
+                                    contacts = [contacts]
+                                val = []
+                                for c_raw in contacts:
+                                    c = self._resolve_ref(c_raw)
+                                    c_name = self._get_literal(
+                                        c.get("name") or c.get("givenName")
+                                    )
+                                    c_email = self._get_literal(c.get("email"))
+                                    if c_email:
+                                        val.append(
+                                            {
+                                                "datasetContactName": c_name
+                                                or "Unknown",
+                                                "datasetContactEmail": c_email,
+                                            }
+                                        )
+                                if not val:
+                                    val = cfg.get("default")
+
+                            if val:
+                                block_data["datasetContact"] = val
                             continue
                         elif field_name == "dsDescription":
                             # Try top-level description first
@@ -550,12 +608,26 @@ class MetadataMapper:
                     if "source" in cfg:
                         val = self._resolve_source(entity, cfg["source"])
 
-                    if not val and "default" in cfg:
+                    if (val is None or val == "" or val == []) and "default" in cfg:
                         val = cfg["default"]
 
-                    if val:
+                    if val is not None:
                         formatted = self.format_field(field_name, val, cfg)
                         block_data.update(formatted)
+
+            # Ensure mandatory fields are present in the block
+            mandatory_fallbacks = {
+                "citation": {
+                    "dsDescription": [
+                        {"dsDescriptionValue": "No description available"}
+                    ],
+                    "otherId": [{"otherIdValue": "Unknown", "otherIdAgency": "Other"}],
+                }
+            }
+            if block_name in mandatory_fallbacks:
+                for field, fallback_val in mandatory_fallbacks[block_name].items():
+                    if field not in block_data:
+                        block_data[field] = fallback_val
 
             if block_data:
                 result[block_name] = block_data
