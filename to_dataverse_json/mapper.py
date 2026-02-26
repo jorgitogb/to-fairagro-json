@@ -67,41 +67,52 @@ class MetadataMapper:
                     results.append(e)
         return results
 
-    def _extract_authors(self):
+    def _extract_authors(self, entity=None):
         authors = []
         seen = set()
-        datasets = self._get_entities_by_type(
-            "Dataset", ["Investigation", "Study", "Assay"]
-        )
+        
+        # In RO-Crate, authors might be on sub-datasets
+        datasets = self._get_entities_by_type("Dataset", ["Investigation", "Study", "Assay"])
+        # Always include the current entity we are mapping (which could be the only Dataset)
+        if entity and entity not in datasets:
+            datasets.append(entity)
 
         for ds in datasets:
-            creators = ds.get("creator", [])
+            creators = self._resolve_source(ds, ["creator", "author"]) or []
             if not isinstance(creators, list):
                 creators = [creators]
             for c in creators:
                 person = self._resolve_ref(c)
-                if isinstance(person, dict) and "Person" in str(
-                    person.get("@type", "")
-                ):
-                    name = self._get_literal(person)
-                    if name and name not in seen:
-                        seen.add(name)
-                        author_obj = {"authorName": {"value": name}}
+                # Schemaorg authors might just be strings or lack @type=Person explicitly if unstructured
+                name = self._get_literal(person)
+                if not name and isinstance(person, dict):
+                    name = self._resolve_source(person, ["name", "contactPoint.name", "givenName"])
+                if name and name not in seen:
+                    seen.add(name)
+                    author_obj = {"authorName": {"value": str(name)}}
 
-                        affiliation = self._resolve_source(
-                            person, ["affiliation", "memberOf"]
-                        )
-                        if affiliation:
-                            author_obj["authorAffiliation"] = {
-                                "value": self._get_literal(affiliation)
-                            }
+                    affiliation = self._resolve_source(
+                        person, ["affiliation", "memberOf", "publisher"]
+                    )
+                    if affiliation:
+                        author_obj["authorAffiliation"] = {
+                            "value": str(self._get_literal(affiliation))
+                        }
 
-                        identifier = person.get("@id")
-                        if identifier and "orcid.org" in identifier:
-                            author_obj["authorIdentifier"] = {"value": identifier}
-                            author_obj["authorIdentifierScheme"] = {"value": "ORCID"}
+                    identifier = person.get("@id") if isinstance(person, dict) else None
+                    if not identifier and isinstance(person, dict):
+                        identifier = person.get("identifier")
+                        
+                    if identifier:
+                        scheme = "ORCID" if "orcid.org" in identifier else "Other"
+                        author_obj["authorIdentifier"] = {"value": str(identifier)}
+                        author_obj["authorIdentifierScheme"] = {"value": scheme}
+                    else:
+                        # FAIRagro requires identifier but schemaorg examples might omit it
+                        author_obj["authorIdentifier"] = {"value": "unknown"}
+                        author_obj["authorIdentifierScheme"] = {"value": "unknown"}
 
-                        authors.append(author_obj)
+                    authors.append(author_obj)
         return authors
 
     def _extract_crops(self):
@@ -351,7 +362,7 @@ class MetadataMapper:
                 # Special Field Handling
                 if block_name == "citation":
                     if field_name == "author":
-                        val = self._extract_authors()
+                        val = self._extract_authors(entity)
                         if val:
                             fields.append({"author": val})
                         continue

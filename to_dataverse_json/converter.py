@@ -41,16 +41,27 @@ class DataverseConverter:
                 etype = [etype]
             return any("Dataset" in t for t in etype)
 
-        self.entities = [e for e in self.entities if is_dataset(e)]
+        dataset_entities = [e for e in self.entities if is_dataset(e)]
+        
+        # In RO-Crate, there's usually a Root Dataset and multiple sub-datasets.
+        # We try to identify the Root Dataset to use as the primary entity
+        self.root_entity = None
+        if dataset_entities:
+            # If the profile is rocrate, the root dataset often has hasPart
+            root_candidates = [e for e in dataset_entities if "hasPart" in e]
+            if root_candidates:
+                self.root_entity = root_candidates[0]
+            else:
+                self.root_entity = dataset_entities[0]
 
     def convert(self, output_path=None):
-        """Orchestrates the conversion of all entities."""
+        """Orchestrates the conversion of the root entity."""
         output_results = []
-        for entity in self.entities:
-            blocks = self.mapper.map_entity(entity)
+        if self.root_entity:
+            blocks = self.mapper.map_entity(self.root_entity)
             if blocks:
                 dv_json = {"datasetVersion": {"metadataBlocks": blocks}}
-                output_results.append(dv_json)
+                output_results = [dv_json]
 
         if output_path and output_results:
             output_path = Path(output_path)
