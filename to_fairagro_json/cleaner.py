@@ -18,6 +18,7 @@ class StringCleaner:
         
         # Normalization map
         replacements = {
+            '\u00e5': 'a',
             '\u2013': '-', # en-dash
             '\u2014': '--', # em-dash
             '\u2018': "'", # left single quote
