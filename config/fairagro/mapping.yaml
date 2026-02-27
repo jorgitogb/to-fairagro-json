@@ -2,11 +2,11 @@ blocks:
   citation:
     fields:
       - title:
-          source: ["name", "headline", "alternativeHeadline"]
+          source: ["name", "headline"]
           type: "string"
           default: ""
       - alternativeTitle:
-          source: ["name"]
+          source: ["alternativeHeadline"]
           type: "string_array"
       - dsDescription:
           source: ["description", "comment"]
