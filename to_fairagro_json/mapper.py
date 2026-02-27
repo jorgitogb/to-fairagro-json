@@ -392,7 +392,27 @@ class MetadataMapper:
                                     sub_fields[k] = str(v)
                     else:
                         for sub_name, sub_cfg in cfg.get("mapping", {}).items():
-                            if isinstance(sub_cfg, dict):
+                            if isinstance(sub_cfg, dict) and sub_cfg.get("type") == "complex" and "mapping" in sub_cfg:
+                                # Nested complex object (e.g. sensorIsHostedBy) — build from its own mapping
+                                nested_item = item.get(sub_name, {})
+                                if isinstance(nested_item, dict):
+                                    nested_obj = {}
+                                    for n_name, n_cfg in sub_cfg["mapping"].items():
+                                        if isinstance(n_cfg, dict):
+                                            n_sources = n_cfg.get("source", [])
+                                            if n_sources and n_sources[0].startswith("_"):
+                                                n_val = nested_item.get(n_sources[0])
+                                            else:
+                                                n_val = self._resolve_source(nested_item, n_sources)
+                                            if n_val:
+                                                lit = str(self._get_literal(n_val))
+                                                if n_cfg.get("wrap"):
+                                                    nested_obj[n_name] = {"value": lit, "aiGenerated": False}
+                                                else:
+                                                    nested_obj[n_name] = lit
+                                    if nested_obj:
+                                        sub_fields[sub_name] = nested_obj
+                            elif isinstance(sub_cfg, dict):
                                 sub_sources = sub_cfg.get("source", [])
                                 # Handle placeholders from special extractions
                                 if sub_sources and sub_sources[0].startswith("_"):
