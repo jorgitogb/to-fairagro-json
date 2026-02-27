@@ -63,7 +63,10 @@
   "sensor": {
     "sensor": [
       {
-        "sensorSensorType": "digital camera"
+        "sensorSensorType": "digital camera",
+        "sensorIsHostedBy": {
+          "sensorPlatformType": "Drone"
+        }
       }
     ]
   },
