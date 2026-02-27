@@ -37,5 +37,6 @@ if __name__ == "__main__":
         "edal-schemaorg.fairagro.json",
         "publisso-schemaorg.fairagro.json",
         "thunen-schemaorg.fairagro.json",
+        "openagrar-schemaorg.fairagro.json",
     ]:
         test_json(f)

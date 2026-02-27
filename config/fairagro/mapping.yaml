@@ -2,8 +2,9 @@ blocks:
   citation:
     fields:
       - title:
-          source: ["name", "headline"]
+          source: ["name", "headline", "alternativeHeadline"]
           type: "string"
+          default: ""
       - alternativeTitle:
           source: ["name"]
           type: "string_array"
@@ -52,6 +53,7 @@ blocks:
       - license:
           source: ["license"]
           type: "string"
+          default: ""
       - sourceDatasetURI:
           source: ["@id", "url", "identifier"]
           type: "string"
